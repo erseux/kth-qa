@@ -41,9 +41,6 @@ def index(request: Request):
 
 @app.get("/home", response_class=HTMLResponse)
 def home():
-    # html page with search box, sending a post request to /api/ask
-    # and displaying the answer
-    # open index.html and return the content
     with open("kth_qa/index.html", "r") as f:
         html = f.read()
     return HTMLResponse(content=html, status_code=200)
