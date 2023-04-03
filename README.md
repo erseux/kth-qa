@@ -1,4 +1,14 @@
 # kth-qa
+
+## Env file
+You need to create a file called .env in the main folder (kth-qa) and add your openai api key.
+The content should look like this:
+```
+OPENAI_MODEL=text-davinci-002
+OPENAI_API_KEY=YOUR_KEY
+OPENAI_CHAT_MODEL=gpt-3.5-turbo
+```
+
 ## How to run
 1. Install Poetry (https://python-poetry.org/)
 - For M1 Macs: https://github.com/rybodiddly/Poetry-Pyenv-Homebrew-Numpy-TensorFlow-on-Apple-Silicon-M1 
