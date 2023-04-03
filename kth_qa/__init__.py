@@ -1,22 +1,22 @@
-import json
 import logging
 
 logger = logging.getLogger()
 logging.basicConfig(encoding='utf-8', level=logging.INFO)
 
+import json
 from fastapi import FastAPI, File, Form, HTTPException, Request
 from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+import uvicorn
+
+from kth_qa.config import Config
 
 
 class Question(BaseModel):
     question: str
 
 
-import uvicorn
-
-from kth_qa.config import Config
 
 config = Config()
 app = FastAPI()
@@ -48,7 +48,7 @@ def home():
         html = f.read()
     return HTMLResponse(content=html, status_code=200)
 
-@app.post("/api/ask/")
+@app.post("/api/ask")
 async def ask(question: Question):
     answer = config.index.query(question.question)
     if not answer:
