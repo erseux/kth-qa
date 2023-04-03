@@ -1,0 +1,116 @@
+DD2424 Deep Learning in Data Science 7.5 credits
+Before course selection
+
+Administer About course
+
+
+Valid for
+
+Semester
+
+Choose semester
+Choose semester and course offering
+Choose semester and course offering to see information from the correct course syllabus and course offering.
+
+Course syllabus as PDF
+Please note: all information from the Course syllabus is available on this page in an accessible format.
+
+Course syllabus DD2424 (Spring 2022–)
+Headings with content from the Course syllabus DD2424 (Spring 2022–) are denoted with an asterisk (  )
+Content and learning outcomes
+Course contents
+Learning of representations from raw data: images and text
+Principles of supervised learning
+Elements for different methods for deep learning: convolutional networks and recurrent networks
+Theoretical knowledge of and practical experience of training networks for deep learning including optimisation using stochastic gradient descent
+New progress in methods for deep learning
+Analysis of models and representations
+Transferred learning with representations for deep learning
+Application examples of deep learning for learning of representations and recognition
+Intended learning outcomes
+After the course, one will be able to:
+
+explain the basic the ideas behind learning, representation and recognition of raw data
+account for the theoretical background for the methods for deep learning that are most common in practical contexts
+identify the practical applications in different fields of data science where methods for deep learning can be efficient (with special focus on computer vision and language technology)
+in order to:
+
+be able to solve problems connected to data representations and recognition
+be able to implement, analyse and evaluate simple systems for deep learning for automatic analysis of image and text data
+receive a broad knowledge enabling you to learn more about the area and read literature in the area
+Course disposition
+No information inserted
+Literature and preparations
+Specific prerequisites
+Knowledge and skills in programming, 6 credits, equivalent to completed course DD1337/DD1310-DD1318/DD1321/DD1331/DD100N/ID1018.
+
+Knowledge in algorithms and data structures, at least 6 higher education credits, equivalent to completed course DD1338/DD1320/DD1325/DD1327/DD1338/DD2325/ID1020/ID1021.
+
+Knowledge in probability theory and statistics, 6 higher education credits, equivalent to completed course SF1910-SF1924/SF1935.
+
+Knowledge in algebra and geometry, 7.5 higher education credits, equivalent to completed course SF1624.
+
+Knowledge in multivariable analysis, 7.5 higher education credits, equivalent to completed course SF1626.
+
+Knowledge in machine learning or artificial intelligence, 6 higher education credits, equivalent to completed course DD1420/DD2421 or DD2380/ID1214.
+
+Active participation in a course offering where the final examination is not yet reported in LADOK is considered equivalent to completion of the course.
+
+Registering for a course is counted as active participation.
+
+The term 'final examination' encompasses both the regular examination and the first re-examination.
+
+Recommended prerequisites
+No information inserted
+Equipment
+No information inserted
+Literature
+No information inserted
+Examination and completion
+If the course is discontinued, students may request to be examined during the following two academic years.
+
+Grading scale
+A, B, C, D, E, FX, F
+Examination
+LAB2 - Laboratory work, 4.5 credits, grading scale: P, F
+TEN1 - Examination, 3.0 credits, grading scale: A, B, C, D, E, FX, F
+Based on recommendation from KTH’s coordinator for disabilities, the examiner will decide how to adapt an examination for students with documented disability.
+
+The examiner may apply another examination format when re-examining individual students.
+
+The moment TEN1 is includes both oral and written examination.
+
+By making an optional project assignment the students can improve their final grade.
+
+Opportunity to complete the requirements via supplementary examination
+No information inserted
+Opportunity to raise an approved grade via renewed examination
+No information inserted
+Examiner
+Profile picture Josephine Sullivan
+
+Ethical approach
+All members of a group are responsible for the group's work.
+In any assessment, every student shall honestly disclose any help received and sources used.
+In an oral assessment, every student shall be able to present and answer questions about the entire assignment and solution.
+Further information
+Course web
+Further information about the course can be found on the Course web at the link below. Information on the Course web will later be moved to this site.
+
+Course web DD2424
+Offered by
+EECS/Intelligent Systems
+Main field of study
+Computer Science and Engineering
+Education cycle
+Second cycle
+Add-on studies
+No information inserted
+Contact
+Josephine Sullivan (sullivan@kth.se)
+Transitional regulations
+The previous module LAB1 is replaced by LAB2.
+
+Supplementary information
+In this course, the EECS code of honor applies, see:
+http://www.kth.se/en/eecs/utbildning/hederskodex

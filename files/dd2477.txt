@@ -1,0 +1,99 @@
+DD2477 Search Engines and Information Retrieval Systems 7.5 credits
+Before course selection
+
+Administer About course
+
+
+The course discusses methods for indexing, ranking and searching in large document collections, as well as methods for evaluating different search models.
+
+Valid for
+
+Semester
+
+Choose semester
+Choose semester and course offering
+Choose semester and course offering to see information from the correct course syllabus and course offering.
+
+Course syllabus as PDF
+Please note: all information from the Course syllabus is available on this page in an accessible format.
+
+Course syllabus DD2477 (Spring 2022–)
+Headings with content from the Course syllabus DD2477 (Spring 2022–) are denoted with an asterisk (  )
+Content and learning outcomes
+Course contents
+Basic and advanced technologies for information retrieval, indexing and ranking; indexing of non-textual data; boolean models and vector space models for search; evaluation and user interface issues; the structure of Internet search engines.
+
+Intended learning outcomes
+After passing the course, the student shall be able to
+
+explain and use concepts in information retrieval such as indexing, ranking, boolean search model, vector space model
+implement methods for indexing, search, and ranking of a very large number of documents with hyperlinks
+use tools and software libraries for information retrieval
+be able to evaluate algorithms and systems for information retrieval
+in order to be able to
+
+work for companies that specialise in information retrieval
+carry out a master's degree project in computer science with a specialisation in information retrieval
+be an important link between systems designers, programmers, and interaction designers in industry as well as in research projects.
+Course disposition
+No information inserted
+Literature and preparations
+Specific prerequisites
+Completed courses in
+
+basic computer science, equivalent to one of the courses DD1338/DD1320/DD1321/DD1325/DD1327/ID1020/ID1021
+linear algebra, equivalent to one of the courses SF1624/SF1684/SF1672.
+Active participation in a course offering where the final examination is not yet reported in LADOK is considered equivalent to completion of the course.
+
+Registering for a course is counted as active participation. The term 'final examination' encompasses both the regular examination and the first re-examination.
+
+Recommended prerequisites
+No information inserted
+Equipment
+No information inserted
+Literature
+No information inserted
+Examination and completion
+If the course is discontinued, students may request to be examined during the following two academic years.
+
+Grading scale
+A, B, C, D, E, FX, F
+Examination
+LAB1 - Computer assignments, 4.5 credits, grading scale: A, B, C, D, E, FX, F
+PRO1 - Project assignment, 3.0 credits, grading scale: A, B, C, D, E, FX, F
+Based on recommendation from KTH’s coordinator for disabilities, the examiner will decide how to adapt an examination for students with documented disability.
+
+The examiner may apply another examination format when re-examining individual students.
+
+Opportunity to complete the requirements via supplementary examination
+No information inserted
+Opportunity to raise an approved grade via renewed examination
+No information inserted
+Examiner
+Profile picture Johan Boye
+
+Ethical approach
+All members of a group are responsible for the group's work.
+In any assessment, every student shall honestly disclose any help received and sources used.
+In an oral assessment, every student shall be able to present and answer questions about the entire assignment and solution.
+Further information
+Course web
+Further information about the course can be found on the Course web at the link below. Information on the Course web will later be moved to this site.
+
+Course web DD2477
+Offered by
+EECS/Intelligent Systems
+Main field of study
+Computer Science and Engineering
+Education cycle
+Second cycle
+Add-on studies
+DD2417 Language Engineering.
+
+Contact
+Johan Boye (jboye@kth.se)
+Supplementary information
+In this course, the EECS code of honor applies, see:
+http://www.kth.se/en/eecs/utbildning/hederskodex
+
+DD2477 is replacing and overlapping DD2476 and therefore cannot be combined with that course.

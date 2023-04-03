@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kth-qa"
+version = "0.1.0"
+description = "A question & answering app for kth.se"
+authors = ["Your Name <you@example.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.129"
+fastapi = "^0.95.0"
+requests = "^2.28.2"
+uvicorn = "^0.21.1"
+openai = "^0.27.2"
+chromadb = "^0.3.20"
+python-multipart = "^0.0.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
