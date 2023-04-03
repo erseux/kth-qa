@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>KTH Q&A</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        input {
+            margin: 0.5em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>KTH Q&A</h1>
+    <form name="form" method="post">
+        <input type="text" name="question" />
+        <input type="submit" value="Ask" />
+    </form>
+    <p id="answer"></p>
+    <script>
+        const form = document.querySelector('form');
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const formData = new FormData(form);
+            const question = formData.get('question');
+            const response = await fetch('/api/ask', {
+                method: 'POST',
+                body: JSON.stringify({ question }),
+                headers: {
+                    'content-type': 'application/json'
+                }
+            });
+            const data = await response.json();
+            console.log(data);
+            document.querySelector('#answer').textContent = data.answer;
+        });
+    </script>
+</body>
+
+</html>
