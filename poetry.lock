@@ -1,4 +1,12 @@
 [[package]]
+name = "aiofiles"
+version = "23.1.0"
+description = "File support for asyncio."
+category = "main"
+optional = false
+python-versions = ">=3.7,<4.0"
+
+[[package]]
 name = "aiohttp"
 version = "3.8.4"
 description = "Async http client/server framework (asyncio)"
@@ -45,6 +53,18 @@ sniffio = ">=1.1"
 doc = ["packaging", "sphinx-rtd-theme", "sphinx-autodoc-typehints (>=1.2.0)"]
 test = ["coverage[toml] (>=4.5)", "hypothesis (>=4.0)", "pytest (>=7.0)", "pytest-mock (>=3.6.1)", "trustme", "contextlib2", "uvloop (<0.15)", "mock (>=4)", "uvloop (>=0.15)"]
 trio = ["trio (>=0.16,<0.22)"]
+
+[[package]]
+name = "arel"
+version = "0.2.0"
+description = "Browser hot reload for Python ASGI web apps"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+starlette = "<1.0.0"
+watchgod = ">=0.6.0,<0.7.0"
 
 [[package]]
 name = "async-timeout"
@@ -1190,6 +1210,14 @@ python-versions = ">=3.7"
 anyio = ">=3.0.0"
 
 [[package]]
+name = "watchgod"
+version = "0.6"
+description = "Simple, modern file watching and code reload in python."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
 name = "websockets"
 version = "11.0"
 description = "An implementation of the WebSocket Protocol (RFC 6455 & 7692)"
@@ -1226,12 +1254,14 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "3af80abd9986cb94bc09cd7dcc255d77825b17dcbad8cef41856797b1f318d2d"
+content-hash = "f4048f61b32bf46dc45ded837e1c425e2c5af5057a6a2da287b2a51db1a0353f"
 
 [metadata.files]
+aiofiles = []
 aiohttp = []
 aiosignal = []
 anyio = []
+arel = []
 async-timeout = []
 attrs = []
 backoff = []
@@ -1364,6 +1394,7 @@ urllib3 = []
 uvicorn = []
 uvloop = []
 watchfiles = []
+watchgod = []
 websockets = []
 yarl = []
 zstandard = []

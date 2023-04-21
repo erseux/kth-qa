@@ -5,9 +5,13 @@ from langchain.document_loaders import TextLoader
 from langchain.indexes import VectorstoreIndexCreator
 
 class VectorIndex:
-    def __init__(self):
+    def __init__(self, debug=False):
         self.index = None
-        self.add_documents()
+        self.debug = debug
+        if not debug:
+            self.add_documents()
+        else:
+            logger.debug("debug mode, not adding documents to index")
         
     def add_documents(self):
         folder = os.listdir(f'files')
@@ -20,6 +24,11 @@ class VectorIndex:
         self.index = VectorstoreIndexCreator().from_loaders(loaders)
 
     def query(self, question):
+        if question == "lorem":
+            return "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        if self.debug:
+            logger.debug("debug mode, not querying index")
+            return "debug mode, not querying index"
         if not self.index:
             logger.debug("index not created yet")
             return None

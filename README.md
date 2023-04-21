@@ -15,4 +15,9 @@ OPENAI_CHAT_MODEL=gpt-3.5-turbo
 2. cd into ``kth-qa``
 3. run ``poetry install``
 
-When the poetry venv is activated, run ``python kth_qa/__init__.py``
+When the poetry venv is activated, either
+- run ``python kth_qa/main.py``
+- run ``make start``
+
+## How to search
+If you just want to test the search functionality, you can search for "lorem"
