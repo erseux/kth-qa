@@ -25,7 +25,7 @@ class VectorIndex:
 
     def query(self, question):
         if question == "lorem":
-            return "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+            return open("lorem.txt", "r").read()
         if self.debug:
             logger.debug("debug mode, not querying index")
             return "debug mode, not querying index"

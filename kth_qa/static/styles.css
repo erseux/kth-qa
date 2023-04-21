@@ -58,10 +58,15 @@ button:disabled {
     cursor: not-allowed;
 }
 
+button:hover {
+    background-color: #ace;
+    color: #fff;
+}
+
 input {
     margin: 0.5em;
     padding: 0.5em;
-    width: 20em;
+    width: 25em;
 }
 
 p {
@@ -69,7 +74,7 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
-    width: 30em;
+    max-width: 30em;
 }
 
 a,
