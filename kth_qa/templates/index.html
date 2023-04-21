@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>KTH Q&A</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>KTH Q&A</h1>
+        <form name="form" method="post">
+            <input type="text" name="question" />
+            <button type="submit" id="ask">Ask</button>
+        </form>
+        <p id="answer"></p>
+    </div>
+    <script>
+        const form = document.querySelector('form');
+        form.addEventListener('submit', async (event) => {
+            document.getElementById('ask').disabled = true;
+            event.preventDefault();
+            const formData = new FormData(form);
+            const question = formData.get('question');
+            const response = await fetch('/api/ask', {
+                method: 'POST',
+                body: JSON.stringify({ question }),
+                headers: {
+                    'content-type': 'application/json'
+                }
+            });
+            const data = await response.json();
+            console.log(data);
+            document.querySelector('#answer').textContent = data.answer;
+            document.getElementById('ask').disabled = false;
+        });
+    </script>
+    {% if DEBUG %}
+    {{ hotreload.script(url_for('hot-reload')) | safe }}
+    {% endif %}
+</body>
+
+</html>
