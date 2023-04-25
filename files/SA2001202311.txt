@@ -1,0 +1,77 @@
+{http://www.kth.se/student/kurser}courseRound:
+    
+startDate:2023-01-17
+courseVersion:1
+schoolCode:SCI
+schoolOrgUnit:S
+school:Teknikvetenskap
+school:Engineering Sciences
+departmentCode:SA
+department:SCI/Teknikvetenskap
+department:SCI/Engineering Sciences
+tutoringForm:Normal
+tutoringForm:Normal
+tutoringTime:Dagtid
+tutoringTime:Daytime
+tutoringLanguage:Engelska
+tutoringLanguage:English
+campus:KTH Campus
+coursePace:25
+periods:
+        
+period:true
+creditDistribution:
+        
+periodCredits:
+            
+deciCredits:30
+credits:3,0
+credits:3.0
+applicationOptions:
+        
+applicationOption:
+            
+typeCode:ORD
+categoryCode:PU
+{http://www.kth.se/student/kurser}course:
+    
+cancelled:false
+dormant:false
+title:Hållbar utveckling och forskningsmetodik inom matematik
+title:Sustainable development and research methodology in mathematics
+deciCredits:30
+credits:3,0
+credits:3.0
+educationalLevelCode:2
+educationalLevel:Avancerad nivå
+educationalLevel:Second cycle
+subjectCode:TE9
+subject:Övriga tekniska ämnen
+subject:Other Subjects within Technology
+gradeScaleCode:PF
+gradeScale:
+        
+gradeValue:P
+gradeValue:F
+schoolCode:SCI
+schoolOrgUnit:S
+school:Teknikvetenskap
+school:Engineering Sciences
+departmentCode:SA
+department:SCI/Teknikvetenskap
+department:SCI/Engineering Sciences
+examiners:
+        
+examiner:Fredrik Viklund
+examiner:Gunnar Tibert
+examiner:Mattias Sandberg
+recruitmentText:Kursen fokuserar på ämnes- och yrkesrollsnära forskningsmetodik med koppling till 
+jämställdhet och mångfald samt hållbar utveckling för ett klimatneutralt samhälle.
+recruitmentText:The course focuses on subject and profession related research methodology with a connection to gender equality and diversity as well as sustainable development for a climate-neutral society.
+{http://www.kth.se/student/kurser}coursePlan:
+    
+goals:<p>Efter godk&#228;nd kurs ska studenten kunna:</p><ul><li>Visa insikt i vetenskapens och teknikens roll i samh&#228;llet och m&#228;nniskors ansvar f&#246;r hur den anv&#228;nds f&#246;r en h&#229;llbar samh&#228;llsutveckling, med fokus p&#229; ett j&#228;mst&#228;llt och klimatneutralt samh&#228;lle,</li></ul><p>genom att</p><ul><li>Visa f&#246;rm&#229;ga att muntligt och skriftligt i dialog med olika grupper klart redog&#246;ra f&#246;r och diskutera sina slutsatser och den kunskap och de argument som ligger till grund f&#246;r dessa,</li></ul><p>samt</p><ul><li>Visa insikt i aktuellt forsknings- och utvecklingsarbete inom matematik.</li></ul>
+content:<p>Kursen ges i form av olika moduler med en blandning av l&#228;randeaktiviteter, fr&#228;mst i seminarieform. Modulerna fokuserar p&#229; &#228;mnes- och yrkesrollsn&#228;ra forskningsmetodik med koppling till j&#228;mst&#228;lldhet och m&#229;ngfald samt h&#229;llbar utveckling f&#246;r ett klimatneutralt samh&#228;lle.</p>
+eligibility:<p>Slutf&#246;rt examensarbete p&#229; grundniv&#229; inom huvudomr&#229;de teknik.</p>
+lastChanged:2022-02-01
+lastChangedBy:u1wbg03n

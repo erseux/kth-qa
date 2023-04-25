@@ -102,6 +102,7 @@ class GPT:
         return self.max_tokens
 
     def craft_query(self, prompt):
+        print("1"+prompt)
         """Creates the query for the API request."""
         q = self.get_prime_text(
         ) + self.input_prefix + prompt + self.input_suffix
@@ -111,6 +112,7 @@ class GPT:
         return q
 
     async def send_request(self, prompt: str, model_type: ModelType) -> str:
+        print(prompt)
         if model_type == ModelType.GPT3:
             response = openai.Completion.create(
                 model=self.engine,
@@ -145,6 +147,7 @@ class GPT:
         return response
 
     def get_top_reply(self, prompt):
+        print(prompt)
         """Obtains the best result as returned by the API."""
         response = self.submit_request(prompt)
         return response['choices'][0]['text']

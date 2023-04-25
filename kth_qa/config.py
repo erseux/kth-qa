@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     OPENAI_MODEL: str = 'OPENAI_MODEL'
     OPENAI_CHAT_MODEL: str = 'OPENAI_CHAT_MODEL'
     class Config:
-        env_file = '../.env'
+        env_file = 'C:\\Users\\46705\\Documents\\Search_engines\\project_work\\kth-qa\\kth_qa\\.env'
 
 
 

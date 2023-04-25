@@ -1,0 +1,116 @@
+{http://www.kth.se/student/kurser}courseRound:
+    
+startDate:2023-03-20
+courseVersion:1
+schoolCode:EECS
+schoolOrgUnit:J
+school:Elektroteknik och datavetenskap
+school:Electrical Engineering and Computer Science
+departmentCode:JJ
+department:EECS/Elektroteknik
+department:EECS/Electrical Engineering
+targetGroup:<p>TNTEM</p>
+targetGroup:<p>TNTEM</p>
+tutoringForm:Normal
+tutoringForm:Normal
+tutoringTime:Dagtid
+tutoringTime:Daytime
+tutoringLanguage:Engelska
+tutoringLanguage:English
+campus:KTH Kista
+coursePace:100
+courseResponsibleList:
+        
+courseResponsible:Mattias Hammar
+periods:
+        
+period:true
+period:true
+creditDistribution:
+        
+periodCredits:
+            
+deciCredits:150
+credits:15,0
+credits:15.0
+periodCredits:
+            
+deciCredits:150
+credits:15,0
+credits:15.0
+applicationOptions:
+        
+applicationOption:
+            
+typeCode:ORD
+categoryCode:PU
+{http://www.kth.se/student/kurser}course:
+    
+cancelled:false
+dormant:false
+title:Examensarbete inom teknisk fysik med inriktning mot nanoteknik, avancerad nivå
+title:Degree Project in Engineering Physics, specialising in Nanotechnology, Second Cycle
+deciCredits:300
+credits:30,0
+credits:30.0
+educationalLevelCode:2
+educationalLevel:Avancerad nivå
+educationalLevel:Second cycle
+subjectCode:TF1
+subject:Teknisk fysik
+subject:Engineering Physics
+subjectAreas:
+        
+subjectArea:
+            
+subjectAreaCode:TEFYS
+subjectArea:Teknisk fysik
+subjectArea:Engineering Physics
+gradeScaleCode:PF
+gradeScale:
+        
+gradeValue:P
+gradeValue:F
+schoolCode:EECS
+schoolOrgUnit:J
+school:Elektroteknik och datavetenskap
+school:Electrical Engineering and Computer Science
+departmentCode:JJ
+department:EECS/Elektroteknik
+department:EECS/Electrical Engineering
+examiners:
+        
+examiner:Ana Rusu
+examiner:Anders Hallén
+examiner:Anna Herland
+examiner:Carl-Mikael Zetterling
+examiner:Frank Niklaus
+examiner:Gunnar Malm
+examiner:Göran Stemme
+examiner:Jiantong Li
+examiner:Joachim Oberhammer
+examiner:Kristinn Gylfason
+examiner:Mattias Hammar
+examiner:Mikael Östling
+examiner:Niclas Roxhed
+examiner:Qin Wang
+examiner:Saul Rodriguez Duenas
+examiner:Wouter Metsola van der Wijngaart
+recruitmentText:<p>Examensarbete, ocks&#229; ben&#228;mnt sj&#228;lvst&#228;ndigt arbete, syftar till att studenterna ska till&#228;mpa och f&#246;rdjupa kunskaper, f&#246;rst&#229;else, f&#246;rm&#229;gor och f&#246;rh&#229;llningss&#228;tt inom utbildningens sammanhang. Examensarbetet ska ligga i slutet av utbildningen och inneb&#228;ra en f&#246;rdjupning och syntes av tidigare f&#246;rv&#228;rvade kunskaper. I examensarbetet betonas b&#229;de det tekniska/naturvetenskapliga inneh&#229;llet och metodkunskaper.</p>
+recruitmentText:<p>The aim of the degree project, also designated independent project, is for the student to apply and deepen knowledge, understanding, abilities and approach within the context of the education. The degree project should be carried out at the end of the education and provide a specialized study and synthesis of earlier acquired knowledge. In the degree project is emphasized both the technical/ scientific content and method knowledge.</p>
+supplementalInformation:<p>I denna kurs till&#228;mpas EECS hederskodex, se:</p><p>http://www.kth.se/eecs/utbildning/hederskodex.</p>
+supplementalInformation:<p>In this course, the EECS code of honor applies, see:</p><p>http://www.kth.se/en/eecs/utbildning/hederskodex.&#160;</p>
+{http://www.kth.se/student/kurser}coursePlan:
+    
+goals:<p>Efter godk&#228;nt examensarbete ska studenten kunna</p><ul><li>visa f&#246;rdjupade kunskaper inom huvudomr&#229;det/inriktningen f&#246;r utbildningen, inkluderande f&#246;rdjupad insikt i aktuellt forsknings- och utvecklingsarbete</li><li>visa metodkunskap inom huvudomr&#229;det/inriktningen f&#246;rutbildningen</li><li>delta i forsknings- och utvecklingsarbete och d&#228;rigenom bidra till kunskapsutvecklingen</li><li>med helhetssyn kritiskt, sj&#228;lvst&#228;ndigt och kreativt identifiera, formulera, analysera, bed&#246;ma och hantera komplexa f&#246;reteelser och fr&#229;gest&#228;llningar &#228;ven med begr&#228;nsad information</li><li>planera och med adekvata metoder genomf&#246;ra kvalificerade uppgifter inom givna ramar, samt utv&#228;rdera detta arbete</li><li>kritiskt och systematiskt integrera kunskap samt identifiera behovet av ytterligare kunskap</li><li>p&#229; svenska eller engelska muntligt och skriftligt klart redog&#246;ra f&#246;r och diskutera sina slutsatser, samt den kunskap och de argument som ligger till grund f&#246;r dessa</li><li>inom examensarbetets ramar identifiera vetenskapens och ingenj&#246;rens roll i samh&#228;llet</li><li>inom ramen f&#246;r det specifika examensarbetet identifiera vilka fr&#229;gest&#228;llningar som beh&#246;ver besvaras f&#246;r att relevanta dimensioner av h&#229;llbar utveckling ska beaktas</li><li>inom examensarbetets ramar bed&#246;ma och visa medvetenhet om etiska aspekter p&#229; forsknings- och utvecklingsarbete vad avser metoder, arbetss&#228;tt och resultat av examensarbetet</li></ul><p>i syfte att kunna delta i forsknings- och utvecklingsarbete eller sj&#228;lvst&#228;ndigt arbeta i annan kvalificerad verksamhet, enligt de nationella m&#229;len f&#246;r civilingenj&#246;rsexamen och teknologie masterexamen i h&#246;gskolef&#246;rordningen.</p>
+goals:<p>After passing the degree project course, the student should be able to:</p><ul><li>show advanced knowledge within the main field of study/the specialisation for the education, including advanced insight into current research and development work</li><li>show methodological knowledge within the main field of study/the specialisation for the education</li><li>participate in research and development work and thereby contribute to the knowledge development</li><li>with a holistic approach, critically, independently and creatively identify, formulate, analyse, assess and deal with complex phenomena and issues, even with limited information</li><li>plan and with adequate methods carry out qualified assignments within given frames, and evaluate this work</li><li>integrate knowledge critically and systematically and identify the need of additional knowledge</li><li>in Swedish or in English, in speech and writing clearly report and discuss their conclusions and the knowledge and arguments on which they are based</li><li>within the frames of the degree project identify the role of the scholarship and the engineer in the society</li><li>within the frame of the specific degree project identify which issues that need to be answered in order to observe relevant dimensions of sustainable development</li><li>within the frames of the degree project assess and show awareness of ethical aspects of research and development work, with respect to methods, working methods and results of the degree project</li></ul><p>in order to be able to participate in research and development or work independently in other qualified activities according to the national aims for a Degree of Master of Science in Engineering and Degree of Master of Science in Higher Education Ordinance.</p>
+content:<p>Innan examensarbetskursen p&#229;b&#246;rjas identifierar studenten en l&#228;mplig examensarbetsuppgift och formulerar ett projektf&#246;rslag, s&#229; att detta kan godk&#228;nnas av examinator. Uppgiften ska v&#228;ljas s&#229; att den inneb&#228;r en naturlig progression av de kunskaper och f&#228;rdigheter som f&#246;rv&#228;rvats inom utbildningen och i en eventuell f&#246;rdjupning inom utbildningen.</p><ul><li>Studenten skriver en individuell plan f&#246;r examensarbetet i vilken problembeskrivningen/uppgiften och f&#246;ruts&#228;ttningarna f&#246;r genomf&#246;randet av arbetet preciseras.&#160;</li><li>Studenten genomf&#246;r en f&#246;rdjupad f&#246;rstudie inkluderande diskussion av metodval och teoretisk bakgrund med litteraturstudie som rapporteras som del av utkast till en prelimin&#228;r version av den skriftliga examensarbetsrapporten.</li><li>Studenten genomf&#246;r sj&#228;lvst&#228;ndigt ett examensarbete d&#228;r kunskaper och metoder fr&#229;n utbildningen till&#228;mpas.</li><li>Studenten planerar och genomf&#246;r muntlig presentation och f&#246;rsvar av det egna examensarbetet.&#160;</li><li>Studenten genomf&#246;r muntlig och skriftlig opposition p&#229; ett annat examensarbete p&#229; avancerad niv&#229;.</li><li>Studenten skriver och presenterar en skriftlig examensarbetsrapport d&#228;r studenten klart redog&#246;r f&#246;r och diskuterar sina slutsatser i examensarbetet och den kunskap och de argument som ligger till grund f&#246;r dessa.</li><li>Studenten utf&#246;r en sj&#228;lvv&#228;rdering av examensarbetet enligt fastst&#228;lld mall.</li></ul>
+content:<p>Before the degree project course is started, the student should identify an appropriate degree project assignment and formulate a project proposal, so that this can be approved by the examiner. The assignment should be chosen so that it implies a natural progression of the knowledge and skills that have been acquired within the education and in a possible specialisation within the education.</p><ul><li>The student writes an individual plan for the degree project, in which the problem description/assignment and the preconditions for the implementation of the work are specified. </li><li>The student carries out an in-depth pre-study including discussions of method choice and theoretical background with a literature study that is reported as part of a draft to a preliminary version of the written degree project report.</li><li>The student independently carries out a degree project, where knowledge and methods from the education are applied.</li><li>The student plans and carries out an oral presentation and defence of his or her degree project. </li><li>The student carries out an oral and written review of another second-cycle degree project.</li><li>The student writes and presents a written degree project report, where the student clearly accounts for and discusses own conclusions in the degree project and the knowledge and the arguments that underpin them.</li><li>The student carries out a self-evaluation of the degree project according to established model.</li></ul>
+eligibility:<p>Godk&#228;nda kurser p&#229; avancerad niv&#229; om minst 60 hp, innefattande kurser som &#228;r relevanta f&#246;r examensarbetet, inklusive en kurs i vetenskapsteori och forskningsmetodik.&#160;</p><p>Ifall studenten &#228;r inskriven p&#229; ett civilingenj&#246;rsprogram ska samtliga kurser som kr&#228;vs f&#246;r utf&#228;rdande av kandidatexamen vara avklarade.</p>
+eligibility:<p>Passed courses at second cycle level of at least 60 credits, including courses that are relevant for the degree project including a course in theory of knowledge and research methodology. </p><p>If the student is registered on an engineering programme should all courses that are required for issuing of Degree of Bachelor be completed.</p>
+examinationComments:<p>I PRO1 ing&#229;r</p><ul><li>individuell plan f&#246;r examensarbete</li><li>f&#246;rstudie, diskussion av metodval och litteraturstudie</li><li>skriftlig rapport med sammanfattning/abstract p&#229; b&#229;de svenska och engelska</li><li>sj&#228;lvv&#228;rderingsrapport</li><li>muntlig presentation</li><li>skriftlig och muntlig opposition p&#229; annan students examensarbete p&#229; avancerad niv&#229;</li><li>slutversion av rapporten.</li></ul>
+examinationComments:<p>In PRO1 is included</p><ul><li>individual plan for the degree project</li><li>pre-study, discussion of method choice and literature study</li><li>written report with summary/abstract in both swedish and english</li><li>self-assessment report</li><li>an oral presentation</li><li>a written and oral review (public discussion) of another student's second-cycle degree project</li><li>the final version of the report.</li></ul>
+requirmentsForFinalGrade:<p>Aktiv n&#228;rvaro vid tv&#229; muntliga presentationer av examensarbete p&#229; avancerad niv&#229;.</p><p>Samtliga examinationsmoment ska vara godk&#228;nda inom ett &#229;r fr&#229;n startdatum f&#246;r examensarbetet. I annat fall avslutas examensarbetet med underk&#228;nt betyg om inte s&#228;rskilda sk&#228;l f&#246;religger.</p>
+requirmentsForFinalGrade:<p>Active attendance at two oral presentations of degree projects for second-cycle studies.</p><p>All examination part should be approved within a year from the start of the degree project. Otherwise, the degree project will be ended with a failed grade, unless special circumstances apply.</p>
+lastChanged:2019-10-28
+lastChangedBy:u114dr2z
