@@ -7,18 +7,24 @@ class URLHelper:
 def get_url(course_code, language):
     return URLHelper.base_url + course_code + '?l=' + language
 
-def scrape_course(course_code, language):
-    options = webdriver.FirefoxOptions()
-    options.add_argument('--headless')
-
-    driver = webdriver.Firefox(options=options)
+def scrape_course(driver, course_code, language):
     driver.get(get_url(course_code, language))
+
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     content = soup.find('section', {'id': 'courseContentBlock'})
+    text = content.text
 
-    with open(f'../files/course_content_{language}_{course_code}.txt', 'w') as f:
-        f.write(content.text)
+    # Clean up text
+
+    # Add a newline before each uppercase letter
+    text = ''.join(['\n' + char if char.isupper() else char for char in text])
+
+    # Remove whitespace
+    text = '\n'.join([line.strip() for line in text.splitlines() if line.strip() != ''])
+
+    with open(f'../kth_qa/files/course_content_{language}_{course_code}.txt', 'w') as f:
+        f.write(text)
 
 def read_course_codes():
     with open('../files/courses.txt', 'r') as f:
@@ -27,9 +33,17 @@ def read_course_codes():
         return courses
 
 def main():
+    options = webdriver.FirefoxOptions()
+    options.add_argument('--headless')
+
+    driver = webdriver.Firefox(options=options)
+
     for course_code in read_course_codes():
-        scrape_course(course_code, 'en')
-        scrape_course(course_code, 'sv')
+        scrape_course(driver, course_code, 'en')
+        scrape_course(driver, course_code, 'sv')
+        break
+
+    driver.quit()
 
 if __name__ == '__main__':
     main()
