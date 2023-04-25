@@ -3,3 +3,6 @@ start:
 
 ingest:
 	cd kth_qa && python3 ingest.py
+
+courses:
+	python webscraping/scrape_info.py && python webscraping/scrape_course.py

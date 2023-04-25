@@ -99,6 +99,32 @@ optional = false
 python-versions = ">=3.7,<4.0"
 
 [[package]]
+name = "beautifulsoup4"
+version = "4.12.2"
+description = "Screen-scraping library"
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.dependencies]
+soupsieve = ">1.2"
+
+[package.extras]
+html5lib = ["html5lib"]
+lxml = ["lxml"]
+
+[[package]]
+name = "bs4"
+version = "0.0.1"
+description = "Dummy package for Beautiful Soup"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+beautifulsoup4 = "*"
+
+[[package]]
 name = "certifi"
 version = "2022.12.7"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -888,6 +914,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "soupsieve"
+version = "2.4.1"
+description = "A modern CSS selector implementation for Beautiful Soup."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "sqlalchemy"
 version = "1.4.47"
 description = "Database Abstraction Library"
@@ -1269,7 +1303,7 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "29a6d2ac6618ad23b0837ffe390d574cba81140c4d25a3528197689eadefba10"
+content-hash = "d8df8dbbbb748b7681dd7eedbdaac5d5759d8011c4c4453c110b11c2ba39b3e7"
 
 [metadata.files]
 aiofiles = []
@@ -1280,6 +1314,8 @@ arel = []
 async-timeout = []
 attrs = []
 backoff = []
+beautifulsoup4 = []
+bs4 = []
 certifi = []
 cffi = []
 charset-normalizer = []
@@ -1388,6 +1424,7 @@ six = [
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
 sniffio = []
+soupsieve = []
 sqlalchemy = []
 starlette = []
 sympy = []

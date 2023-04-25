@@ -1,4 +1,6 @@
 import logging
+
+from utils import get_courses
 logger = logging.getLogger()
 
 import os
@@ -9,19 +11,23 @@ from langchain.vectorstores import Chroma
 
 PERSIST_DIR = 'db'
 FILE_DIR = 'files'
-KURS_URL = "https://www.kth.se/student/kurser/kurs/{course_name}?l=en"
+KURS_URL = "https://www.kth.se/student/kurser/kurs/{course_code}?l={language}"
+DEFAULT_LANGUAGE = "en"
 
 def ingest():
     embedding = OpenAIEmbeddings()
+    courses = get_courses()
 
-    file_folder = os.listdir(f'files')
+    file_folder_name = f'files/{DEFAULT_LANGUAGE}'
+    file_folder = os.listdir(file_folder_name)
     raw_docs = []
     for file in file_folder:
-        with open(f'files/{file}', 'r') as f:
+        with open(f'{file_folder_name}/{file}', 'r') as f:
             text = f.read()
             filename = file.split('.')[0]
-            url = KURS_URL.format(course_name=filename)
-            doc = Document(page_content=text, metadata={"source": filename})
+            course_code, language = filename.split('?l=')
+            # url = KURS_URL.format(course_code=course_code, language=language)
+            doc = Document(page_content=text, metadata={"source": course_code})
             raw_docs.append(doc)
             logger.info(f"loaded file {file} to index")
 
@@ -30,6 +36,10 @@ def ingest():
         chunk_overlap=100,
     )
     langdocs = text_splitter.split_documents(raw_docs)
+    # add course title to page content in each document
+    for langdoc in langdocs:
+        course_title = courses.get(course_code).get(DEFAULT_LANGUAGE) 
+        langdoc.page_content = course_title + '\n' + doc.page_content
     logger.info(f"split documents into {len(langdocs)} chunks")
 
     vectordb = Chroma.from_documents(documents=langdocs, embedding=embedding, persist_directory=PERSIST_DIR)

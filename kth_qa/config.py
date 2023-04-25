@@ -1,16 +1,17 @@
 import logging
+
+from kth_qa.utils import get_courses
 logger = logging.getLogger()
 import openai
 from pydantic import BaseSettings
 
-from kth_qa.magic.vectordb import VectorIndex
+from magic.vectordb import VectorIndex
 
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQAWithSourcesChain
 from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 
 from magic.prompts import PROMPT, EXAMPLE_PROMPT
-import json
 
 class Settings(BaseSettings):
     OPENAI_API_KEY: str = 'OPENAI_API_KEY'
@@ -32,7 +33,7 @@ class Config:
         self.debug = debug
         self.settings = Settings()
 
-        self._load_courses()
+        self.courses = get_courses()
 
         # OPENAI
         set_openai_key(self.settings.OPENAI_API_KEY)
@@ -54,11 +55,6 @@ class Config:
             document_prompt=EXAMPLE_PROMPT,
         )
         return doc_chain
-    
-    def _load_courses(self):
-        with open('courses.json') as json_file:
-            data = json.load(json_file)
-            self.courses = data['courses']
 
     def course_exists(self, course: str):
         course = course.upper()
