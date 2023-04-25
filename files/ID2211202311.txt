@@ -1,0 +1,100 @@
+{http://www.kth.se/student/kurser}courseRound:
+    
+startDate:2023-03-20
+courseVersion:1
+schoolCode:EECS
+schoolOrgUnit:J
+school:Elektroteknik och datavetenskap
+school:Electrical Engineering and Computer Science
+departmentCode:JH
+department:EECS/Datavetenskap
+department:EECS/Computer Science
+targetGroup:<p>&#214;ppen f&#246;r alla masterprogram.</p>
+targetGroup:<p>Open to all master's programmes.&#160;</p>
+tutoringForm:Normal
+tutoringForm:Normal
+tutoringTime:Dagtid
+tutoringTime:Daytime
+tutoringLanguage:Engelska
+tutoringLanguage:English
+tutoringAddress:Kistagången 16
+campus:KTH Kista
+coursePace:50
+teacher:Sarunas Girdzijauskas (sarunasg@kth.se)
+courseResponsibleList:
+        
+courseResponsible:Sarunas Girdzijauskas
+periods:
+        
+period:true
+creditDistribution:
+        
+periodCredits:
+            
+deciCredits:75
+credits:7,5
+credits:7.5
+applicationOptions:
+        
+applicationOption:
+            
+typeCode:ORD
+categoryCode:PU
+{http://www.kth.se/student/kurser}course:
+    
+cancelled:false
+dormant:false
+title:Datautvinning, grundkurs
+title:Data Mining, Basic Course
+deciCredits:75
+credits:7,5
+credits:7.5
+educationalLevelCode:2
+educationalLevel:Avancerad nivå
+educationalLevel:Second cycle
+subjectCode:DT1
+subject:Datateknik
+subject:Computer Technology
+subjectAreas:
+        
+subjectArea:
+            
+subjectAreaCode:DATDD
+subjectArea:Datalogi och datateknik
+subjectArea:Computer Science and Engineering
+gradeScaleCode:AF
+gradeScale:
+        
+gradeValue:A
+gradeValue:B
+gradeValue:C
+gradeValue:D
+gradeValue:E
+gradeValue:FX
+gradeValue:F
+schoolCode:EECS
+schoolOrgUnit:J
+school:Elektroteknik och datavetenskap
+school:Electrical Engineering and Computer Science
+departmentCode:JH
+department:EECS/Datavetenskap
+department:EECS/Computer Science
+examiners:
+        
+examiner:Sarunas Girdzijauskas
+recruitmentText:I kursen studeras grunderna i datautvinning med speciellt fokus på informationsnätverksanalys och utvinning.
+recruitmentText:In the course, the foundations of data mining is studied, with a special focus on information network analysis and mining.
+prerequisites:<p>Grundl&#228;ggande bekantskap med sannolikhetsl&#228;ra, linj&#228;r algebra och f&#246;rm&#229;ga att skriva icketriviella datorprogram.</p>
+prerequisites:<p>Familiarity with the basic probability theory, linear algebra as well as ability to write a non-trivial computer program.</p>
+supplementalInformation:<p>I denna kurs till&#228;mpas EECS hederskodex, se: http://www.kth.se/eecs/utbildning/hederskodex.</p>
+supplementalInformation:<p>In this course, the EECS code of honor applies, see: http://www.kth.se/en/eecs/utbildning/hederskodex.</p>
+{http://www.kth.se/student/kurser}coursePlan:
+    
+goals:<p>Efter godk&#228;nd kurs ska studenten kunna</p><ul><li>f&#246;rklara olika fundamentala begrepp och algoritmer i datautvinning samt grundl&#228;ggande tekniker f&#246;r informationsn&#228;tverksanalys och utvinning (till exempel de fundamentala begreppen i grafteori, n&#228;tverksmodeller, algoritmer for grafklustring, identifiering av "communities", "Label Propagation", l&#228;nkprediktion, etcetera)</li><li>analysera, v&#228;lja, anv&#228;nda, och utv&#228;rdera tekniker f&#246;r datautvinning som bygger p&#229; ovanst&#229;ende koncept, samt sj&#228;lvst&#228;ndigt utforska och implementera existerande datautvinningsalgoritmer</li><li>kommunicera fynd, resultat och id&#233;er med klart och formellt spr&#229;k.</li></ul>
+goals:<p>After passing the course, the student shall be able to</p><ul><li>explain different fundamental concepts and algorithms in data mining and basic technologies for analysis and extraction in information networks (for example the fundamental concepts in graph theory, network models, algorithms left graph clustering, identification of "communities", "Label Propagation", link prediction, etc)</li><li>analyse, choose, use, and evaluate technologies for data mining that is based on the above concepts and explore and implement the existing data mining algorithms independently</li><li>communicate findings, results and ideas with clear and formal language.</li></ul>
+content:<ul><li>Grundl&#228;ggande definitioner inom grafteori, starka och svaga band, graddistribution och klustringsm&#229;tt.</li><li>Erdos-Renyi, Wats-Strogatz, konfigureringsmodell, effekten av en "liten v&#228;rld".</li><li>Slumpm&#228;ssig grafvandring, Page Rank.</li><li>Grafklustring, identifiering av "communities".</li><li>Algoritmen "Label Propagation", l&#228;nkprediktion.</li><li>Grunder i maskininl&#228;rning av grafrepresentationer.</li></ul>
+content:<ul><li>Basic definitions in graph theory, strong and weak bands, grade distribution and clustering measurements.</li><li>Erdos-Renyi, Wats-Strogatz, ccnfiguration models, the effect of a "small world".</li><li>Random walks in graphs, Page Rank.</li><li>Graph clustering, identification of "communities".</li><li>The algorithm "Label Propagation", link prediction.</li><li>Basics of machine learning of graph representations.</li></ul>
+examinationComments:<p>Tentamen &#228;r skriftlig.</p>
+examinationComments:<p>The exam is written.</p>
+lastChanged:2022-09-30
+lastChangedBy:u1eek2qn

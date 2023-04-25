@@ -1,0 +1,142 @@
+{http://www.kth.se/student/kurser}courseRound:
+    
+startDate:2023-03-20
+courseVersion:2
+schoolCode:EECS
+schoolOrgUnit:J
+school:Elektroteknik och datavetenskap
+school:Electrical Engineering and Computer Science
+departmentCode:JH
+department:EECS/Datavetenskap
+department:EECS/Computer Science
+tutoringForm:Normal
+tutoringForm:Normal
+tutoringTime:Dagtid
+tutoringTime:Daytime
+tutoringLanguage:Engelska
+tutoringLanguage:English
+campus:KTH Kista
+coursePace:75
+courseResponsibleList:
+        
+courseResponsible:Ki Won Sung
+periods:
+        
+period:true
+creditDistribution:
+        
+periodCredits:
+            
+deciCredits:150
+credits:15,0
+credits:15.0
+applicationOptions:
+        
+applicationOption:
+            
+typeCode:ORD
+categoryCode:PU
+{http://www.kth.se/student/kurser}course:
+    
+cancelled:false
+dormant:false
+title:Examensarbete inom informations- och kommunikationsteknik, grundnivå
+title:Degree Project in Information and Communication Technology, First Cycle
+deciCredits:150
+credits:15,0
+credits:15.0
+educationalLevelCode:1
+educationalLevel:Grundnivå
+educationalLevel:First cycle
+subjectCode:DT1
+subject:Datateknik
+subject:Computer Technology
+subjectAreas:
+        
+subjectArea:
+            
+subjectAreaCode:TEKNK
+subjectArea:Teknik
+subjectArea:Technology
+gradeScaleCode:PF
+gradeScale:
+        
+gradeValue:P
+gradeValue:F
+schoolCode:EECS
+schoolOrgUnit:J
+school:Elektroteknik och datavetenskap
+school:Electrical Engineering and Computer Science
+departmentCode:JH
+department:EECS/Datavetenskap
+department:EECS/Computer Science
+examiners:
+        
+examiner:Ahmed Hemani
+examiner:Amir Hossein Payberah
+examiner:Ana Rusu
+examiner:Anders Hallén
+examiner:Anders Västberg
+examiner:Anne Håkansson
+examiner:Arvind Kumar
+examiner:Benoit Baudry
+examiner:Carl-Mikael Zetterling
+examiner:Carlo Fischione
+examiner:Cicek Cavdar
+examiner:David Broman
+examiner:Dejan Manojlo Kostic
+examiner:Elena Dubrova
+examiner:Emil Björnson
+examiner:Fadil Galjic
+examiner:Fredrik Kilander
+examiner:Fredrik Lundevall
+examiner:Gunnar Malm
+examiner:Henrik Boström
+examiner:Håkan Olsson
+examiner:Ingo Sander
+examiner:Jan Ingemar Markendahl
+examiner:Jim Dowling
+examiner:Joakim Lilliesköld
+examiner:Johan Montelius
+examiner:Johnny Öberg
+examiner:Ki Won Sung
+examiner:Magnus Boman
+examiner:Marco Chiesa
+examiner:Marina Petrova
+examiner:Mark T Smith
+examiner:Markus Hidell
+examiner:Mathias Ekstedt
+examiner:Mattias Hammar
+examiner:Mihhail Matskin
+examiner:Mikael Östling
+examiner:Ming Xiao
+examiner:Mira Kajko-Mattsson
+examiner:Mykola Ivchenko
+examiner:Panagiotis Papadimitratos
+examiner:Patric Dahlqvist
+examiner:Peter Sjödin
+examiner:Robert Lagerström
+examiner:Robert Rönngren
+examiner:Sarunas Girdzijauskas
+examiner:Saul Rodriguez Duenas
+examiner:Seif Haridi
+examiner:Slimane Ben Slimane
+examiner:Sonja Buchegger
+examiner:Thomas Sjöland
+examiner:Vladimir Vlassov
+examiner:Voravit Tanyingyong
+examiner:Zhonghai Lu
+supplementalInformation:<p>I denna kurs till&#228;mpas EECS hederskodex, se: http://www.kth.se/eecs/utbildning/hederskodex.</p>
+supplementalInformation:<p>In this course, the EECS code of honor applies, see: http://www.kth.se/en/eecs/utbildning/hederskodex.</p>
+{http://www.kth.se/student/kurser}coursePlan:
+    
+goals:<p>Examensarbetet&#160;syftar till att studenten skall till&#228;mpa och f&#246;rdjupa kunskaper, f&#246;rst&#229;else, f&#246;rm&#229;gor och f&#246;rh&#229;llningss&#228;tt inom utbildningens sammanhang. Examensarbetet skall ligga i slutet av utbildningen och inneb&#228;ra en f&#246;rdjupning och syntes av tidigare f&#246;rv&#228;rvade kunskaper. I examensarbetet betonas b&#229;de det tekniska/naturvetenskapliga inneh&#229;llet och metodkunskaper.</p><p>Efter genomf&#246;rt examensarbete skall studenten visa s&#229;dan f&#228;rdighet som fordras f&#246;r att sj&#228;lvst&#228;ndigt arbeta inom det omr&#229;de som utbildningen avser enligt KTH:s lokala m&#229;l f&#246;r kandidatexamen baserade p&#229; m&#229;len i h&#246;gskolef&#246;rordningen. Dessa innefattar:</p><ul><li>visa kunskap och f&#246;rst&#229;else inom huvudomr&#229;det, inbegripet kunskap om omr&#229;dets vetenskapliga grund, kunskap om till&#228;mpliga metoder inom omr&#229;det, f&#246;rdjupning inom n&#229;gon del av omr&#229;det samt orientering om aktuellt forsknings&#8208; och utvecklingsarbete</li><li>visa f&#246;rm&#229;ga att s&#246;ka, samla, v&#228;rdera och kritiskt tolka relevant information i en problemst&#228;llning</li><li>visa f&#246;rm&#229;ga att sj&#228;lvst&#228;ndigt identifiera, formulera och l&#246;sa problem samt att analysera och utv&#228;rdera olika tekniska l&#246;sningar</li><li>visa f&#246;rm&#229;ga att integrera och anv&#228;nda kunskap</li><li>visa f&#246;rm&#229;ga att planera och genomf&#246;ra uppgifter inom givna ramar</li><li>visa f&#246;rm&#229;ga att kritiskt diskutera f&#246;reteelser, fr&#229;gest&#228;llningar och situationer, samt modellera skeenden, med utg&#229;ngspunkt i relevant information</li><li>visa f&#246;rm&#229;ga att beskriva och utveckla enklare f&#246;rslag till produkter, processer och system med h&#228;nsyn till m&#228;nniskors f&#246;ruts&#228;ttningar och behov och samh&#228;llets m&#229;l f&#246;r ekonomiskt, socialt och ekologiskt h&#229;llbar utveckling</li><li>visa f&#246;rm&#229;ga att i samarbete planera, genomf&#246;ra och redovisa givna uppgifter</li><li>visa f&#246;rm&#229;ga att p&#229; svenska eller p&#229; engelska, muntligt och skriftligt redog&#246;ra f&#246;r och diskutera information, problem och l&#246;sningar i dialog med olika grupper</li><li>visa f&#246;rm&#229;ga att (inom huvudomr&#229;det f&#246;r utbildningen) g&#246;ra bed&#246;mningar med h&#228;nsyn till relevanta vetenskapliga, samh&#228;lleliga och etiska aspekter</li><li>visa insikt om kunskapens och teknikens roll i samh&#228;llet, och om m&#228;nniskors ansvar f&#246;r hur de anv&#228;nds</li><li>visa f&#246;rm&#229;ga att identifiera sitt behov av ytterligare kunskap och att utveckla sin kompetens.</li></ul>
+goals:<p>The purpose of the degree project is that the student shall apply and deepen knowledge, understanding, abilities, and approaches within the contexts of the education. The degree project should be carried out at the end of the education and imply a specialised study and synthesis of earlier acquired knowledge. In the degree project, both the technical/scientific content and method knowledge are emphasised.</p><p>After completing the degree project, the student shall demonstrate the knowledge and skills required that is required to work independently within the field of the education according to KTH's local goals for Bachelor's degree based on the outcomes in Higher Education Ordinance. These include:</p><ul><li>show knowledge and understanding within the main area of study, including knowledge of the disciplinary foundation of the field, knowledge of applicable methods in the area, specialisation within some part of the field and orientation about current research and development</li><li>demonstrate the ability to search, collect, evaluate and interpret relevant information critically in a problem</li><li>demonstrate the ability independently to identify, formulate and solve problems and to analyse and evaluate different technical solutions</li><li>demonstrate the ability to integrate and use knowledge</li><li>demonstrate the ability to plan and carry out assignments within given framework</li><li>demonstrate the ability to discuss phenomena, issues and situations critically and model developments based on relevant information</li><li>demonstrate the ability to describe and develop simple proposals for products, processes and systems considering the preconditions and need of people and the aims of the society for economic, social and ecological sustainable development</li><li>demonstrate the ability to in cooperation plan, carry out and present given assignments</li><li>demonstrate the ability to in Swedish or in English, orally and in writing Account for and discuss information, problem and solutions in dialogue with different groups</li><li>demonstrate the ability to (within the main field of study for the education) make assessments considering relevant scientific, social and ethical aspects</li><li>demonstrate an understanding of the role of the knowledge and the technology in the society and the people's responsibility of how these are used</li><li>demonstrate the ability to identify own needs of additional knowledge and to develop own skills.</li></ul>
+content:<p><strong>L&#228;randeaktiviteter</strong></p><p>Innan examensarbetskursen p&#229;b&#246;rjas skall studenten ha identifierat en l&#228;mplig examensarbetsuppgift och formulerat ett projektf&#246;rslag s&#229; att detta kan presenteras f&#246;r examinator f&#246;r godk&#228;nnande. Uppgiften skall v&#228;ljas s&#229; att den inneb&#228;r en naturlig progression av de kunskaper och f&#228;rdigheter som f&#246;rv&#228;rvats inom utbildningen.</p><p>Studenten skall skriva en individuell plan f&#246;r examensarbetet i vilken problembeskrivningen/uppgiften och f&#246;ruts&#228;ttningarna f&#246;r genomf&#246;randet av arbetet preciseras. Den individuella planen f&#246;r examensarbetet skall inneh&#229;lla bakgrund inkluderande problembeskrivning och vetenskaplig fr&#229;gest&#228;llning/ar, syfte, m&#229;l, avgr&#228;nsningar, projektets relevans, metoder och tidsplan f&#246;r examensarbetets genomf&#246;rande. I planen skall ocks&#229; finnas en kortfattad sj&#228;lvreflektion d&#228;r studenten redog&#246;r f&#246;r sin kunskap att genomf&#246;ra uppgiften samt planering f&#246;r hur eventuella kvarvarande kurser som kr&#228;vs f&#246;r examen skall avslutas. Den individuella planen f&#246;r examensarbetet skall godk&#228;nnas av examinator.</p><p>Studenten genomf&#246;r en f&#246;rdjupad f&#246;rstudie inkluderande diskussion av metodval och teoretisk bakgrund med litteraturstudie som rapporteras som del av utkast till en prelimin&#228;r version av den skriftliga examensarbetsrapporten.</p><p>Studenten genomf&#246;r ett sj&#228;lvst&#228;ndigt arbete d&#228;r kunskaper och metoder fr&#229;n utbildningen till&#228;mpas.</p><p>Studenten planerar och genomf&#246;r muntlig presentation och f&#246;rsvar av det egna examensarbetet.</p><p>Studenten genomf&#246;r muntlig och skriftlig opposition p&#229; ett annat examensarbete p&#229; samma niv&#229;.</p><p>Studenten skriver och presenterar en skriftlig examensarbetsrapport d&#228;r studenten klart redog&#246;r f&#246;r och diskuterar sina slutsatser i examensarbetet och den kunskap och de argument som ligger till grund f&#246;r dessa.</p><p>Studenten utf&#246;r en sj&#228;lvv&#228;rdering av examensarbetet enligt mallen f&#246;r &#8221;Bed&#246;mning av kvalitet p&#229; examensarbete f&#246;r civilingenj&#246;rs- och teknologie kandidatexamen&#8221;. Sj&#228;lvv&#228;rderingen bifogas som bilaga i examensarbetsrapporten.</p>
+content:<p><strong>Learning activities</strong></p><p>Before the degree project course starts, the student shall identify an appropriate degree project task and formulate a project proposal that can be presented to the examiner for approval. The assignment must be chosen, so that it implies a natural progression of the knowledge and skills that have been acquired within the education.</p><p>The student must write an individual plan for the degree project in which the problem description/assignment and the preconditions for the implementation of the work are specified. The individual plan for the degree project should contain a background including a problem description and scientific aspects/question formulations, purpose(s), goals, delimitations, the relevance of the project, methods and time schedule for the implementation of the degree project. The individual plan shall also contain a brief self-reflection where the student accounts for his knowledge to carry out the assignment and the planning for how potential remaining courses, that are required for higher education qualification, shall be completed. The individual plan for the degree project, shall be approved by the examiner.</p><p>The student carries out an in-depth pre-study including discussions of method choice and theoretical background with a literature study that is reported as a part of a draft to a preliminary version of the written degree project report.</p><p>The student carries out an individual independent project, where knowledge and methods from the education are applied.</p><p>The student plans and carries out oral presentation and defence of his or her degree project.</p><p>The student carries out an oral and written review of another degree project on the same level.</p><p>The student writes and presents a written degree project report, where the student clearly presents and discusses own conclusions in the degree project and the knowledge and the arguments that support them.</p><p>The student carries out a self-assessment of the degree project according to the template for "Assessment of quality of degree project for Degree of Master of Science in Engineering and Degree of Bachelor of Science". The self-assessment is enclosed as appendix in the degree project report.</p>
+eligibility:<p>F&#246;r att p&#229;b&#246;rja ett examensarbete kr&#228;vs att kurser som anses relevanta f&#246;r examensarbetet &#228;r godk&#228;nda och att minst 120 h&#246;gskolepo&#228;ng ur programmets utbildningsplan &#228;r slutf&#246;rda. Studentens f&#246;ruts&#228;ttningar att genomf&#246;ra och slutf&#246;ra examensarbetet bed&#246;ms och godk&#228;nns av examinator innan kursregistrering.</p><p>Kursregistrering och p&#229;b&#246;rjande av examensarbete kan tidigast ske under den avslutande terminen p&#229; utbildningsprogrammet.</p>
+eligibility:<p>To start a degree project it is required that courses, that are considered relevant to the degree project, have been passed and that at least 120 credits from the programme syllabus of the programme are completed. The student's eligibility, to carry out and complete the degree project, are assessed and accepted by an examiner before course registration.</p><p>Course registration and starting the degree project can at the earliest take place during the final semester in the degree programme.</p>
+requirmentsForFinalGrade:<ul><li>Individuell plan f&#246;r examensarbete</li><li>Aktiv n&#228;rvaro vid tv&#229; muntliga presentationer av examensarbete</li><li>F&#246;rstudie, diskussion av metodval och litteraturstudie</li><li>Sj&#228;lvv&#228;rderingsrapport</li><li>Muntlig presentation</li><li>Skriftlig och muntlig opposition p&#229; annan students examensarbete</li><li>Skriftlig rapport med sammafattning/abstrakt p&#229; b&#229;de svenska och engelska</li></ul><p><strong>Tidsgr&#228;ns</strong></p><p>Krav enligt KTH:s regelverk f&#246;r examensarbeten och samtliga examinationsmoment enligt ovan skall vara godk&#228;nda inom ett &#229;r fr&#229;n startdatum f&#246;r examensarbetet. I annat fall avslutas examensarbetet med underk&#228;nt betyg om inte s&#228;rskilda sk&#228;l f&#246;religger.</p>
+requirmentsForFinalGrade:<ul><li>Individual plan for degree project</li><li>Active attendances at two oral presentations of degree project</li><li>Pre-study, discussion of method choices and literature study</li><li>Self-assessment report</li><li>Oral presentation</li><li>Written and oral review of other student's degree project</li><li>Written report with summary/abstract in both Swedish and English</li></ul><p><strong>Time limit</strong></p><p>Requirements according to KTH's regulatory framework for degree projects and all examination parts as mentioned above shall be approved within a year from the starting date of the degree project. Otherwise, the degree project will be ended with a failed grade, unless special circumstances apply.</p>
+lastChanged:2020-10-22
+lastChangedBy:u114dr2z

@@ -1,0 +1,97 @@
+{http://www.kth.se/student/kurser}courseRound:
+    
+startDate:2023-03-20
+stateCode:CANCELLED
+state:Inställt
+state:Cancelled
+courseVersion:2
+schoolCode:EECS
+schoolOrgUnit:J
+school:Elektroteknik och datavetenskap
+school:Electrical Engineering and Computer Science
+departmentCode:JH
+department:EECS/Datavetenskap
+department:EECS/Computer Science
+targetGroup:<p>S&#246;kbar f&#246;r alla masterprogram</p>
+targetGroup:<p>Open to all master's programmes</p>
+tutoringForm:Normal
+tutoringForm:Normal
+tutoringTime:Dagtid
+tutoringTime:Daytime
+tutoringLanguage:Engelska
+tutoringLanguage:English
+campus:KTH Kista
+coursePace:50
+courseResponsibleList:
+        
+courseResponsible:Magnus Boman
+minSeats:15
+periods:
+        
+period:true
+creditDistribution:
+        
+periodCredits:
+            
+deciCredits:75
+credits:7,5
+credits:7.5
+applicationOptions:
+        
+applicationOption:
+            
+typeCode:ORD
+categoryCode:PU
+{http://www.kth.se/student/kurser}course:
+    
+cancelled:false
+dormant:false
+title:Lärande maskiner
+title:Learning Machines
+deciCredits:75
+credits:7,5
+credits:7.5
+educationalLevelCode:2
+educationalLevel:Avancerad nivå
+educationalLevel:Second cycle
+subjectCode:DT1
+subject:Datateknik
+subject:Computer Technology
+subjectAreas:
+        
+subjectArea:
+            
+subjectAreaCode:DATDD
+subjectArea:Datalogi och datateknik
+subjectArea:Computer Science and Engineering
+gradeScaleCode:AF
+gradeScale:
+        
+gradeValue:A
+gradeValue:B
+gradeValue:C
+gradeValue:D
+gradeValue:E
+gradeValue:FX
+gradeValue:F
+schoolCode:EECS
+schoolOrgUnit:J
+school:Elektroteknik och datavetenskap
+school:Electrical Engineering and Computer Science
+departmentCode:JH
+department:EECS/Datavetenskap
+department:EECS/Computer Science
+examiners:
+        
+examiner:Magnus Boman
+supplementalInformation:<p>I denna kurs till&#228;mpas EECS hederskodex, se: http://www.kth.se/eecs/utbildning/hederskodex.</p>
+supplementalInformation:<p>In this course, the EECS code of honor applies, see: http://www.kth.se/en/eecs/utbildning/hederskodex.</p>
+lastOpportunityForExamination:20241
+{http://www.kth.se/student/kurser}coursePlan:
+    
+goals:<p>Efter godk&#228;nd kurs ska studenten kunna</p><p>1. l&#246;sa problem sj&#228;lvst&#228;ndigt</p><p>a. ta del av litteraturen om l&#228;rande maskiner och redog&#246;ra f&#246;r deras roll s&#229;v&#228;l historiskt som idag och i framtiden,<br />b. relatera egna modeller till redan existerande forskning och utveckling inom omr&#229;det l&#228;rande maskiner,</p><p>2. bem&#228;stra abstraktion</p><p>a. definiera vad en l&#228;rande maskin &#228;r och inte &#228;r,<br />b. identifiera relevanta begrepp och till&#228;mpbara metoder och verktyg,<br />c. associera kritiskt olika relevanta begrepp och f&#246;reteelser med l&#228;rande maskiner,<br />d. instrumentalisera relevanta abstrakta begrepp,</p><p>3. implementera l&#228;rande maskiner</p><p>a. anv&#228;nda verktyg f&#246;r att bygga egna l&#228;rande maskiner, samt analysera andras,<br />b. programmera, testa och utv&#228;rdera kritiskt egen programvara f&#246;r l&#228;rande maskiner,<br />c. uppskatta riktigheten och den ber&#228;kningsm&#228;ssiga komplexiteten i program f&#246;r l&#228;rande maskiner</p><p>i syfte att</p><ul><li>f&#229; kunskaper om de olika vis p&#229; vilka maskininl&#228;rningsmetoder kan kombineras f&#246;r att inneslutas i fysiska eller abstrakta modeller, s&#229; kallade l&#228;rande maskiner,</li><li>kunna resonera om hur sv&#229;ra problem b&#228;st l&#246;ses med hj&#228;lp av l&#228;rande maskiner,</li><li>kunna v&#228;rdera vilka problem, vilka overheadkostnader och vilka metainl&#228;rningsverktyg som b&#246;r anv&#228;ndas,</li><li>f&#229; ett f&#246;rh&#229;llningss&#228;tt till &#228;mnet som medger etiska perspektiv inom vilka generell artificiell intelligens ing&#229;r.</li></ul><p>F&#246;r h&#246;gre betyg ska studenten dessutom kunna</p><ul><li>analysera statistiska st&#246;rfaktorer (confounders), &#246;veranpassning, samt generaliserbarhet i egna l&#246;sningar baserade p&#229; l&#228;rande maskiner,</li><li>genomf&#246;ra sj&#228;lvkritisk granskning av egen programmering av l&#228;rande maskiner, inklusive etiska perspektiv och h&#229;llbarhetsperspektiv, samt dokumentera densamma,</li><li>bem&#228;stra metaniv&#229;n genom att modellers olika l&#246;sningar baserade p&#229; l&#228;rande maskiner, det vill s&#228;ga tala om dessa med anv&#228;ndning av adekvat terminologi.</li></ul>
+goals:<p>Having passed the course, the student should be able to:</p><p>1. solve problems independently</p><p>a. take part in the literature about learning machines and account for their role both historically and today, and in the future, b. relate own models to already existing research and development in the area of learning machines,</p><p>2. master abstraction</p><p>a. define what a learning machine is and is not,.b. identify relevant concepts and applicable methods and tools,<br />c. associate critically different relevant concepts and phenomena with learning machines,<br />d. instrumentalise relevant abstract concepts</p><p>3. implement learning machines</p><p>a. use tools to build own learning machines, as well as analyse others', b. program, test and critically evaluate own software for learning machines,<br />c. estimate the correctness and the computational complexity in programs for learning machines.</p><p>in order to</p><ul><li>gain knowledge of the different ways in which machine learning methods can be combined to be enclosed in physical or abstract models, so-called learning machines,</li><li>be able to discuss how difficult problems are best solved by means of learning machines,</li><li>be able to evaluate which problems, which overhead costs and which meta learning tools that should be used</li><li>obtain an approach to the subject that admits ethical perspectives in which general artificial intelligence is included.</li></ul><p>For higher grades, the student should also be able to</p><ul><li>analyse statistical disturbance factors (confounders), over fitting as well as generalizability in own solutions based on learning machines,</li><li>carry out self critical review of own programming of learning machines including ethical perspectives and sustainability perspectives, as well as to document the same.</li><li>master the meta level through modelling of different solutions based on learning machines, that is to be able to talk about these using adequate terminology.</li></ul>
+content:<ul><li>AI-grundvalar f&#246;r l&#228;rande maskiner.</li><li>Statistisk inl&#228;rningsteori I: Perceptroner och neurala n&#228;tverk.</li><li>Statistisk inl&#228;rningsteori II: L&#228;randeproblemet.</li><li>Maskininl&#228;rningsmetoder.</li><li>Internetpsykiatri som ett typfall f&#246;r l&#228;rande maskiner.</li><li>Kritiska perspektiv p&#229; l&#228;rande maskiner.</li><li>Systemiska egenskaper hos l&#228;rande maskiner LM2LM-kommunikation och inl&#228;rning i multiagentsystem.</li><li>Teknikf&#246;r&#228;ndring och l&#228;rande maskiners framtid.</li><li>Till&#228;mpningar av l&#228;rande maskiner.</li></ul>
+content:<ul><li>AI basis for learning machines.</li><li>Statistical learning theory I: Perceptrons and neural networks.</li><li>Statistical learning theory II: The learning problem.</li><li>Machine learning methods.</li><li>Internet psychiatry as a typical case for learning machines.</li><li>Critical perspectives on learning machines.</li><li>Systematic properties of learning machines LM2LM communication and learning in multi agent systems.</li><li>Technological change and the future of learning machines.</li><li>Applications of learning machines.</li></ul>
+lastChanged:2022-08-08
+lastChangedBy:u114dr2z
