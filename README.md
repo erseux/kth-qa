@@ -22,9 +22,10 @@ OPENAI_CHAT_MODEL=gpt-3.5-turbo
    2. ``python webscraping/scrape_course.py`` which scrapes the course pages
 
 You can limit the number of courses scraped in both files by changing the variable ``limit``
+You can also select what languages to scrape in
 
 ### Ingest files
-1. Have .txt files in kth_qa/files
+1. Have .txt files in kth_qa/files/en or kth_qa/files/sv
 2. Stand in root and run ```make ingest```
 
 ### Run site
