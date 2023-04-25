@@ -44,11 +44,11 @@ class Config:
          # CHAIN
         doc_chain = self._load_doc_chain()
         self.chain = RetrievalQAWithSourcesChain(combine_documents_chain=doc_chain, 
-                                            retriever=self.store.as_retriever(search_kwargs=dict(k=5)))
+                                            retriever=self.store.as_retriever(search_kwargs=dict(k=4)))
         
     def _load_doc_chain(self):
         doc_chain = load_qa_with_sources_chain(
-            ChatOpenAI(temperature=0, max_tokens=100, model=self.settings.OPENAI_CHAT_MODEL, request_timeout=120),
+            ChatOpenAI(temperature=0, max_tokens=240, model=self.settings.OPENAI_CHAT_MODEL, request_timeout=120),
             chain_type="stuff",
             document_variable_name="context",
             prompt=PROMPT,
