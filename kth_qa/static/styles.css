@@ -77,10 +77,14 @@ p {
     max-width: 30em;
 }
 
-a,
+a {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.3s;
+}
 a:hover,
 a:focus {
-    color: inherit;
+    color: cornflowerblue;
     text-decoration: none;
     transition: all 0.3s;
 }

@@ -13,6 +13,9 @@
             <button type="submit" id="ask">Ask</button>
         </form>
         <p id="answer"></p>
+        <p id="readmore"></p>
+        <a id="url" href="">
+        </a>
     </div>
     <script>
         const form = document.querySelector('form');
@@ -31,6 +34,16 @@
             const data = await response.json();
             console.log(data);
             document.querySelector('#answer').textContent = data.answer;
+            if (data.url != null && data.url != "") {
+                const urlref = document.getElementById('url')
+                document.getElementById('readmore').textContent = 'Read more at: ';
+                urlref.textContent = data.url;
+                urlref.href = data.url;
+            } else {
+                document.getElementById('readmore').textContent = '';
+                document.getElementById('url').textContent = '';
+            }
+            // document.getElementById('urlref').href = data.urls;
             document.getElementById('ask').disabled = false;
         });
     </script>

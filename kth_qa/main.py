@@ -1,5 +1,8 @@
+import json
 import logging
-import os
+
+from kth_qa.magic.conversational import question_handler
+from kth_qa.schema import Answer
 
 logger = logging.getLogger()
 logging.basicConfig(encoding='utf-8', level=logging.INFO)
@@ -64,14 +67,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# test questions
+with open("test_response.json", "r") as f:
+    test_questions = json.load(f)
+
 # --- Routes ---
 
 @app.get("/", response_class=HTMLResponse)
 def index(request: Request):
-    return RedirectResponse(url="/home")
-
-@app.get("/home", response_class=HTMLResponse)
-def home(request: Request):
     return templates.TemplateResponse(
         "index.html",
         {"request": request}
@@ -79,10 +82,14 @@ def home(request: Request):
 
 @app.post("/api/ask", response_class=JSONResponse)
 async def ask(question: Question):
-    answer = config.index.query(question.question)
+    question_str = question.question
+    if question_str in test_questions:
+        return test_questions[question_str]
+        
+    answer: Answer = await question_handler(question, config)
     if not answer:
-        return JSONResponse(status_code=404, content={"message": "No answer found"})
-    return {"answer": answer}
+        return JSONResponse(status_code=404, content={"answer": "No answer found"})
+    return answer.dict(include={"answer", "url"})
 
 
 if __name__ == "__main__":
