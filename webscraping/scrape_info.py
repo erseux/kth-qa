@@ -7,11 +7,9 @@ from xml.etree import cElementTree as ET
 from tqdm import tqdm
 
 from webscraping.scrape_course import fetch_url, get_url
-from webscraping.scrape_settings import SCRAPE_LIMIT
+from webscraping.scrape_settings import SCRAPE_LANGUAGES, SCRAPE_LIMIT
 
 
-# skapa lista med alla kurser
-# vill lagra url
 TOTAL_COURSES = 1257
 
 def handle_xml(xml, content_file):
@@ -38,10 +36,12 @@ def scrape_heading(course_code, language, soup=None):
 
     heading = soup.find('h1', {'id': 'page-heading'})
     heading = heading.text.strip()
-    heading = re.search(heading_pattern, heading).group(0)
+    match = re.search(heading_pattern, heading)
+    if match:
+        heading = match.group(0)
     return heading
 
-def save_courses(limit=None):
+def save_courses(limit=None, languages=['en']):
     course_codes = []
     for course in iterate_courses():
         course_codes.append(course.get("courseCode"))
@@ -49,19 +49,25 @@ def save_courses(limit=None):
     course_codes = list(dict.fromkeys(course_codes))
     courses = {}
     i = 0
+    failed = []
     for course_code in tqdm(course_codes):
         if limit and i == limit:
             break
-        heading_sv = scrape_heading(course_code, 'sv')
-        heading_en = scrape_heading(course_code, 'en')
-        courses[course_code] = {
-            "sv": heading_sv,
-            "en": heading_en,
-        }
-        i += 1
+        try:
+            for language in languages:
+                heading = scrape_heading(course_code, language)
+                if heading:
+                    if course_code not in courses:
+                        courses[course_code] = {}
+                    courses[course_code] = courses[course_code] | {language: heading}
+            i += 1
+        except Exception as e:
+            print(f'Error: {course_code} {e}')
+            failed.append(course_code)
+
 
     with open("kth_qa/courses.json", "w") as f:
-        f.write(json.dumps({"courses": courses}, ensure_ascii=False, indent=4))
+        f.write(json.dumps({"courses": courses, "failed": failed}, ensure_ascii=False, indent=4))
 
 def wabscrape():  
 
@@ -110,8 +116,8 @@ def wabscrape():
 
 
 if __name__ == "__main__":
-    save_courses(limit=SCRAPE_LIMIT)
-    # wabscrape()
+    # save_courses(limit=SCRAPE_LIMIT, languages=SCRAPE_LANGUAGES)
+    wabscrape()
 
 
 

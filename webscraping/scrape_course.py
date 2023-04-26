@@ -19,7 +19,6 @@ def fetch_url(url):
 def scrape_course(course_code, language):
     courses = get_courses()
     course_title = courses.get(course_code).get(language) 
-    course_title = course_title.rsplit(',', 1)[0]
 
     url = get_url(course_code, language)
     html = fetch_url(url)
