@@ -131,3 +131,4 @@ dmypy.json
 
 kth_qa/db/index
 **.parquet
+**/files/

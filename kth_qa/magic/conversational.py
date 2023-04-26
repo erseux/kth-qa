@@ -5,11 +5,11 @@ import logging
 from kth_qa.schema import Answer, Question
 logger = logging.getLogger()
 import re
-from ingest import KURS_URL
+from ingest import KURS_URL, DEFAULT_LANGUAGE
 
 from config import Config
 
-COURSE_PATTERN = r"\w{2}\d{4}" # e.g. DD1315
+COURSE_PATTERN = r"\w{2,3}\d{3,4}\w?" # e.g. DD1315
 
 def blocking_chain(chain, request):
     return chain(request, return_only_outputs=True)
@@ -39,7 +39,7 @@ async def question_handler(question: Question, config: Config) -> Answer:
     sources = set(courses)
     logger.info(f"unique courses: {courses}")
 
-    urls = [KURS_URL.format(course_name=course) for course in courses] # format into urls
+    urls = [KURS_URL.format(course_code=course, language=DEFAULT_LANGUAGE) for course in courses] # format into urls
     logger.info(f"urls: {urls}")
 
     answer = answer.rsplit(".", 1)[0] + "." # remove everything after the last period
