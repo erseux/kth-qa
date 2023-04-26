@@ -1,44 +1,12 @@
 {
     "courses": {
         "ID2225": {
-            "sv": "ID2225 Lärande maskiner 7,5 hp",
-            "en": "ID2225 Learning Machines 7.5 credits"
+            "sv": "ID2225 Lärande maskiner",
+            "en": "ID2225 Learning Machines"
         },
         "SA2001": {
-            "sv": "SA2001 Hållbar utveckling och forskningsmetodik inom matematik 3,0 hp",
-            "en": "SA2001 Sustainable development and research methodology in mathematics 3.0 credits"
-        },
-        "IA249X": {
-            "sv": "IA249X Examensarbete inom teknisk fysik med inriktning mot nanoteknik, avancerad nivå 30,0 hp",
-            "en": "IA249X Degree Project in Engineering Physics, specialising in Nanotechnology, Second Cycle 30.0 credits"
-        },
-        "II143X": {
-            "sv": "II143X Examensarbete inom informations- och kommunikationsteknik, grundnivå 15,0 hp",
-            "en": "II143X Degree Project in Information and Communication Technology, First Cycle 15.0 credits"
-        },
-        "ID2211": {
-            "sv": "ID2211 Datautvinning, grundkurs 7,5 hp",
-            "en": "ID2211 Data Mining, Basic Course 7.5 credits"
-        },
-        "FEL3210": {
-            "sv": "FEL3210 Flervariabel Reglering 8,0 hp",
-            "en": "FEL3210 Multivariable Control 8.0 credits"
-        },
-        "CH203V": {
-            "sv": "CH203V Design av ergonomiska produkter 2,5 hp",
-            "en": "CH203V Design of Ergonomic Products 2.5 credits"
-        },
-        "CH201V": {
-            "sv": "CH201V Ledarskap och hållbara arbeten 4,5 hp",
-            "en": "CH201V Leadership and Sustainable Work 4.5 credits"
-        },
-        "FEP3260": {
-            "sv": "FEP3260 Grunderna i maskininlärning över nätverk 10,0 hp",
-            "en": "FEP3260 Fundamentals of Machine Learning Networks 10.0 credits"
-        },
-        "ML102X": {
-            "sv": "ML102X Examensarbete inom innovation och design, grundnivå 15,0 hp",
-            "en": "ML102X Degree Project in Innovation and Design, First Cycle 15.0 credits"
+            "sv": "SA2001 Hållbar utveckling och forskningsmetodik inom matematik",
+            "en": "SA2001 Sustainable development and research methodology in mathematics"
         }
     }
 }

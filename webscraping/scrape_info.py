@@ -1,4 +1,5 @@
 import json
+import re
 from bs4 import BeautifulSoup
 import requests
 from xml.etree import cElementTree as ET
@@ -6,6 +7,7 @@ from xml.etree import cElementTree as ET
 from tqdm import tqdm
 
 from webscraping.scrape_course import fetch_url, get_url
+from webscraping.scrape_settings import SCRAPE_LIMIT
 
 
 # skapa lista med alla kurser
@@ -27,6 +29,7 @@ def iterate_courses():
 
 
 def scrape_heading(course_code, language, soup=None):
+    heading_pattern = r'[A-Z]{2,3}\d{3,5}[A-Z]?( [a-öA-Ö]+)+'
     if soup is None:
         url = get_url(course_code, language)
         html = fetch_url(url)
@@ -34,7 +37,9 @@ def scrape_heading(course_code, language, soup=None):
         soup = BeautifulSoup(html, 'html.parser')
 
     heading = soup.find('h1', {'id': 'page-heading'})
-    return heading.text
+    heading = heading.text.strip()
+    heading = re.search(heading_pattern, heading).group(0)
+    return heading
 
 def save_courses(limit=None):
     course_codes = []
@@ -105,7 +110,7 @@ def wabscrape():
 
 
 if __name__ == "__main__":
-    save_courses(limit=10)
+    save_courses(limit=SCRAPE_LIMIT)
     # wabscrape()
 
 

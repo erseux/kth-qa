@@ -22,18 +22,15 @@ def ingest():
         return
     
     embedding = OpenAIEmbeddings()
-    courses = get_courses()
         
     file_folder_name = f'files/{DEFAULT_LANGUAGE}'
     file_folder = os.listdir(file_folder_name)
     raw_docs = []
-    course_codes = []
     for file in file_folder:
         with open(f'{file_folder_name}/{file}', 'r') as f:
             text = f.read()
             filename = file.split('.')[0]
             course_code, language = filename.split('?l=')
-            course_codes.append(course_code)
             # url = KURS_URL.format(course_code=course_code, language=language)
             doc = Document(page_content=text, metadata={"source": course_code})
             raw_docs.append(doc)
@@ -45,10 +42,6 @@ def ingest():
     )
     langdocs = text_splitter.split_documents(raw_docs)
     # add course title to page content in each document
-    for langdoc, course_code in zip(langdocs, course_codes):
-        course_title = courses.get(course_code).get(DEFAULT_LANGUAGE) 
-        course_title = course_title.rsplit(',', 1)[0]
-        langdoc.page_content = course_title + '\n' + doc.page_content
     logger.info(f"split documents into {len(langdocs)} chunks")
 
     vectordb = Chroma.from_documents(documents=langdocs, embedding=embedding, persist_directory=PERSIST_DIR)

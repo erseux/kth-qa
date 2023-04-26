@@ -4,6 +4,7 @@ import requests
 from tqdm import tqdm
 
 from kth_qa.utils import get_courses, touch_folder
+from webscraping.scrape_settings import SCRAPE_LANGUAGES, SCRAPE_LIMIT
 
 
 class URLHelper:
@@ -16,6 +17,10 @@ def fetch_url(url):
     return requests.get(url).text
 
 def scrape_course(course_code, language):
+    courses = get_courses()
+    course_title = courses.get(course_code).get(language) 
+    course_title = course_title.rsplit(',', 1)[0]
+
     url = get_url(course_code, language)
     html = fetch_url(url)
 
@@ -24,9 +29,11 @@ def scrape_course(course_code, language):
     content = soup.find('section', {'id': 'courseContentBlock'})
     
     # get all text, but split by divs and spans
-    text = ''
+    text = f'Course description for {course_title}:\n'
     for node in content.children:
         text += extract_text(node)
+
+    text = text.replace('the course', f'the course ({course_title})')
 
     folder = f'kth_qa/files/{language}'
     touch_folder(folder)
@@ -47,7 +54,7 @@ def extract_text(node):
         elif node.name == 'span':
             separator = ' '
         else:
-            separator = ' '
+            separator = '\n'
         return separator.join([extract_text(child) for child in node.children])
     
 def clean_text(text):
@@ -60,7 +67,7 @@ def clean_text(text):
     text = text.replace('\n\n', '\n')
     return text
 
-def main(languages=['en', 'sv'], limit=None):
+def main(languages=['en'], limit=None):
     courses = read_course_codes()
     i = 0
     for course_code in tqdm(courses):
@@ -70,4 +77,4 @@ def main(languages=['en', 'sv'], limit=None):
             scrape_course(course_code, language)
 
 if __name__ == '__main__':
-    main(languages=['en'], limit=10)
+    main(languages=SCRAPE_LANGUAGES, limit=SCRAPE_LIMIT)

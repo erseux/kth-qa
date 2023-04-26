@@ -47,7 +47,7 @@ async def question_handler(question: Question, config: Config) -> Answer:
     if (not answer or len(answer) < 3) and urls:
         answer = "Something went wrong, but I found a link."
 
-    return Answer(**{"answer": answer, "url": urls[0] if urls else ""})
+    return Answer(**{"answer": answer, "urls": urls} if urls else [])
 
 def split_sources(answer: str):
     patterns = [

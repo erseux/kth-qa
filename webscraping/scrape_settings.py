@@ -1,0 +1,3 @@
+SCRAPE_LIMIT = 2
+SCRAPE_LANGUAGES = ['en']
+# SCRAPE_LANGUAGES = ['en', 'sv']

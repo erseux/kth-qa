@@ -89,7 +89,7 @@ async def ask(question: Question):
     answer: Answer = await question_handler(question, config)
     if not answer:
         return JSONResponse(status_code=404, content={"answer": "No answer found"})
-    return answer.dict(include={"answer", "url"})
+    return answer.dict(include={"answer", "urls"})
 
 
 if __name__ == "__main__":
