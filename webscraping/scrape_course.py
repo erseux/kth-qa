@@ -34,6 +34,7 @@ def scrape_course(course_code, language):
         text += extract_text(node)
 
     text = text.replace('the course', f'the course ({course_title})')
+    text = separate_camel_case(text)
 
     folder = f'kth_qa/files/{language}'
     touch_folder(folder)
@@ -45,6 +46,13 @@ def read_course_codes():
     courses = list(courses.keys())
     return courses
 
+def separate_camel_case(text):
+    for i in range(len(text)):
+        if text[i].isupper() and text[i-1].islower():
+            text = text[:i] + '\n' + text[i:]
+    return text
+
+
 def extract_text(node):
     if node.name == None:
         return node.strip()
@@ -54,7 +62,7 @@ def extract_text(node):
         elif node.name == 'span':
             separator = ' '
         else:
-            separator = '\n'
+            separator = ' '
         return separator.join([extract_text(child) for child in node.children])
     
 def clean_text(text):
