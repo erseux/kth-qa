@@ -1,12 +1,3771 @@
 {
     "courses": {
         "ID2225": {
-            "sv": "ID2225 Lärande maskiner",
             "en": "ID2225 Learning Machines"
         },
         "SA2001": {
-            "sv": "SA2001 Hållbar utveckling och forskningsmetodik inom matematik",
             "en": "SA2001 Sustainable development and research methodology in mathematics"
+        },
+        "IA249X": {
+            "en": "IA249X Degree Project in Engineering Physics"
+        },
+        "II143X": {
+            "en": "II143X Degree Project in Information and Communication Technology"
+        },
+        "ID2211": {
+            "en": "ID2211 Data Mining"
+        },
+        "FEL3210": {
+            "en": "FEL3210 Multivariable Control"
+        },
+        "CH203V": {
+            "en": "CH203V Design of Ergonomic Products"
+        },
+        "CH201V": {
+            "en": "CH201V Leadership and Sustainable Work"
+        },
+        "FEP3260": {
+            "en": "FEP3260 Fundamentals of Machine Learning Networks"
+        },
+        "ML102X": {
+            "en": "ML102X Degree Project in Innovation and Design"
+        },
+        "DH2632": {
+            "en": "DH2632 Human"
+        },
+        "LT1017": {
+            "en": "LT1017 Subject"
+        },
+        "CH204V": {
+            "en": "CH204V Change Leadership and Work Environment Improvements"
+        },
+        "FSF3581": {
+            "en": "FSF3581 Computational Methods for Stochastic Differential Equations"
+        },
+        "IL2239": {
+            "en": "IL2239 Analog"
+        },
+        "CM2019": {
+            "en": "CM2019 Ultrasound"
+        },
+        "EQ2461": {
+            "en": "EQ2461 Seminars in Information and Network Engineering"
+        },
+        "EQ2845": {
+            "en": "EQ2845 Information Theory and Source Coding"
+        },
+        "AE1503": {
+            "en": "AE1503 Environmental Systems Analysis for Teachers"
+        },
+        "IH2657": {
+            "en": "IH2657 Design of Nano Semiconductor Devices"
+        },
+        "HE1039": {
+            "en": "HE1039 Control Engineering"
+        },
+        "IK2217": {
+            "en": "IK2217 Advanced Internetworking II"
+        },
+        "IK1332": {
+            "en": "IK1332 Internet of Things"
+        },
+        "ID2216": {
+            "en": "ID2216 Developing Mobile Applications"
+        },
+        "IL2219": {
+            "en": "IL2219 Radio Electronics"
+        },
+        "IK2508": {
+            "en": "IK2508 Wireless Transmission Techniques"
+        },
+        "EP2520": {
+            "en": "EP2520 Building Networked Systems Security"
+        },
+        "EA246X": {
+            "en": "EA246X Degree Project in Electrical Engineering"
+        },
+        "DA246X": {
+            "en": "DA246X Degree Project in Computer Science and Engineering"
+        },
+        "IK2220": {
+            "en": "IK2220 Software Defined Networking"
+        },
+        "IK2507": {
+            "en": "IK2507 Wireless Communication Systems"
+        },
+        "HI1025": {
+            "en": "HI1025 Operating Systems"
+        },
+        "MF2092": {
+            "en": "MF2092 Rapid Prototyping"
+        },
+        "IL2233": {
+            "en": "IL2233 Embedded Intelligence"
+        },
+        "IL2236": {
+            "en": "IL2236 Embedded Many"
+        },
+        "CB1040": {
+            "en": "CB1040 Introduction to Biotechnology"
+        },
+        "SH2009": {
+            "en": "SH2009 Project work in Physics"
+        },
+        "DA250X": {
+            "en": "DA250X Degree Project in Computer Science and Engineering"
+        },
+        "BB2485": {
+            "en": "BB2485 Metabolic Engineering"
+        },
+        "DD2356": {
+            "en": "DD2356 Methods in High Performance Computing"
+        },
+        "KF2180": {
+            "en": "KF2180 Biopolymers"
+        },
+        "MH1032": {
+            "en": "MH1032 Practical Intercultural Competence"
+        },
+        "IL2237": {
+            "en": "IL2237 Electronic Systems Design"
+        },
+        "IS2202": {
+            "en": "IS2202 Computer Systems Architecture"
+        },
+        "EF1111": {
+            "en": "EF1111 Project in Plasma Physics"
+        },
+        "AK2011": {
+            "en": "AK2011 Technology and Ethics"
+        },
+        "LT1016": {
+            "en": "LT1016 Communication"
+        },
+        "LT101X": {
+            "en": "LT101X Degree Project in Subject"
+        },
+        "LT1020": {
+            "en": "LT1020 Special Education and Perspectives on Learning and Development"
+        },
+        "FCB3071": {
+            "en": "FCB3071 Higher Seminar in Gene Technology I"
+        },
+        "LT2013": {
+            "en": "LT2013 School Placement"
+        },
+        "ID2203": {
+            "en": "ID2203 Distributed Systems"
+        },
+        "ID2012": {
+            "en": "ID2012 Ubiquitous Computing"
+        },
+        "DA240X": {
+            "en": "DA240X Degree Project in Computer Science and Engineering"
+        },
+        "FMF3039": {
+            "en": "FMF3039 Trustworthy Cyber"
+        },
+        "FCB3072": {
+            "en": "FCB3072 Higher Seminar in Gene Technology II"
+        },
+        "EA258X": {
+            "en": "EA258X Degree Project in Electrical Engineering"
+        },
+        "DA258X": {
+            "en": "DA258X Degree Project in Computer Science and Engineering"
+        },
+        "EA256X": {
+            "en": "EA256X Degree Project in Electrical Engineering"
+        },
+        "FCB3091": {
+            "en": "FCB3091 Higher Seminar in Spatial Genomics I"
+        },
+        "HU1000": {
+            "en": "HU1000 Industrial Marketing"
+        },
+        "ML1906": {
+            "en": "ML1906 Factory Design"
+        },
+        "HM1006": {
+            "en": "HM1006 Electrical and Control Engineering"
+        },
+        "ML100X": {
+            "en": "ML100X Degree Project in Mechanical Engineering"
+        },
+        "ML1213": {
+            "en": "ML1213 Product Development and Design"
+        },
+        "ML101X": {
+            "en": "ML101X Degree Project in Industrial Business Administration and Manufacturing"
+        },
+        "EQ2401": {
+            "en": "EQ2401 Adaptive Signal Processing"
+        },
+        "FCB3073": {
+            "en": "FCB3073 Higher Seminar in Gene Technology III"
+        },
+        "DD2424": {
+            "en": "DD2424 Deep Learning in Data Science"
+        },
+        "FCB3092": {
+            "en": "FCB3092 Higher Seminar in Spatial Genomics II"
+        },
+        "FCB3093": {
+            "en": "FCB3093 Higher Seminar in Spatial Genomics III"
+        },
+        "FSG3113": {
+            "en": "FSG3113 Compressible Aerodynamics"
+        },
+        "FCB3074": {
+            "en": "FCB3074 Higher Seminar in Gene Technology IV"
+        },
+        "FCB3094": {
+            "en": "FCB3094 Higher Seminar in Spatial Genomics IV"
+        },
+        "SK2712": {
+            "en": "SK2712 Environmental physics"
+        },
+        "SK2551": {
+            "en": "SK2551 X"
+        },
+        "SK2004": {
+            "en": "SK2004 Project course in Quantum Technology"
+        },
+        "FCB3081": {
+            "en": "FCB3081 Higher Seminar in DNA"
+        },
+        "IK1552": {
+            "en": "IK1552 Internetworking"
+        },
+        "SG1102": {
+            "en": "SG1102 Mechanics"
+        },
+        "IV1013": {
+            "en": "IV1013 Introduction to Computer Security"
+        },
+        "SD2711": {
+            "en": "SD2711 Small Craft Design"
+        },
+        "CM2005": {
+            "en": "CM2005 Sports and Exercise Physiology"
+        },
+        "FCB3082": {
+            "en": "FCB3082 Higher Seminar in DNA"
+        },
+        "IV1201": {
+            "en": "IV1201 Design of Global Applications"
+        },
+        "II142X": {
+            "en": "II142X Degree Project in Computer Engineering"
+        },
+        "FCB3083": {
+            "en": "FCB3083 Higher Seminar in DNA"
+        },
+        "EP1200": {
+            "en": "EP1200 Introduction to Computing Systems Engineering"
+        },
+        "SF1626": {
+            "en": "SF1626 Calculus in Several Variables"
+        },
+        "SF1920": {
+            "en": "SF1920 Probability Theory and Statistics"
+        },
+        "FCB3084": {
+            "en": "FCB3084 Higher Seminar in DNA"
+        },
+        "SD2465": {
+            "en": "SD2465 Indivual Project Work"
+        },
+        "EI2420": {
+            "en": "EI2420 Electromagnetic Wave Propagation"
+        },
+        "EI2400": {
+            "en": "EI2400 Applied Antenna Theory"
+        },
+        "EA275X": {
+            "en": "EA275X Degree Project in Electrical Engineering"
+        },
+        "EI2410": {
+            "en": "EI2410 Field Theory for Guided Waves"
+        },
+        "KD2910": {
+            "en": "KD2910 Project in Chemistry"
+        },
+        "MF2019": {
+            "en": "MF2019 CAD"
+        },
+        "EI2440": {
+            "en": "EI2440 Electrotechnical Design"
+        },
+        "MF2023": {
+            "en": "MF2023 Industrial Design"
+        },
+        "MF2032": {
+            "en": "MF2032 Eco Design"
+        },
+        "EJ2230": {
+            "en": "EJ2230 Control in Electrical Energy Conversion"
+        },
+        "EJ2440": {
+            "en": "EJ2440 Electric Transportation"
+        },
+        "EG2210": {
+            "en": "EG2210 Electricity Market Analysis"
+        },
+        "EH2741": {
+            "en": "EH2741 Communication and Control in Electric Power Systems"
+        },
+        "EH2745": {
+            "en": "EH2745 Computer Applications in Power Systems"
+        },
+        "EG2110": {
+            "en": "EG2110 Power System Stability and Control"
+        },
+        "EA270X": {
+            "en": "EA270X Degree Project in Electrical Engineering"
+        },
+        "EJ2311": {
+            "en": "EJ2311 Modulation of Power Electronic Converters"
+        },
+        "FAK3140": {
+            "en": "FAK3140 Decision Theory"
+        },
+        "EI2490": {
+            "en": "EI2490 Seminar Course in Electrotechnical Design and High Voltage Equipment"
+        },
+        "FCB3202": {
+            "en": "FCB3202 Molecular Quantum Mechanics"
+        },
+        "MJ2500": {
+            "en": "MJ2500 Large Scale Solar Power"
+        },
+        "MJ2426": {
+            "en": "MJ2426 Applied Heat and Power Technology"
+        },
+        "MJ2443": {
+            "en": "MJ2443 Heating"
+        },
+        "MJ1432": {
+            "en": "MJ1432 Practical Energy Related Project"
+        },
+        "ME2323": {
+            "en": "ME2323 Research Frontiers in Industrial Management"
+        },
+        "FCB3203": {
+            "en": "FCB3203 Biocatalysis for Doctoral Students"
+        },
+        "EI2610": {
+            "en": "EI2610 Industrial Innovation Project"
+        },
+        "ME211X": {
+            "en": "ME211X Degree Project in Industrial Economics and Management"
+        },
+        "AD237V": {
+            "en": "AD237V Architecture and Gender"
+        },
+        "AK1213": {
+            "en": "AK1213 Swedish Society"
+        },
+        "KH138X": {
+            "en": "KH138X Degree Project in Chemical Engineering and Technology"
+        },
+        "EA260X": {
+            "en": "EA260X Degree Project in Electrical Engineering"
+        },
+        "DD2358": {
+            "en": "DD2358 Introduction to High Performance Computing"
+        },
+        "EQ2840": {
+            "en": "EQ2840 Information Theory and Channel Coding"
+        },
+        "DM1998": {
+            "en": "DM1998 Engineering Training Course"
+        },
+        "EL2520": {
+            "en": "EL2520 Control Theory and Practice"
+        },
+        "SD2231": {
+            "en": "SD2231 Applied Vehicle Dynamics Control"
+        },
+        "DD2419": {
+            "en": "DD2419 Project Course in Robotics and Autonomous Systems"
+        },
+        "DA236X": {
+            "en": "DA236X Degree Project in Computer Science and Engineering"
+        },
+        "EA236X": {
+            "en": "EA236X Degree Project in Electrical Engineering"
+        },
+        "FSF3810": {
+            "en": "FSF3810 Convexity and Optimization in Linear Spaces"
+        },
+        "MG2103": {
+            "en": "MG2103 Industrial Process Engineering"
+        },
+        "EL2810": {
+            "en": "EL2810 Machine Learning Theory"
+        },
+        "EL2450": {
+            "en": "EL2450 Hybrid and Embedded Control Systems"
+        },
+        "KF200X": {
+            "en": "KF200X Degree Project in Fibre and Polymer Technology"
+        },
+        "FAK3136": {
+            "en": "FAK3136 Intro to Theory and Science and Research Methodology"
+        },
+        "SF1625": {
+            "en": "SF1625 Calculus in One Variable"
+        },
+        "FAK3138": {
+            "en": "FAK3138 Theory of Science and Research Methodology"
+        },
+        "FSF3822": {
+            "en": "FSF3822 Applied Nonlinear Optimization"
+        },
+        "FAG3170": {
+            "en": "FAG3170 Spatial Data Analysis in Practice"
+        },
+        "AF109X": {
+            "en": "AF109X Degree Project in Civil Engineering"
+        },
+        "KH1121": {
+            "en": "KH1121 Organic Chemistry"
+        },
+        "KH1122": {
+            "en": "KH1122 Analytical Chemistry"
+        },
+        "KH1130": {
+            "en": "KH1130 Chemical Engineering and Technology"
+        },
+        "KH1406": {
+            "en": "KH1406 Swedish Writing for Engineers"
+        },
+        "KH1221": {
+            "en": "KH1221 Applied Physical Chemistry"
+        },
+        "KH1222": {
+            "en": "KH1222 Applied Chemistry"
+        },
+        "KH1223": {
+            "en": "KH1223 Biotechnology"
+        },
+        "BB1190": {
+            "en": "BB1190 Gene Technology"
+        },
+        "KH1252": {
+            "en": "KH1252 Business Administration"
+        },
+        "KH1353": {
+            "en": "KH1353 Organisational Development and Leadership for Engineers"
+        },
+        "F1A5051": {
+            "en": "F1A5051 Philosophies in Architecture 7.5 credits"
+        },
+        "BB1030": {
+            "en": "BB1030 Microbiology"
+        },
+        "KD1230": {
+            "en": "KD1230 Organic Chemistry"
+        },
+        "KE1180": {
+            "en": "KE1180 Introduction to Chemical Engineering"
+        },
+        "BB1000": {
+            "en": "BB1000 Programming in Python"
+        },
+        "BB1230": {
+            "en": "BB1230 Biochemistry"
+        },
+        "CB1010": {
+            "en": "CB1010 Project in Sustainable Development"
+        },
+        "KD1270": {
+            "en": "KD1270 Organic Chemistry"
+        },
+        "KD1510": {
+            "en": "KD1510 Chemical Equilibrium"
+        },
+        "BB103X": {
+            "en": "BB103X Degree Project in Biotechnology"
+        },
+        "BB1070": {
+            "en": "BB1070 Genetics"
+        },
+        "KD1070": {
+            "en": "KD1070 Molecular Structure"
+        },
+        "KF2910": {
+            "en": "KF2910 Project Work in Fibre and Polymer Technology"
+        },
+        "FSK3912": {
+            "en": "FSK3912 Literature course in Applied Physics or Biological Physics"
+        },
+        "BB1050": {
+            "en": "BB1050 Biotechnology"
+        },
+        "KD1280": {
+            "en": "KD1280 Chemical Analysis"
+        },
+        "SF1550": {
+            "en": "SF1550 Numerical Methods"
+        },
+        "SG1115": {
+            "en": "SG1115 Particle Dynamics with project"
+        },
+        "KD1080": {
+            "en": "KD1080 Chemical Dynamics"
+        },
+        "KE1170": {
+            "en": "KE1170 Transport Phenomena"
+        },
+        "FAK3101": {
+            "en": "FAK3101 Perspectives on Science"
+        },
+        "SA120X": {
+            "en": "SA120X Degree project in Engineering Mathematics"
+        },
+        "FSG3114": {
+            "en": "FSG3114 Numerical Methods in Fluid Mechanics"
+        },
+        "KD200X": {
+            "en": "KD200X Degree Project in Chemistry"
+        },
+        "KA103X": {
+            "en": "KA103X Degree Project in Engineering Chemistry"
+        },
+        "KE1185": {
+            "en": "KE1185 Chemical Engineering Systems"
+        },
+        "BB2015": {
+            "en": "BB2015 Environmental Toxicology"
+        },
+        "BB2290": {
+            "en": "BB2290 Molecular Biomedicine"
+        },
+        "BB2425": {
+            "en": "BB2425 Glycobiotechnology"
+        },
+        "BB2446": {
+            "en": "BB2446 Immunology"
+        },
+        "BB2450": {
+            "en": "BB2450 The Cell Factory"
+        },
+        "BB2460": {
+            "en": "BB2460 Biocatalysis"
+        },
+        "BB2560": {
+            "en": "BB2560 Advanced Microbiology and Metagenomics"
+        },
+        "CB2080": {
+            "en": "CB2080 Proteomics"
+        },
+        "BB200X": {
+            "en": "BB200X Degree Project in Biotechnology"
+        },
+        "CK2010": {
+            "en": "CK2010 Carbon dioxide neutral energy and transport system"
+        },
+        "KE2045": {
+            "en": "KE2045 Chemical Reaction Engineering"
+        },
+        "KE2051": {
+            "en": "KE2051 Environmental Catalysis"
+        },
+        "KE2060": {
+            "en": "KE2060 Computational Project in Chemical Engineering"
+        },
+        "DD2420": {
+            "en": "DD2420 Probabilistic Graphical Models"
+        },
+        "DD2467": {
+            "en": "DD2467 Individual Project in Theoretical Computer Science"
+        },
+        "DD2411": {
+            "en": "DD2411 Research project in Robotics"
+        },
+        "SF2943": {
+            "en": "SF2943 Time Series Analysis"
+        },
+        "SF2930": {
+            "en": "SF2930 Regression Analysis"
+        },
+        "DD2437": {
+            "en": "DD2437 Artificial Neural Networks and Deep Architectures"
+        },
+        "DT2112": {
+            "en": "DT2112 Speech Technology"
+        },
+        "LS140N": {
+            "en": "LS140N Swedish A"
+        },
+        "DD2477": {
+            "en": "DD2477 Search Engines and Information Retrieval Systems"
+        },
+        "DD2401": {
+            "en": "DD2401 Neuroscience"
+        },
+        "DD2417": {
+            "en": "DD2417 Language Engineering"
+        },
+        "SF2568": {
+            "en": "SF2568 Parallel Computations for Large"
+        },
+        "DD2402": {
+            "en": "DD2402 Advanced Individual Course in Computational Biology"
+        },
+        "DT2119": {
+            "en": "DT2119 Speech and Speaker Recognition"
+        },
+        "DD2438": {
+            "en": "DD2438 Artificial Intelligence and Multi Agent Systems"
+        },
+        "DH2642": {
+            "en": "DH2642 Interaction Programming and the Dynamic Web"
+        },
+        "LS1415": {
+            "en": "LS1415 English for Academic Studies"
+        },
+        "EQ2341": {
+            "en": "EQ2341 Pattern Recognition and Machine Learning"
+        },
+        "DD1388": {
+            "en": "DD1388 Program System Construction Using C"
+        },
+        "FJQ3100": {
+            "en": "FJQ3100 Micro and Nanotechnology Journal Club I"
+        },
+        "BB2230": {
+            "en": "BB2230 Project Work in Biotechnology"
+        },
+        "CM2007": {
+            "en": "CM2007 Applied Machine Learning and Data Mining for Performance Analysis"
+        },
+        "MJ218X": {
+            "en": "MJ218X Degree Project in Energy Technology"
+        },
+        "MF130X": {
+            "en": "MF130X Degree Project in Machine Design"
+        },
+        "MF131X": {
+            "en": "MF131X Degree Project in Integrated Product Development"
+        },
+        "MF133X": {
+            "en": "MF133X Degree Project in Mechatronics"
+        },
+        "EF112X": {
+            "en": "EF112X Degree Project in Electrical Engineering"
+        },
+        "MJ146X": {
+            "en": "MJ146X Degree Project in Sustainable Energy Engineering"
+        },
+        "SD1120": {
+            "en": "SD1120 Noise and Vibration Control"
+        },
+        "SG1217": {
+            "en": "SG1217 Fluid Mechanics"
+        },
+        "SG1216": {
+            "en": "SG1216 Thermodynamics"
+        },
+        "SF1861": {
+            "en": "SF1861 Optimization"
+        },
+        "SE1025": {
+            "en": "SE1025 FEM for Engineering Applications"
+        },
+        "SA115X": {
+            "en": "SA115X Degree Project in Vehicle Engineering"
+        },
+        "SF1546": {
+            "en": "SF1546 Numerical Methods"
+        },
+        "SG1133": {
+            "en": "SG1133 Mechanics I"
+        },
+        "ME2073": {
+            "en": "ME2073 Business Development Lab of Entrepreneurship Engineers"
+        },
+        "ME2095": {
+            "en": "ME2095 e"
+        },
+        "ME2062": {
+            "en": "ME2062 Technology"
+        },
+        "EP2950": {
+            "en": "EP2950 Wireless Networks"
+        },
+        "EP2200": {
+            "en": "EP2200 Queuing Theory and Teletraffic Systems"
+        },
+        "ML1209": {
+            "en": "ML1209 Computer Based Product Development Tools"
+        },
+        "ME2078": {
+            "en": "ME2078 Summer Course"
+        },
+        "ML1101": {
+            "en": "ML1101 Mechanics"
+        },
+        "MJ249X": {
+            "en": "MJ249X Degree Project in Energy Systems Analysis"
+        },
+        "ML1309": {
+            "en": "ML1309 Programming and Numerical Tools"
+        },
+        "SF1904": {
+            "en": "SF1904 Markov Processes"
+        },
+        "ML1111": {
+            "en": "ML1111 Business Control with Applied Statistics"
+        },
+        "ML1502": {
+            "en": "ML1502 Sustainabillity for Industry"
+        },
+        "ME1003": {
+            "en": "ME1003 Industrial Management"
+        },
+        "SG1117": {
+            "en": "SG1117 Engineering Mechanics"
+        },
+        "MJ1112": {
+            "en": "MJ1112 Applied Thermodynamics"
+        },
+        "ML1505": {
+            "en": "ML1505 Industrial Systems III"
+        },
+        "MG1016": {
+            "en": "MG1016 Manufacturing Technology"
+        },
+        "ML150X": {
+            "en": "ML150X Degree Project in Industrial Technology and Sustainability"
+        },
+        "ML1507": {
+            "en": "ML1507 Communicating Engineer"
+        },
+        "MJ245X": {
+            "en": "MJ245X Degree Project in Energy and Climate Studies"
+        },
+        "ML1605": {
+            "en": "ML1605 Industrial Maintenance and Reliability for Sustainable Production"
+        },
+        "ML1610": {
+            "en": "ML1610 Work Organization"
+        },
+        "ML1613": {
+            "en": "ML1613 Maintenance Management"
+        },
+        "ML160X": {
+            "en": "ML160X Degree Projekt in Industrial Technology and Production Maintenance"
+        },
+        "ML1604": {
+            "en": "ML1604 Applied Statistics"
+        },
+        "DA235X": {
+            "en": "DA235X Degree Project in Computer Science and Engineering"
+        },
+        "ML231X": {
+            "en": "ML231X Degree Project in Sustainable Production Development"
+        },
+        "ML2304": {
+            "en": "ML2304 Sustainable Development in Industry"
+        },
+        "ML230X": {
+            "en": "ML230X Degree Project in Sustainable Production Development"
+        },
+        "ML2303": {
+            "en": "ML2303 Digitalisation for Sustainable Production"
+        },
+        "MF2112": {
+            "en": "MF2112 Advanced Product Design"
+        },
+        "MJ242X": {
+            "en": "MJ242X Degree Project in Sustainable Buildings"
+        },
+        "MF227X": {
+            "en": "MF227X Degree Project in Industrial Design Engineering"
+        },
+        "FCK3504": {
+            "en": "FCK3504 Electrode Kinetics"
+        },
+        "SF1674": {
+            "en": "SF1674 Multivariable Calculus"
+        },
+        "SG1112": {
+            "en": "SG1112 Mechanics I"
+        },
+        "SE1055": {
+            "en": "SE1055 Strength of Materials and Solid Mechanics"
+        },
+        "SF1922": {
+            "en": "SF1922 Probability Theory and Statistics"
+        },
+        "AH2026": {
+            "en": "AH2026 Railway Traffic"
+        },
+        "DD1327": {
+            "en": "DD1327 Fundamentals of Computer Science"
+        },
+        "SA114X": {
+            "en": "SA114X Degree Project in Engineering Physics"
+        },
+        "SF2521": {
+            "en": "SF2521 Numerical Solutions of Differential Equations"
+        },
+        "SF1678": {
+            "en": "SF1678 Groups and Rings"
+        },
+        "SF1677": {
+            "en": "SF1677 Foundations of Analysis"
+        },
+        "SF1691": {
+            "en": "SF1691 Complex Analysis"
+        },
+        "SF2701": {
+            "en": "SF2701 Financial Mathematics"
+        },
+        "FAK3153": {
+            "en": "FAK3153 Introduction to Gender Equality"
+        },
+        "FAG3164": {
+            "en": "FAG3164 Planning Theory"
+        },
+        "CK1060": {
+            "en": "CK1060 Material and Energy Balances"
+        },
+        "SF1679": {
+            "en": "SF1679 Discrete Mathematics"
+        },
+        "SF2525": {
+            "en": "SF2525 Computational Methods for Stochastic Differential Equations and Machine Learning"
+        },
+        "SF2822": {
+            "en": "SF2822 Applied Nonlinear Optimization"
+        },
+        "SF2526": {
+            "en": "SF2526 Numerical algorithms for data"
+        },
+        "AK2014": {
+            "en": "AK2014 Decision Theory"
+        },
+        "SF259X": {
+            "en": "SF259X Degree Project in Scientific Computing"
+        },
+        "ME2163": {
+            "en": "ME2163 Leading People and Organizations in Different Contexts"
+        },
+        "LS1419": {
+            "en": "LS1419 English for Employment"
+        },
+        "LS1423": {
+            "en": "LS1423 German A"
+        },
+        "LS1424": {
+            "en": "LS1424 German B"
+        },
+        "LS1465": {
+            "en": "LS1465 Rhetoric"
+        },
+        "LS2426": {
+            "en": "LS2426 German B"
+        },
+        "LS2439": {
+            "en": "LS2439 English for Writing and Presenting a Degree Project in Science and Engineering"
+        },
+        "LS2429": {
+            "en": "LS2429 Technical Communication in English"
+        },
+        "AK2203": {
+            "en": "AK2203 Media"
+        },
+        "LS1430": {
+            "en": "LS1430 French A"
+        },
+        "LS1433": {
+            "en": "LS1433 French A"
+        },
+        "LS1434": {
+            "en": "LS1434 French B"
+        },
+        "LS1440": {
+            "en": "LS1440 Spanish A"
+        },
+        "LS1443": {
+            "en": "LS1443 Spanish A"
+        },
+        "LS1448": {
+            "en": "LS1448 Spanish B"
+        },
+        "LS2449": {
+            "en": "LS2449 Spanish B"
+        },
+        "LS2436": {
+            "en": "LS2436 French B"
+        },
+        "AK1202": {
+            "en": "AK1202 History of Science and Technology"
+        },
+        "LS1451": {
+            "en": "LS1451 Italian A"
+        },
+        "AK2215": {
+            "en": "AK2215 Water Systems in Society"
+        },
+        "MJ2246": {
+            "en": "MJ2246 Rocket Propulsion"
+        },
+        "SD2432": {
+            "en": "SD2432 Lightweight Design"
+        },
+        "SD2805": {
+            "en": "SD2805 Flight Mechanics"
+        },
+        "SD2910": {
+            "en": "SD2910 Spacecraft Dynamics"
+        },
+        "SE2139": {
+            "en": "SE2139 Fracture Mechanics"
+        },
+        "SD2414": {
+            "en": "SD2414 Fibre Composites"
+        },
+        "SD2920": {
+            "en": "SD2920 System Integration for Space Technology"
+        },
+        "SG2215": {
+            "en": "SG2215 Compressible Flow"
+        },
+        "SD291X": {
+            "en": "SD291X Degree Project in Space Technology"
+        },
+        "DD2421": {
+            "en": "DD2421 Machine Learning"
+        },
+        "SF2971": {
+            "en": "SF2971 Martingales and Stochastic Integrals"
+        },
+        "AK221X": {
+            "en": "AK221X Degree Project in History of Technology"
+        },
+        "SF281X": {
+            "en": "SF281X Degree Project in Systems Engineering"
+        },
+        "SF2812": {
+            "en": "SF2812 Applied Linear Optimization"
+        },
+        "SF2842": {
+            "en": "SF2842 Geometric Control Theory"
+        },
+        "LS1481": {
+            "en": "LS1481 Japanese A"
+        },
+        "LS1483": {
+            "en": "LS1483 Japanese A"
+        },
+        "SD281X": {
+            "en": "SD281X Degree Project in Aeronautics"
+        },
+        "SD241X": {
+            "en": "SD241X Degree Project in Lightweight Structures"
+        },
+        "LS1493": {
+            "en": "LS1493 Chinese A"
+        },
+        "LS1486": {
+            "en": "LS1486 Japanese B"
+        },
+        "LS1491": {
+            "en": "LS1491 Chinese A"
+        },
+        "FLS3104": {
+            "en": "FLS3104 Visualize your Science"
+        },
+        "FLS3107": {
+            "en": "FLS3107 Communicating Research beyond the Academy"
+        },
+        "LS1704": {
+            "en": "LS1704 Working Life Project I"
+        },
+        "LS1600": {
+            "en": "LS1600 Intercultural Competence"
+        },
+        "FDS3103": {
+            "en": "FDS3103 Introduction to Scientific Writing"
+        },
+        "LS1709": {
+            "en": "LS1709 Working Life Project II"
+        },
+        "LS1502": {
+            "en": "LS1502 Swedish A"
+        },
+        "II1307": {
+            "en": "II1307 Active Career"
+        },
+        "LS1522": {
+            "en": "LS1522 Swedish B"
+        },
+        "LS2542": {
+            "en": "LS2542 Swedish B"
+        },
+        "LS1512": {
+            "en": "LS1512 Swedish A"
+        },
+        "LS1532": {
+            "en": "LS1532 Swedish B"
+        },
+        "IL1333": {
+            "en": "IL1333 Hardware Security"
+        },
+        "IE1206": {
+            "en": "IE1206 Embedded Electronics"
+        },
+        "SF1610": {
+            "en": "SF1610 Discrete Mathematics"
+        },
+        "II1305": {
+            "en": "II1305 Project in Information and Communication Technology"
+        },
+        "IS1200": {
+            "en": "IS1200 Computer Hardware Engineering"
+        },
+        "ID1019": {
+            "en": "ID1019 Programming II"
+        },
+        "AH2031": {
+            "en": "AH2031 Railway Signalling System"
+        },
+        "LS1562": {
+            "en": "LS1562 Swedish for Higher Education and Employment"
+        },
+        "SF1685": {
+            "en": "SF1685 Calculus in One Variable"
+        },
+        "AL227X": {
+            "en": "AL227X Degree Project in Industrial Ecology"
+        },
+        "IV1303": {
+            "en": "IV1303 Modern Software Development"
+        },
+        "AL250X": {
+            "en": "AL250X Degree Project in Strategies for Sustainable Development"
+        },
+        "IX1303": {
+            "en": "IX1303 Algebra and Geometry"
+        },
+        "IF1330": {
+            "en": "IF1330 Electrical Principles"
+        },
+        "IE1332": {
+            "en": "IE1332 Electronic Product Development"
+        },
+        "IV1350": {
+            "en": "IV1350 Object Oriented Design"
+        },
+        "HE1038": {
+            "en": "HE1038 Control Engineering"
+        },
+        "FCK3103": {
+            "en": "FCK3103 Wood Nanotechnology"
+        },
+        "IE1202": {
+            "en": "IE1202 Analog Electronics"
+        },
+        "IL142X": {
+            "en": "IL142X Degree Project in Electronics and Computer Engineering"
+        },
+        "IK1203": {
+            "en": "IK1203 Networks and Communication"
+        },
+        "II2302": {
+            "en": "II2302 Sensor Based Systems"
+        },
+        "ID1217": {
+            "en": "ID1217 Concurrent Programming"
+        },
+        "DD1318": {
+            "en": "DD1318 Programming and Scientific Computing"
+        },
+        "II1302": {
+            "en": "II1302 Projects and Project Methods"
+        },
+        "LS1420": {
+            "en": "LS1420 German A"
+        },
+        "ID2010": {
+            "en": "ID2010 Programming of Interactive Systems"
+        },
+        "DH2628": {
+            "en": "DH2628 Interaction Design Methods"
+        },
+        "HI1037": {
+            "en": "HI1037 Internet"
+        },
+        "FAK3012": {
+            "en": "FAK3012 Supplementary Course in Theory and Methodology of Science"
+        },
+        "IV1023": {
+            "en": "IV1023 Advanced Information Handling with XML"
+        },
+        "EA238X": {
+            "en": "EA238X Degree Project in Electrical Engineering"
+        },
+        "DT2300": {
+            "en": "DT2300 Sound in Interaction"
+        },
+        "ML1612": {
+            "en": "ML1612 Energy Technology in Industrial Production"
+        },
+        "IK255U": {
+            "en": "IK255U Ericsson Radio School"
+        },
+        "EQ2321": {
+            "en": "EQ2321 Speech and Audio Processing"
+        },
+        "HF0021": {
+            "en": "HF0021 Mathematics for Technical Preparatory Year I"
+        },
+        "HF0022": {
+            "en": "HF0022 Physics for Technical Preparatory Year I"
+        },
+        "HF0023": {
+            "en": "HF0023 Chemistry for Technical Preparatory Year I"
+        },
+        "EA250X": {
+            "en": "EA250X Degree Project in Electrical Engineering"
+        },
+        "IK254U": {
+            "en": "IK254U Ericsson Radio School"
+        },
+        "FEG3222": {
+            "en": "FEG3222 Electricity Market Analysis"
+        },
+        "HM105L": {
+            "en": "HM105L Structural Materials and Manufacturing"
+        },
+        "FCK3304": {
+            "en": "FCK3304 Organic and Biochemical Analytical Separations"
+        },
+        "HL101X": {
+            "en": "HL101X Degree Project in Medical Technology"
+        },
+        "FSH3773": {
+            "en": "FSH3773 Nuclear Power Safety"
+        },
+        "IA150X": {
+            "en": "IA150X Degree Project in Information and Communication Technology"
+        },
+        "FEO3250": {
+            "en": "FEO3250 Information Theory and Source Coding"
+        },
+        "HI1023": {
+            "en": "HI1023 Network Security"
+        },
+        "CM1001": {
+            "en": "CM1001 Applied Machine Learning and Data Mining"
+        },
+        "KE2355": {
+            "en": "KE2355 Resource recovery from waste"
+        },
+        "KE2185": {
+            "en": "KE2185 Separation Processes"
+        },
+        "FIK3510": {
+            "en": "FIK3510 Multiple Antenna Communications"
+        },
+        "FAG3104": {
+            "en": "FAG3104 Spatial Data Mining"
+        },
+        "KD2330": {
+            "en": "KD2330 Analytical Separations"
+        },
+        "KF2190": {
+            "en": "KF2190 Polymeric Materials"
+        },
+        "MF2065": {
+            "en": "MF2065 Innovations for the Emerging City"
+        },
+        "KF2450": {
+            "en": "KF2450 Fibre Technology"
+        },
+        "KD2155": {
+            "en": "KD2155 Solid State Chemistry"
+        },
+        "KF2480": {
+            "en": "KF2480 Chemistry of a Biorefinery"
+        },
+        "KD2340": {
+            "en": "KD2340 Molecular Thermodynamics"
+        },
+        "KF2495": {
+            "en": "KF2495 Polymer Composites"
+        },
+        "CB2070": {
+            "en": "CB2070 Molecular Quantum Mechanics"
+        },
+        "KD2370": {
+            "en": "KD2370 Photo"
+        },
+        "KD1000": {
+            "en": "KD1000 Chemical Principles for Sustainabillty"
+        },
+        "CK2000": {
+            "en": "CK2000 Food chemistry and technology"
+        },
+        "BB2400": {
+            "en": "BB2400 Bionanotechnology"
+        },
+        "SD2155": {
+            "en": "SD2155 Flow Acoustics"
+        },
+        "SD2150": {
+            "en": "SD2150 Experimental Structure Dynamics"
+        },
+        "SD2225": {
+            "en": "SD2225 Ground Vehicle Dynamics"
+        },
+        "SD2313": {
+            "en": "SD2313 Rail Vehicle Dynamics"
+        },
+        "SG2211": {
+            "en": "SG2211 Vehicle Aerodynamics"
+        },
+        "EJ2400": {
+            "en": "EJ2400 Electric Traction"
+        },
+        "LT1014": {
+            "en": "LT1014 Education"
+        },
+        "HI1038": {
+            "en": "HI1038 Computer Engineering and Internet Technology"
+        },
+        "AH2173": {
+            "en": "AH2173 Public Transport"
+        },
+        "LT1011": {
+            "en": "LT1011 Programme Integrating Course for Bridging"
+        },
+        "HE1028": {
+            "en": "HE1028 Computer Engineering"
+        },
+        "FAG3165": {
+            "en": "FAG3165 Self"
+        },
+        "LT1018": {
+            "en": "LT1018 Subject"
+        },
+        "LT1015": {
+            "en": "LT1015 Planning"
+        },
+        "HF1012": {
+            "en": "HF1012 Mathematical Statistics"
+        },
+        "SD231X": {
+            "en": "SD231X Degree Project in Rail Vehicle Engineering"
+        },
+        "SD2320": {
+            "en": "SD2320 Challenge"
+        },
+        "FDD3431": {
+            "en": "FDD3431 Graduate Course in Machine Learning"
+        },
+        "AH2301": {
+            "en": "AH2301 Transport Policy and Evaluation"
+        },
+        "AF2201": {
+            "en": "AF2201 Bridge Design"
+        },
+        "HF1201": {
+            "en": "HF1201 Sustainability and Ergonomics"
+        },
+        "FDD3424": {
+            "en": "FDD3424 Deep Learning in Data Science"
+        },
+        "HI1036": {
+            "en": "HI1036 Software Engineering"
+        },
+        "FKD3411": {
+            "en": "FKD3411 Frontiers in Enzyme Design II"
+        },
+        "HI111X": {
+            "en": "HI111X Degree Project in Computer Engineering"
+        },
+        "FKD3410": {
+            "en": "FKD3410 Current Trends in Enzyme Design"
+        },
+        "FKD3413": {
+            "en": "FKD3413 Frontiers in Enzyme Design IV"
+        },
+        "AI234U": {
+            "en": "AI234U Real Estate Valuation and Analysis"
+        },
+        "SF2730": {
+            "en": "SF2730 Topics in Mathematics V"
+        },
+        "SF2955": {
+            "en": "SF2955 Computer Intensive Methods in Mathematical Statistics"
+        },
+        "SF278X": {
+            "en": "SF278X Degree Project in Mathematics"
+        },
+        "SF2972": {
+            "en": "SF2972 Game Theory"
+        },
+        "SF2704": {
+            "en": "SF2704 Topics in Mathematics I"
+        },
+        "SF2720": {
+            "en": "SF2720 Chaotic Dynamical Systems"
+        },
+        "SF2722": {
+            "en": "SF2722 Differential Geometry"
+        },
+        "ME2093": {
+            "en": "ME2093 Technological and Industrial Change"
+        },
+        "ME205X": {
+            "en": "ME205X Degree Project in Entrepreneurship and Innovation Management"
+        },
+        "FSF3631": {
+            "en": "FSF3631 Classical Analysis and its applications in Mathematics"
+        },
+        "MJ233X": {
+            "en": "MJ233X Degree Project in Heat and Power Technology"
+        },
+        "ME2098": {
+            "en": "ME2098 Industrial Marketing and Networks"
+        },
+        "MG1010": {
+            "en": "MG1010 Introductory Welding Technology"
+        },
+        "ML1343": {
+            "en": "ML1343 Product Development"
+        },
+        "FKD3412": {
+            "en": "FKD3412 Frontiers in Enzyme Design III"
+        },
+        "SD2702": {
+            "en": "SD2702 Naval Design"
+        },
+        "SG2224": {
+            "en": "SG2224 Applied Computational Fluid Dynamics"
+        },
+        "SD2723": {
+            "en": "SD2723 Marine Hydromechanics"
+        },
+        "SE2123": {
+            "en": "SE2123 Testing Techniques in Solid Mechanics"
+        },
+        "FEK3250": {
+            "en": "FEK3250 Microsystem Technology for PhD Students"
+        },
+        "FCK3303": {
+            "en": "FCK3303 Organic and Biochemical Analytical Separations"
+        },
+        "SG213X": {
+            "en": "SG213X Degree Project in Fluid Mechanics"
+        },
+        "SD271X": {
+            "en": "SD271X Degree Project in Naval Architecture"
+        },
+        "SE2134": {
+            "en": "SE2134 Dynamic Problems in Solid Mechanics"
+        },
+        "FCK3501": {
+            "en": "FCK3501 Environmental Catalysis"
+        },
+        "SD2175": {
+            "en": "SD2175 Numerical Methods for Acoustics and Vibration"
+        },
+        "LT1056": {
+            "en": "LT1056 Leadership for Learning and Development"
+        },
+        "SE2121": {
+            "en": "SE2121 Introduction to Biomechanics"
+        },
+        "SG2222": {
+            "en": "SG2222 Micro Fluids"
+        },
+        "HM108L": {
+            "en": "HM108L Manufacturing Processes for Design"
+        },
+        "LT1057": {
+            "en": "LT1057 School Placement"
+        },
+        "SE202X": {
+            "en": "SE202X Degree Project in Solid Mechanics"
+        },
+        "DD2365": {
+            "en": "DD2365 Advanced Computation in Fluid Mechanics"
+        },
+        "DM2585": {
+            "en": "DM2585 Artificial Intelligence in Society"
+        },
+        "FSG3224": {
+            "en": "FSG3224 Applied Computational Fluid Dynamics"
+        },
+        "MJ2516": {
+            "en": "MJ2516 Sustainability perspectives for assessing and designing research"
+        },
+        "SD211X": {
+            "en": "SD211X Degree Project in Technical Acoustics"
+        },
+        "FAF3408": {
+            "en": "FAF3408 Window design"
+        },
+        "FCK3306": {
+            "en": "FCK3306 Research Frontiers in Organic Chemistry"
+        },
+        "SF290X": {
+            "en": "SF290X Degree Project in Mathematical Statistics"
+        },
+        "SF250X": {
+            "en": "SF250X Degree Project in Scientific Computing"
+        },
+        "DD1354": {
+            "en": "DD1354 Models and Simulation"
+        },
+        "DH1609": {
+            "en": "DH1609 Communication and information"
+        },
+        "FDD3001": {
+            "en": "FDD3001 Research"
+        },
+        "CK1020": {
+            "en": "CK1020 Fundamental chemistry"
+        },
+        "SF291X": {
+            "en": "SF291X Degree Project in Financial Mathematics"
+        },
+        "MJ2380": {
+            "en": "MJ2380 Introduction to Energy Systems Analysis and Applications"
+        },
+        "SF280X": {
+            "en": "SF280X Degree Project in Optimization and Systems Theory"
+        },
+        "DM2720": {
+            "en": "DM2720 Sustainable Information and Communication Technology"
+        },
+        "DM2500": {
+            "en": "DM2500 Telepresence Production"
+        },
+        "AK2036": {
+            "en": "AK2036 Theory and Methodology of Science with Applications"
+        },
+        "DA231X": {
+            "en": "DA231X Degree Project in Computer Science and Engineering"
+        },
+        "FDD3401": {
+            "en": "FDD3401 Neuroscience"
+        },
+        "DA233X": {
+            "en": "DA233X Degree Project in Computer Science and Engineering"
+        },
+        "DM1580": {
+            "en": "DM1580 Video Technology"
+        },
+        "ML2302": {
+            "en": "ML2302 Modelling"
+        },
+        "FCA3001": {
+            "en": "FCA3001 Literature course for doctoral students"
+        },
+        "DM2077": {
+            "en": "DM2077 Media Law"
+        },
+        "DT2212": {
+            "en": "DT2212 Music Acoustics"
+        },
+        "DH2400": {
+            "en": "DH2400 Physical Interaction Design and Realization"
+        },
+        "AK2038": {
+            "en": "AK2038 Theory and Methodology of Science with Applications"
+        },
+        "AK2030": {
+            "en": "AK2030 Theory and Methodology of Science"
+        },
+        "DA232X": {
+            "en": "DA232X Degree Project in Computer Science and Engineering"
+        },
+        "DH2670": {
+            "en": "DH2670 Haptics"
+        },
+        "DH2321": {
+            "en": "DH2321 Information Visualization"
+        },
+        "DH2320": {
+            "en": "DH2320 Introduction to Visualization and Computer Graphics"
+        },
+        "FCA3002": {
+            "en": "FCA3002 Literature course for doctoral students"
+        },
+        "DD2480": {
+            "en": "DD2480 Software Engineering Fundamentals"
+        },
+        "FCB3001": {
+            "en": "FCB3001 Higher Seminar in Industrial Biotechnology I"
+        },
+        "DH2323": {
+            "en": "DH2323 Computer Graphics and Interaction"
+        },
+        "DH2650": {
+            "en": "DH2650 Computer Game Design"
+        },
+        "FCB3002": {
+            "en": "FCB3002 Higher Seminar in Industrial Biotechnology II"
+        },
+        "MJ1111": {
+            "en": "MJ1111 Supplementary Course in Applied Thermodynamics"
+        },
+        "SG1109": {
+            "en": "SG1109 Mechanics"
+        },
+        "DD2258": {
+            "en": "DD2258 Introduction to Visualization"
+        },
+        "ME1306": {
+            "en": "ME1306 Industrial Project Management"
+        },
+        "ME1316": {
+            "en": "ME1316 Quantitative Business and Operations Analytics"
+        },
+        "MH1028": {
+            "en": "MH1028 Computational Thermodynamics for Materials Design"
+        },
+        "MH1024": {
+            "en": "MH1024 Fundamentals of Materials Science"
+        },
+        "MH1031": {
+            "en": "MH1031 Ceramic Materials"
+        },
+        "KF1050": {
+            "en": "KF1050 Polymeric Materials"
+        },
+        "KD1260": {
+            "en": "KD1260 Chemistry of Materials"
+        },
+        "SF1921": {
+            "en": "SF1921 Probability Theory and Statistics"
+        },
+        "FSD3120": {
+            "en": "FSD3120 Flow Acoustics I"
+        },
+        "MH1026": {
+            "en": "MH1026 Materials Physics"
+        },
+        "MH1029": {
+            "en": "MH1029 Sustainable Process Technology"
+        },
+        "FCB3003": {
+            "en": "FCB3003 Higher Seminar in Industrial Biotechnology III"
+        },
+        "FCK3317": {
+            "en": "FCK3317 Project course Chemical Science and Engineering"
+        },
+        "FEG3324": {
+            "en": "FEG3324 Applied Optimization and mathematical Decompositions"
+        },
+        "FDD3463": {
+            "en": "FDD3463 Software Safety and Security"
+        },
+        "SI2540": {
+            "en": "SI2540 Complex Systems"
+        },
+        "FAK3014": {
+            "en": "FAK3014 The Theory and Methodology of Science"
+        },
+        "FAK3024": {
+            "en": "FAK3024 Introduction to Theory of Science and Research Methodology"
+        },
+        "LS2600": {
+            "en": "LS2600 Global Competence"
+        },
+        "LS1484": {
+            "en": "LS1484 Japanese A"
+        },
+        "MH2042": {
+            "en": "MH2042 Simulation and Modeling Toolbox"
+        },
+        "FCB3004": {
+            "en": "FCB3004 Higher Seminar in Industrial Biotechnology IV"
+        },
+        "EN2911": {
+            "en": "EN2911 Individual Project in Electric Power and Energy systems I"
+        },
+        "FMJ3336": {
+            "en": "FMJ3336 Educational Aspects in Energy Technology"
+        },
+        "MH2000": {
+            "en": "MH2000 Experimental Methods"
+        },
+        "FDD3403": {
+            "en": "FDD3403 Advanced Topics in Brain Science"
+        },
+        "FCB3005": {
+            "en": "FCB3005 Higher Seminar in Industrial Biotechnology V"
+        },
+        "FAK3137": {
+            "en": "FAK3137 Theory of Science and Research Method"
+        },
+        "FAH3451": {
+            "en": "FAH3451 Applied Statistics"
+        },
+        "LS1494": {
+            "en": "LS1494 Chinese A"
+        },
+        "MH101X": {
+            "en": "MH101X Degree Project in Materials and Process Design"
+        },
+        "IA250X": {
+            "en": "IA250X Degree Project in Information and Communication Technology"
+        },
+        "CM1002": {
+            "en": "CM1002 Electrical Engineering"
+        },
+        "HI1035": {
+            "en": "HI1035 Mobile Communications and Wireless Networks"
+        },
+        "HE1043": {
+            "en": "HE1043 Electrical Engineering"
+        },
+        "HE1027": {
+            "en": "HE1027 Electrical Principals"
+        },
+        "HE111X": {
+            "en": "HE111X Degree Project in Electrical Engineering"
+        },
+        "SH204X": {
+            "en": "SH204X Degree Project in Physics"
+        },
+        "SK202X": {
+            "en": "SK202X Degree Project in Applied Physics"
+        },
+        "SI201X": {
+            "en": "SI201X Degree Project in Theoretical Physics"
+        },
+        "FCB3010": {
+            "en": "FCB3010 Current Trends in Omics I"
+        },
+        "EI1230": {
+            "en": "EI1230 Electric Power Engineering I"
+        },
+        "SH2006": {
+            "en": "SH2006 Project Work in Physics"
+        },
+        "SH2011": {
+            "en": "SH2011 Theoretical Nuclear Physics"
+        },
+        "SH2302": {
+            "en": "SH2302 Nuclear Physics"
+        },
+        "SK184N": {
+            "en": "SK184N Environmental Physics"
+        },
+        "SH1017": {
+            "en": "SH1017 Physics for Engineering Mathematics"
+        },
+        "SH2203": {
+            "en": "SH2203 Experimental Particle Physics"
+        },
+        "SH2314": {
+            "en": "SH2314 Medical Imaging"
+        },
+        "SH2381": {
+            "en": "SH2381 Quantum Information"
+        },
+        "SH2605": {
+            "en": "SH2605 Radiation Damage in Materials"
+        },
+        "SH2611": {
+            "en": "SH2611 Small Reactors"
+        },
+        "SH2613": {
+            "en": "SH2613 Generation IV Reactors"
+        },
+        "SH2612": {
+            "en": "SH2612 Nuclear Power Safety"
+        },
+        "SH2008": {
+            "en": "SH2008 Introductory Modern Physics"
+        },
+        "SH2702": {
+            "en": "SH2702 Nuclear Reactor Technology"
+        },
+        "SH2705": {
+            "en": "SH2705 Compact Reactor Simulator"
+        },
+        "SI1142": {
+            "en": "SI1142 Mathematical Methods in Physics"
+        },
+        "SI1155": {
+            "en": "SI1155 Theoretical Physics"
+        },
+        "SI1162": {
+            "en": "SI1162 Statistical Physics"
+        },
+        "SH1012": {
+            "en": "SH1012 Modern Physics"
+        },
+        "SI1200": {
+            "en": "SI1200 Mathematical Methods in Physics"
+        },
+        "SH2402": {
+            "en": "SH2402 Astrophysics"
+        },
+        "SK2403": {
+            "en": "SK2403 Applied Photonics"
+        },
+        "SI2800": {
+            "en": "SI2800 Project Work in Physics"
+        },
+        "SK2002": {
+            "en": "SK2002 Project Work in Applied Physics"
+        },
+        "SK2003": {
+            "en": "SK2003 Project Work in Applied Physics"
+        },
+        "SK2774": {
+            "en": "SK2774 Colloids and Colloidal Principles for Applications"
+        },
+        "SK1105": {
+            "en": "SK1105 Experimental Physics"
+        },
+        "SK1110": {
+            "en": "SK1110 Electromagnetism and Waves"
+        },
+        "SK1117": {
+            "en": "SK1117 Electromagnetism and Waves"
+        },
+        "SK1119": {
+            "en": "SK1119 Thermodynamics and Statistical Physics"
+        },
+        "SK1120": {
+            "en": "SK1120 Waves"
+        },
+        "SK1140": {
+            "en": "SK1140 Photography for Media"
+        },
+        "SK2340": {
+            "en": "SK2340 Fourier optics"
+        },
+        "SK2350": {
+            "en": "SK2350 Optical Measurement Techniques"
+        },
+        "SK2371": {
+            "en": "SK2371 Physics of Visual Impressions"
+        },
+        "SK2411": {
+            "en": "SK2411 Laser Physics"
+        },
+        "SK2536": {
+            "en": "SK2536 Laboratory techniques in Life Sciences"
+        },
+        "SK2001": {
+            "en": "SK2001 Project Work in Applied Physics"
+        },
+        "SK2535": {
+            "en": "SK2535 Cellular Biophysics"
+        },
+        "SK2773": {
+            "en": "SK2773 Nanothermodynamics"
+        },
+        "SK2758": {
+            "en": "SK2758 Solid State Physics"
+        },
+        "SK2814": {
+            "en": "SK2814 Microwave Engineering"
+        },
+        "SK2762": {
+            "en": "SK2762 Physics and Chemistry of Surfaces"
+        },
+        "AL2300": {
+            "en": "AL2300 Natural Resources Management Tools"
+        },
+        "FCB3011": {
+            "en": "FCB3011 Current Trends in Omics II"
+        },
+        "AF1765": {
+            "en": "AF1765 Mathematics"
+        },
+        "AF1759": {
+            "en": "AF1759 Surveying"
+        },
+        "SK2901": {
+            "en": "SK2901 Quantum Materials and Devices"
+        },
+        "AF1735": {
+            "en": "AF1735 Structural mechanics"
+        },
+        "HS1007": {
+            "en": "HS1007 Fluid Mechanics"
+        },
+        "AF1745": {
+            "en": "AF1745 Building Techniques"
+        },
+        "SK2900": {
+            "en": "SK2900 Quantum Photonics"
+        },
+        "HS1013": {
+            "en": "HS1013 Building Services and Energy"
+        },
+        "AF1743": {
+            "en": "AF1743 Form"
+        },
+        "AF1753": {
+            "en": "AF1753 Renovation"
+        },
+        "AF1719": {
+            "en": "AF1719 Building Services Engineering"
+        },
+        "AF1766": {
+            "en": "AF1766 Parametric Programming and Design"
+        },
+        "SK2904": {
+            "en": "SK2904 Quantum Materials"
+        },
+        "AH1908": {
+            "en": "AH1908 Installation"
+        },
+        "AF1747": {
+            "en": "AF1747 Structural Engineering"
+        },
+        "AF1729": {
+            "en": "AF1729 Structural Design of a House Project and"
+        },
+        "SK2760": {
+            "en": "SK2760 Chemistry of Nanomaterials"
+        },
+        "CM2014": {
+            "en": "CM2014 Simulation Methods in Medical Engineering"
+        },
+        "CM2016": {
+            "en": "CM2016 Project Carrier Course for Medical Engineers"
+        },
+        "CM2013": {
+            "en": "CM2013 Signal Processing and Data Analytics in Biomedical Engineering"
+        },
+        "CM2017": {
+            "en": "CM2017 Project Carrier Course for Medical Engineers"
+        },
+        "MH2601": {
+            "en": "MH2601 Combustion in Industrial Processes"
+        },
+        "A11P3B": {
+            "en": "A11P3B Architecture Project 1:3 Living, Working, Climates 16.0 credits"
+        },
+        "A21P2B": {
+            "en": "A21P2B Architecture Project 2:2 - Tectonics, Ornament, Transformation 5.0 credits"
+        },
+        "HS1733": {
+            "en": "HS1733 Concrete Structures"
+        },
+        "A31T2A": {
+            "en": "A31T2A Architecture Technology 3:2: Building, City, Process 3.0 credits"
+        },
+        "A31P2D": {
+            "en": "A31P2D Project 3:2 Urban Spaces and Landscapes 6.0 credits"
+        },
+        "A21P3C": {
+            "en": "A21P3C Architecture Project 2:3 Material, Space, Detail 12.0 credits"
+        },
+        "A11IYA": {
+            "en": "A11IYA Introduction to Architectural Practices 3.0 credits"
+        },
+        "A31H2A": {
+            "en": "A31H2A History and Theory of Architecture 3:2: Thesis, First Level 3.0 credits"
+        },
+        "A31EXA": {
+            "en": "A31EXA Degree Project in Architecture, First Cycle 15.0 credits"
+        },
+        "DM250X": {
+            "en": "DM250X Degree Project in Media Technology"
+        },
+        "FCB3012": {
+            "en": "FCB3012 Current Trends in Omics III"
+        },
+        "A52SEV": {
+            "en": "A52SEV Seminar Course, Advanced Level 5VT 3.0 credits"
+        },
+        "A42D14": {
+            "en": "A42D14 Studio Project, Advanced Level 12.0 credits"
+        },
+        "A52EXA": {
+            "en": "A52EXA Degree Project in Architecture, Second Cycle 30.0 credits"
+        },
+        "A42SEV": {
+            "en": "A42SEV Seminar Course, Advanced Level 4VT 3.0 credits"
+        },
+        "A42C14": {
+            "en": "A42C14 Studio Project, Advanced Level 12.0 credits"
+        },
+        "A42O2A": {
+            "en": "A42O2A Orientation; History, Theory and Technology of Architecture 4:2 3.0 credits"
+        },
+        "A52O2A": {
+            "en": "A52O2A Orientation; History, Theory and Technology of Architecture 5:2 3.0 credits"
+        },
+        "FMF3011": {
+            "en": "FMF3011 Literature Course in Mechatronics"
+        },
+        "AG1314": {
+            "en": "AG1314 GIS and Surveying"
+        },
+        "HM1016": {
+            "en": "HM1016 Manufacturing Process"
+        },
+        "AH1030": {
+            "en": "AH1030 Urban Development and Transport System"
+        },
+        "AI1802": {
+            "en": "AI1802 Project Management and BIM in the Built Environment"
+        },
+        "SF1676": {
+            "en": "SF1676 Differential Equations with Applications"
+        },
+        "AI1128": {
+            "en": "AI1128 Economics of the Built Environment"
+        },
+        "AF1002": {
+            "en": "AF1002 Buildings and Civil Engineering Structures"
+        },
+        "EI2460": {
+            "en": "EI2460 Batteries for Energy Storage in Electrical Systems"
+        },
+        "EI1222": {
+            "en": "EI1222 Electromagnetic Theory"
+        },
+        "MJ2381": {
+            "en": "MJ2381 Introduction to Energy Systems Analysis and Applications"
+        },
+        "MJ2416": {
+            "en": "MJ2416 Microeconomics and Energy Markets"
+        },
+        "FCB3013": {
+            "en": "FCB3013 Current Trends in Omics IV"
+        },
+        "DA234X": {
+            "en": "DA234X Degree Project in Computer Science and Engineering"
+        },
+        "MJ2418": {
+            "en": "MJ2418 Sustainable Energy and Environment"
+        },
+        "FCK3310": {
+            "en": "FCK3310 Research Integrity"
+        },
+        "MJ2419": {
+            "en": "MJ2419 Energy Storage Systems"
+        },
+        "MF1016": {
+            "en": "MF1016 Basic Electrical Engineering"
+        },
+        "MF1044": {
+            "en": "MF1044 Machine Components"
+        },
+        "SA119X": {
+            "en": "SA119X Degree Project in Materials Science and Engineering"
+        },
+        "MJ1104": {
+            "en": "MJ1104 Practical Introduction to Energy Technology"
+        },
+        "FDD3437": {
+            "en": "FDD3437 Artificial Neural Networks and deep Architectures"
+        },
+        "SF1633": {
+            "en": "SF1633 Differential Equations I"
+        },
+        "SG1130": {
+            "en": "SG1130 Mechanics I"
+        },
+        "DD1320": {
+            "en": "DD1320 Applied Computer Science"
+        },
+        "HU1903": {
+            "en": "HU1903 Management"
+        },
+        "FCB3021": {
+            "en": "FCB3021 Higher Seminar in Protein Science I"
+        },
+        "DD132U": {
+            "en": "DD132U Fundamentals of Computer Science"
+        },
+        "MF1064": {
+            "en": "MF1064 Modelling and Simulation in Design and Product Realization"
+        },
+        "MF1039": {
+            "en": "MF1039 Design and Product Realization"
+        },
+        "MF1062": {
+            "en": "MF1062 Design and Product Realization"
+        },
+        "FCB3022": {
+            "en": "FCB3022 Higher Seminar in Protein Science II"
+        },
+        "FCB3023": {
+            "en": "FCB3023 Higher Seminar in Protein Science III"
+        },
+        "SF1523": {
+            "en": "SF1523 Analytical and Numerical Methods for Differential Equations"
+        },
+        "MF2085": {
+            "en": "MF2085 Innovation"
+        },
+        "MF223X": {
+            "en": "MF223X Degree Project in Machine Design"
+        },
+        "MF2022": {
+            "en": "MF2022 Eco Design Project"
+        },
+        "MH2300": {
+            "en": "MH2300 Functional Materials"
+        },
+        "AE1502": {
+            "en": "AE1502 Environmental Systems Analysis for Energy and Environment"
+        },
+        "MJ1145": {
+            "en": "MJ1145 Energy Systems"
+        },
+        "MG212X": {
+            "en": "MG212X Degree Project in Production Engineering"
+        },
+        "MG213X": {
+            "en": "MG213X Degree Project in Production Engineering and Management"
+        },
+        "EI1120": {
+            "en": "EI1120 Electrical Circuit Analysis for the Environment and Energy Program"
+        },
+        "KE1060": {
+            "en": "KE1060 Material and Energy Balances"
+        },
+        "AI2144": {
+            "en": "AI2144 Corporate Finance"
+        },
+        "AI2154": {
+            "en": "AI2154 Advanced Valuation and Analysis"
+        },
+        "AI2156": {
+            "en": "AI2156 Contract Theory with Application to Property Management"
+        },
+        "AI2511": {
+            "en": "AI2511 Implementation of Development Plans"
+        },
+        "AI2809": {
+            "en": "AI2809 Construction Management"
+        },
+        "AE2612": {
+            "en": "AE2612 Hydraulic Engineering"
+        },
+        "AE2610": {
+            "en": "AE2610 Applied Hydrology"
+        },
+        "MJ248X": {
+            "en": "MJ248X Degree Project in Energy Systems Analysis"
+        },
+        "AG2422": {
+            "en": "AG2422 Spatial Planning with GIS"
+        },
+        "FCB3024": {
+            "en": "FCB3024 Higher Seminar in Protein Science IV"
+        },
+        "AF2602": {
+            "en": "AF2602 Rock Mechanics"
+        },
+        "AI2805": {
+            "en": "AI2805 Building Informatics and Logistics"
+        },
+        "AF2302": {
+            "en": "AF2302 Design of Timber"
+        },
+        "AF2401": {
+            "en": "AF2401 Building Technology"
+        },
+        "AF2903": {
+            "en": "AF2903 Road Construction and Maintenance"
+        },
+        "AF2102": {
+            "en": "AF2102 Concrete Structures"
+        },
+        "AF2024": {
+            "en": "AF2024 Finite Element Methods in Analysis and Design"
+        },
+        "AF2511": {
+            "en": "AF2511 Building Service Technologies and Systems"
+        },
+        "AF2213": {
+            "en": "AF2213 Steel and Timber Structures"
+        },
+        "AI2517": {
+            "en": "AI2517 Land Development"
+        },
+        "AI206X": {
+            "en": "AI206X Degree Project in Building and Real Estate Economics"
+        },
+        "AE2507": {
+            "en": "AE2507 Strategic Environmental Assessment"
+        },
+        "AG2126": {
+            "en": "AG2126 Theory of Science and Research Methodology for Planning and Design"
+        },
+        "AI252X": {
+            "en": "AI252X Degree Project in Real Estate Development and Land Law"
+        },
+        "AD2865": {
+            "en": "AD2865 Introduction to Urban Economics"
+        },
+        "AI281X": {
+            "en": "AI281X Degree Project in Architectural Design and Construction Project Management"
+        },
+        "AG2127": {
+            "en": "AG2127 Planning Theory and Urban Governance"
+        },
+        "FCB3031": {
+            "en": "FCB3031 Protein Engineering Forum I"
+        },
+        "AF270X": {
+            "en": "AF270X Degree Project in Architectural Lighting Design"
+        },
+        "HS2009": {
+            "en": "HS2009 Light and Space"
+        },
+        "MG1012": {
+            "en": "MG1012 Non"
+        },
+        "AG212X": {
+            "en": "AG212X Degree Project in Urban and Regional Planning"
+        },
+        "AF283X": {
+            "en": "AF283X Degree Project in Hydraulic Engineering"
+        },
+        "AE2104": {
+            "en": "AE2104 Environmental Measuring and Monitoring"
+        },
+        "AE2304": {
+            "en": "AE2304 Water and Wastewater Handling"
+        },
+        "AG2141": {
+            "en": "AG2141 Urban Infrastructure"
+        },
+        "AG2148": {
+            "en": "AG2148 Governance of Land and Water"
+        },
+        "AL230X": {
+            "en": "AL230X Degree Project in Environmental Engineering and Sustainable Infrastructure"
+        },
+        "AG2413": {
+            "en": "AG2413 Digital Image Processing and Applications"
+        },
+        "AG2414": {
+            "en": "AG2414 Spatial Analysis"
+        },
+        "AG2425": {
+            "en": "AG2425 Spatial Databases"
+        },
+        "AG293X": {
+            "en": "AG293X Degree Project in Geodesy"
+        },
+        "AF1742": {
+            "en": "AF1742 Business Economics and Quality Systems"
+        },
+        "AF1754": {
+            "en": "AF1754 Building Information Modeling in the Production"
+        },
+        "AH2303": {
+            "en": "AH2303 Transport and Sustainable Development"
+        },
+        "AH2923": {
+            "en": "AH2923 Global Navigation Satellite Systems"
+        },
+        "AH203X": {
+            "en": "AH203X Degree Project in Transport Science"
+        },
+        "AH204X": {
+            "en": "AH204X Degree Project in Railway and Rail Traffic"
+        },
+        "FCB3032": {
+            "en": "FCB3032 Protein Engineering Forum II"
+        },
+        "AH222X": {
+            "en": "AH222X Degree Project in Systems Analysis and Economics"
+        },
+        "AD2862": {
+            "en": "AD2862 Sustainable Urban Planning and Design Studio"
+        },
+        "LS1000": {
+            "en": "LS1000 Learn to learn languages"
+        },
+        "FAE3012": {
+            "en": "FAE3012 Presentation of Research at International Conferences"
+        },
+        "MG2020": {
+            "en": "MG2020 Modularisation of Products"
+        },
+        "AG243X": {
+            "en": "AG243X Degree Project in Geoinformatics"
+        },
+        "AK2040": {
+            "en": "AK2040 Theory and Methodology of Science with Applications"
+        },
+        "MJ2510": {
+            "en": "MJ2510 Methods of research in sustainable energy"
+        },
+        "MJ2511": {
+            "en": "MJ2511 Energy Management"
+        },
+        "FCB3033": {
+            "en": "FCB3033 Protein Engineering Forum III"
+        },
+        "AF1721": {
+            "en": "AF1721 Environmental Science and Work Science"
+        },
+        "MJ2518": {
+            "en": "MJ2518 Energy Demand and Supply Distribution Systems in the Built Environment"
+        },
+        "MJ2519": {
+            "en": "MJ2519 Energy Supply Systems for Buildings"
+        },
+        "MJ2512": {
+            "en": "MJ2512 Transformation in Energy Policy and Climate Agenda"
+        },
+        "MJ2514": {
+            "en": "MJ2514 District heating and cooling"
+        },
+        "MJ2515": {
+            "en": "MJ2515 Numerical Heat Transfer in Energy Technology"
+        },
+        "ML170U": {
+            "en": "ML170U Sustainable Leadership with Lean"
+        },
+        "FCB3034": {
+            "en": "FCB3034 Protein Engineering Forum IV"
+        },
+        "AI1516": {
+            "en": "AI1516 Law of Real Estate for Property Development and Agency"
+        },
+        "AI1178": {
+            "en": "AI1178 Applied Mathematics and Statistics for Economists"
+        },
+        "AI1523": {
+            "en": "AI1523 Compulsory Purchase and Compensation Law"
+        },
+        "AI1524": {
+            "en": "AI1524 Land Development"
+        },
+        "AI1172": {
+            "en": "AI1172 Real Estate Agency in Legislation"
+        },
+        "AI1173": {
+            "en": "AI1173 Real Estate Agency in Practice"
+        },
+        "AL1300": {
+            "en": "AL1300 Earth Science and Land Use in Practice"
+        },
+        "AF1739": {
+            "en": "AF1739 Surveying"
+        },
+        "AI106X": {
+            "en": "AI106X Degree Project in Real Estate Agency"
+        },
+        "AF1007": {
+            "en": "AF1007 Building Technology"
+        },
+        "AI161X": {
+            "en": "AI161X Degree Project in Property Development"
+        },
+        "AG1421": {
+            "en": "AG1421 Real Estate Information Technology"
+        },
+        "AI1147": {
+            "en": "AI1147 Real Estate Valuation"
+        },
+        "AI1142": {
+            "en": "AI1142 Financial Reporting and Analysis"
+        },
+        "HL2027": {
+            "en": "HL2027 3D Image Reconstruction and Analysis in Medicine 9.0 credits"
+        },
+        "MF2098": {
+            "en": "MF2098 Design Methodology in Urban Mobility"
+        },
+        "HL207X": {
+            "en": "HL207X Degree Project in Technology and Health"
+        },
+        "CM2010": {
+            "en": "CM2010 Sociocultural Perspectives to Innovative Technologies"
+        },
+        "CM2011": {
+            "en": "CM2011 Applied Machine Learning and Artificial Intelligence"
+        },
+        "AL2134": {
+            "en": "AL2134 Environmental Modelling"
+        },
+        "AG1152": {
+            "en": "AG1152 Safety in the making"
+        },
+        "AL2130": {
+            "en": "AL2130 Waste Management"
+        },
+        "AL2156": {
+            "en": "AL2156 Applied Ecology"
+        },
+        "AL2160": {
+            "en": "AL2160 Environmental Management"
+        },
+        "AL2143": {
+            "en": "AL2143 Cleaner Production and Industrial Environmental Technology"
+        },
+        "CM1005": {
+            "en": "CM1005 External Financial Accounting"
+        },
+        "FCB3041": {
+            "en": "FCB3041 Higher Seminar in Metabolic Engineering I"
+        },
+        "FCB3042": {
+            "en": "FCB3042 Higher Seminar in Metabolic Engineering II"
+        },
+        "LD1000": {
+            "en": "LD1000 Learn to learn online"
+        },
+        "AG1323": {
+            "en": "AG1323 GIS for the Built Environment"
+        },
+        "HH1802": {
+            "en": "HH1802 Business Finance and Organizational Structures"
+        },
+        "HU1801": {
+            "en": "HU1801 Industrial Marketing"
+        },
+        "AI1134": {
+            "en": "AI1134 Capital Markets and Financial Instruments"
+        },
+        "KE200X": {
+            "en": "KE200X Degree Project in Chemical Engineering"
+        },
+        "AI1509": {
+            "en": "AI1509 Law of Real Estate"
+        },
+        "AI1177": {
+            "en": "AI1177 Financial Econometrics"
+        },
+        "AI1141": {
+            "en": "AI1141 Credit Risk Assessment"
+        },
+        "AF1740": {
+            "en": "AF1740 Economics"
+        },
+        "AI1125": {
+            "en": "AI1125 Organization and Management"
+        },
+        "AI107X": {
+            "en": "AI107X Degree Project in Real Estate Economics"
+        },
+        "AI105X": {
+            "en": "AI105X Degree Project in Finance"
+        },
+        "MF2011": {
+            "en": "MF2011 Systems Engineering"
+        },
+        "FCK3109": {
+            "en": "FCK3109 Electron Microscopy Analysis of Fibre and Polymer"
+        },
+        "MF2024": {
+            "en": "MF2024 Robust and Probabilistic Design"
+        },
+        "MG2135": {
+            "en": "MG2135 PLM"
+        },
+        "FCB3043": {
+            "en": "FCB3043 Higher Seminar in Metabolic Engineering III"
+        },
+        "MG2100": {
+            "en": "MG2100 Scientific Methodology for Production Engineering"
+        },
+        "MG2010": {
+            "en": "MG2010 Modern Industrial Metrology"
+        },
+        "FCB3044": {
+            "en": "FCB3044 Higher Seminar in Metabolic Engineering IV"
+        },
+        "LD1002": {
+            "en": "LD1002 Environmental Psychology and behavior analysis"
+        },
+        "MG2036": {
+            "en": "MG2036 Computer Aided Manufacturing"
+        },
+        "EI2510": {
+            "en": "EI2510 Project in Electromagnetic Engineering"
+        },
+        "AH292X": {
+            "en": "AH292X Degree Project in Geodesy"
+        },
+        "MH2600": {
+            "en": "MH2600 Combustion in industrial Processes"
+        },
+        "MJ2438": {
+            "en": "MJ2438 Modeling of Energy Systems"
+        },
+        "LS142V": {
+            "en": "LS142V Professional Rhetoric for Engineers"
+        },
+        "AK2202": {
+            "en": "AK2202 Gender and Technology"
+        },
+        "AF1601": {
+            "en": "AF1601 Soil Mechanics and Foundation Engineering"
+        },
+        "AK1204": {
+            "en": "AK1204 Environmental History"
+        },
+        "HT100X": {
+            "en": "HT100X Degree Project in Computer Engineering and Economics"
+        },
+        "MG110X": {
+            "en": "MG110X Degree Project in Production Engineering"
+        },
+        "MH1023": {
+            "en": "MH1023 Practical Gender Equality and Diversity Work in Scientific"
+        },
+        "MF224X": {
+            "en": "MF224X Degree Project in Mechatronics"
+        },
+        "MF230X": {
+            "en": "MF230X Degree Project in Innovation Management and Product Development"
+        },
+        "AL126X": {
+            "en": "AL126X Degree Project in Technology and Sustainable Development"
+        },
+        "DD1420": {
+            "en": "DD1420 Foundations of Machine Learning"
+        },
+        "SA118X": {
+            "en": "SA118X Degree Project in Mechanical Engineering"
+        },
+        "FMJ3384": {
+            "en": "FMJ3384 Environomical Pathways"
+        },
+        "FLH3000": {
+            "en": "FLH3000 Basic Communication and Teaching"
+        },
+        "KE1090": {
+            "en": "KE1090 Transport Processes in Chemical Systems"
+        },
+        "MG2202": {
+            "en": "MG2202 Quality Control"
+        },
+        "F1A5038": {
+            "en": "F1A5038 Foundation Course in Architectural Technology 7.5 credits"
+        },
+        "MH2048": {
+            "en": "MH2048 Advanced Course in Materials Design"
+        },
+        "LS142U": {
+            "en": "LS142U German A"
+        },
+        "AL2190": {
+            "en": "AL2190 Ecological Economics"
+        },
+        "MH201X": {
+            "en": "MH201X Degree Project in Materials and Process Design"
+        },
+        "MH202X": {
+            "en": "MH202X Degree Project in Materials and Process Design"
+        },
+        "KE2910": {
+            "en": "KE2910 Project in Chemical Engineering"
+        },
+        "UCK300": {
+            "en": "UCK300 Educational leadership"
+        },
+        "CH2012": {
+            "en": "CH2012 Evaluation and Measures of the Acoustic Work Environment and Vibrations"
+        },
+        "CH2001": {
+            "en": "CH2001 Leadership and sustainable work"
+        },
+        "DD238U": {
+            "en": "DD238U Computer Security"
+        },
+        "HN205X": {
+            "en": "HN205X Degree Project in Technology"
+        },
+        "SK2320": {
+            "en": "SK2320 Problem Solving in Optics"
+        },
+        "HN2005": {
+            "en": "HN2005 Project Work"
+        },
+        "HN2015": {
+            "en": "HN2015 Occupational Safety and Health Management and Change"
+        },
+        "SF2717": {
+            "en": "SF2717 Mathematics"
+        },
+        "HN2021": {
+            "en": "HN2021 Theory and Methodology of Science with Applications"
+        },
+        "UMK704": {
+            "en": "UMK704 School Placement III with Subject Didactics"
+        },
+        "HN2018": {
+            "en": "HN2018 Ergonomics for the Prevention of Musculoskeletal Disorders"
+        },
+        "FMG3210": {
+            "en": "FMG3210 Circular Economy and Industrial Systems"
+        },
+        "LT200X": {
+            "en": "LT200X Degree Project in Technology and Learning"
+        },
+        "HN206X": {
+            "en": "HN206X Degree Project in Technology"
+        },
+        "MF2090": {
+            "en": "MF2090 Internal Combustion Engines"
+        },
+        "FCK3110": {
+            "en": "FCK3110 Transport Properties of Polymers"
+        },
+        "SF2718": {
+            "en": "SF2718 Mathematics for Chemists"
+        },
+        "DD1380": {
+            "en": "DD1380 Java Programming for Python Programmers"
+        },
+        "HL1204": {
+            "en": "HL1204 Thermodynamics"
+        },
+        "MG1000": {
+            "en": "MG1000 Mechanical Workshop Practice"
+        },
+        "LT1035": {
+            "en": "LT1035 VFU"
+        },
+        "UMK213": {
+            "en": "UMK213 Mathematics Education and School Placement for Upper Secondary"
+        },
+        "HL103X": {
+            "en": "HL103X Degree Project in Medical Engineering"
+        },
+        "LH231V": {
+            "en": "LH231V Teaching and Learning in Higher Education"
+        },
+        "SD2413": {
+            "en": "SD2413 Fibre Composites"
+        },
+        "AK1214": {
+            "en": "AK1214 Environment and Society in a Changing Arctic"
+        },
+        "DD2363": {
+            "en": "DD2363 Methods in Scientific Computing"
+        },
+        "FKF3440": {
+            "en": "FKF3440 Advanced Experimental Techniques"
+        },
+        "ME2084": {
+            "en": "ME2084 Organizational Analysis and Professional Roles"
+        },
+        "DIK200": {
+            "en": "DIK200 Learning as Professional Assignments"
+        },
+        "SD1105": {
+            "en": "SD1105 Matlab"
+        },
+        "FKF3450": {
+            "en": "FKF3450 Advanced Experimental Techniques"
+        },
+        "DD2352": {
+            "en": "DD2352 Algorithms and Complexity"
+        },
+        "LH221V": {
+            "en": "LH221V Examinership"
+        },
+        "DD1396": {
+            "en": "DD1396 Parallel and Concurrent Programming in Introduction to Computer Science"
+        },
+        "AF213X": {
+            "en": "AF213X Degree Project in Concrete Structures"
+        },
+        "EI2430": {
+            "en": "EI2430 High"
+        },
+        "EI2452": {
+            "en": "EI2452 Reliability Evaluation of Electrical Power Systems"
+        },
+        "EK2350": {
+            "en": "EK2350 Microsystem Technology"
+        },
+        "AF259X": {
+            "en": "AF259X Degree Project in Fluid and Climate Technology"
+        },
+        "AF233X": {
+            "en": "AF233X Degree Project in Building Materials"
+        },
+        "MG115X": {
+            "en": "MG115X Degree Project in Product Realization and Industrial Engineering"
+        },
+        "AF253X": {
+            "en": "AF253X Degree Project in Building Services and Energy Systems"
+        },
+        "LH216V": {
+            "en": "LH216V Develop the Learning by Using Grading Criteria"
+        },
+        "FIL3030": {
+            "en": "FIL3030 Hardware Security"
+        },
+        "AH101X": {
+            "en": "AH101X Degree Project in Civil Engineering"
+        },
+        "AG181X": {
+            "en": "AG181X Degree Project in Built Environment"
+        },
+        "AL130X": {
+            "en": "AL130X Degree Project in Built Environment"
+        },
+        "MF1025": {
+            "en": "MF1025 Model Based Product Development II"
+        },
+        "SH1003": {
+            "en": "SH1003 Introductory Astronomy for Engineers"
+        },
+        "ML115U": {
+            "en": "ML115U Lean"
+        },
+        "LH207V": {
+            "en": "LH207V Doctoral Supervision"
+        },
+        "FIL3200": {
+            "en": "FIL3200 Design of Fault"
+        },
+        "FAK3142": {
+            "en": "FAK3142 Advanced Course in Research Ethics"
+        },
+        "DM1999": {
+            "en": "DM1999 Engineering Training Course"
+        },
+        "AF223X": {
+            "en": "AF223X Degree Project in Structural Engineering and Bridges"
+        },
+        "ME210X": {
+            "en": "ME210X Degree Project in Industrial Economics and Management"
+        },
+        "AF243X": {
+            "en": "AF243X Degree Project in Building Technology"
+        },
+        "AF263X": {
+            "en": "AF263X Degree Project in Soil and Rock Mechanics"
+        },
+        "AF293X": {
+            "en": "AF293X Degree Project in Highway Engineering"
+        },
+        "AG2804": {
+            "en": "AG2804 Transport"
+        },
+        "MJ2645": {
+            "en": "MJ2645 Project in Industrial Ecology"
+        },
+        "AL1357": {
+            "en": "AL1357 Environmental Economics"
+        },
+        "FSG3119": {
+            "en": "FSG3119 Integrated Course in Engineering Mechanics"
+        },
+        "AG1103": {
+            "en": "AG1103 Urban and Traffic Planning"
+        },
+        "AG111X": {
+            "en": "AG111X Degree Project in the Built Environment"
+        },
+        "AG1138": {
+            "en": "AG1138 Actors and processes in planning"
+        },
+        "AH1022": {
+            "en": "AH1022 Traffic and Road Engineering"
+        },
+        "AL127X": {
+            "en": "AL127X Degree Project in Energy and Environment"
+        },
+        "AK1205": {
+            "en": "AK1205 Science Goes Fiction"
+        },
+        "KD1290": {
+            "en": "KD1290 Chemical Analysis"
+        },
+        "HL205X": {
+            "en": "HL205X Degree Project in Medical Engineering"
+        },
+        "FDS3102": {
+            "en": "FDS3102 Writing Scientific Articles"
+        },
+        "EH1010": {
+            "en": "EH1010 Project Course in Electrical Engineering"
+        },
+        "IL2240": {
+            "en": "IL2240 Semiconductor Devices for Integrated Circuits"
+        },
+        "FSE3141": {
+            "en": "FSE3141 Failure of Materials"
+        },
+        "KF2920": {
+            "en": "KF2920 Projekt Work in Fibre and Polymer Technology"
+        },
+        "DH1623": {
+            "en": "DH1623 Human"
+        },
+        "ME1317": {
+            "en": "ME1317 Leading People and Work"
+        },
+        "HE1033": {
+            "en": "HE1033 Communication Networks"
+        },
+        "HL1014": {
+            "en": "HL1014 Clinical Engineering"
+        },
+        "CM1006": {
+            "en": "CM1006 Clinical Chemistry and Microbiology"
+        },
+        "HL2015": {
+            "en": "HL2015 Quality and Regulatory Aspects on Medical Devices"
+        },
+        "EP1100": {
+            "en": "EP1100 Data Communications and Computer Networks"
+        },
+        "HL1016": {
+            "en": "HL1016 Medical Measurement and Monitoring"
+        },
+        "HE1041": {
+            "en": "HE1041 Microcomputer Engineering"
+        },
+        "DD1360": {
+            "en": "DD1360 Programming Paradigms"
+        },
+        "AI2155": {
+            "en": "AI2155 Urban Economics and Cost Benefit Analysis"
+        },
+        "AK222X": {
+            "en": "AK222X Degree Project in History of Science"
+        },
+        "AI2508": {
+            "en": "AI2508 Compulsory Purchase and Compensation"
+        },
+        "MG1028": {
+            "en": "MG1028 Introductory"
+        },
+        "FMF3040": {
+            "en": "FMF3040 Trustworthy Cyber"
+        },
+        "AK121X": {
+            "en": "AK121X Degree Project in History"
+        },
+        "AK123X": {
+            "en": "AK123X Degree Project in History of Science"
+        },
+        "FCB3051": {
+            "en": "FCB3051 Higher Seminar in Glycoscience I"
+        },
+        "FSE3161": {
+            "en": "FSE3161 Testing Techniques in Solid Mechanics"
+        },
+        "FSE3421": {
+            "en": "FSE3421 Mechanical Behaviour of Materials"
+        },
+        "SF100X": {
+            "en": "SF100X Degree Project in Applied Mathematics and Industrial Economics"
+        },
+        "AE1501": {
+            "en": "AE1501 Environmental System Analysis for Built Environment"
+        },
+        "AL1304": {
+            "en": "AL1304 Water Supply and Wastewater Treatment"
+        },
+        "MJ148X": {
+            "en": "MJ148X Degree Project in Energy Systems"
+        },
+        "MF2079": {
+            "en": "MF2079 Mechatronics"
+        },
+        "MF2103": {
+            "en": "MF2103 Embedded Systems for Mechatronics"
+        },
+        "EG2205": {
+            "en": "EG2205 Power Generation Operation and Planning"
+        },
+        "ME2017": {
+            "en": "ME2017 Project Management"
+        },
+        "FLF3014": {
+            "en": "FLF3014 Bridging Science and Societal Needs through Design Thinking"
+        },
+        "DA151X": {
+            "en": "DA151X Degree Project in Computer Science and Industrial Management"
+        },
+        "FSE3411": {
+            "en": "FSE3411 Study of Literature"
+        },
+        "ME2085": {
+            "en": "ME2085 Transformation in Energy Systems and Industries"
+        },
+        "ME2324": {
+            "en": "ME2324 Strategic Management in Technology Shifts"
+        },
+        "FEL3202": {
+            "en": "FEL3202 Data"
+        },
+        "MG2044": {
+            "en": "MG2044 Additive Manufacturing"
+        },
+        "MG2033": {
+            "en": "MG2033 Quality Control"
+        },
+        "MG1007": {
+            "en": "MG1007 Contemporary Maintenance Techniques"
+        },
+        "MG2040": {
+            "en": "MG2040 Assembly Technology"
+        },
+        "FCB3052": {
+            "en": "FCB3052 Higher Seminar in Glycoscience II"
+        },
+        "AH2401": {
+            "en": "AH2401 Risk in Technical Systems"
+        },
+        "FEL3201": {
+            "en": "FEL3201 Data"
+        },
+        "ML1205": {
+            "en": "ML1205 Production Driven Product Design"
+        },
+        "DD2448": {
+            "en": "DD2448 Foundations of Cryptography"
+        },
+        "DD2459": {
+            "en": "DD2459 Software Reliability"
+        },
+        "DD2460": {
+            "en": "DD2460 Software Safety and Security"
+        },
+        "ML1108": {
+            "en": "ML1108 Decision Models and Impact Assessment"
+        },
+        "DD2482": {
+            "en": "DD2482 Automated Software Testing and DevOps"
+        },
+        "DD2520": {
+            "en": "DD2520 Applied Cryptography"
+        },
+        "EK2210": {
+            "en": "EK2210 Project in Microsystem Technology"
+        },
+        "FAK3133": {
+            "en": "FAK3133 Technology and Ethics"
+        },
+        "DD2525": {
+            "en": "DD2525 Language"
+        },
+        "DD2481": {
+            "en": "DD2481 Principles of Programming Languages"
+        },
+        "FCB3053": {
+            "en": "FCB3053 Higher Seminar in Glycoscience III"
+        },
+        "FDT3313": {
+            "en": "FDT3313 Speech and Hearing Functions"
+        },
+        "ME2054": {
+            "en": "ME2054 Purchasing"
+        },
+        "FDT3315": {
+            "en": "FDT3315 Speech Communication Theory"
+        },
+        "MJ2141": {
+            "en": "MJ2141 Energy Systems"
+        },
+        "ME2087": {
+            "en": "ME2087 Energy Business"
+        },
+        "ME2817": {
+            "en": "ME2817 Growth"
+        },
+        "ME2088": {
+            "en": "ME2088 Brand Portfolio Management"
+        },
+        "KH0024": {
+            "en": "KH0024 Mathematics for Technical Preparatory Year II"
+        },
+        "KH0025": {
+            "en": "KH0025 Physics for Technical Preparatory Year II"
+        },
+        "FCB3054": {
+            "en": "FCB3054 Higher Seminar in Glycoscience IV"
+        },
+        "MJ2437": {
+            "en": "MJ2437 Modeling of Energy Systems"
+        },
+        "AL1523": {
+            "en": "AL1523 Digitalisation and Innovation for Sustainable Development"
+        },
+        "ID2218": {
+            "en": "ID2218 Design of Fault"
+        },
+        "LS1464": {
+            "en": "LS1464 Rhetoric"
+        },
+        "AI1148": {
+            "en": "AI1148 Real Estate Valuation for Civil Engineering and Urban Management"
+        },
+        "AI151X": {
+            "en": "AI151X Degree Project in Built Environment"
+        },
+        "AF1005": {
+            "en": "AF1005 Structural Engineering"
+        },
+        "AG134X": {
+            "en": "AG134X Degree Project in Built Environment"
+        },
+        "AF102X": {
+            "en": "AF102X Degree Project in Built Environment"
+        },
+        "FMJ3412": {
+            "en": "FMJ3412 Reproducible Research"
+        },
+        "AD2EXU": {
+            "en": "AD2EXU Degree Project in Urban Planning and Design, Second Cycle 30.0 credits"
+        },
+        "ME2826": {
+            "en": "ME2826 Social Entrepreneurship"
+        },
+        "IX1304": {
+            "en": "IX1304 Calculus"
+        },
+        "IL2212": {
+            "en": "IL2212 Embedded Software"
+        },
+        "EA248X": {
+            "en": "EA248X Degree Project in Electrical Engineering"
+        },
+        "DA248X": {
+            "en": "DA248X Degree Project in Computer Science and Engineering"
+        },
+        "HF0024": {
+            "en": "HF0024 Mathematics for Technical Preparatory Year II"
+        },
+        "HF0025": {
+            "en": "HF0025 Physics for Technical Preparatory Year II"
+        },
+        "ME2825": {
+            "en": "ME2825 Finance for Start"
+        },
+        "ME2829": {
+            "en": "ME2829 Trendspotting and Future Thinking"
+        },
+        "ME2827": {
+            "en": "ME2827 Negotiations for Start"
+        },
+        "KF2300": {
+            "en": "KF2300 Internship module"
+        },
+        "AG2130": {
+            "en": "AG2130 Applied Urban and Regional Analysis"
+        },
+        "AG2151": {
+            "en": "AG2151 Urban Development and City Planning"
+        },
+        "II2210": {
+            "en": "II2210 Ethics and Sustainable Development for Engineers"
+        },
+        "SI2520": {
+            "en": "SI2520 Nonequilibrium Statistical Mechanics"
+        },
+        "DD2414": {
+            "en": "DD2414 Engineering project in Robotics"
+        },
+        "FSI3075": {
+            "en": "FSI3075 Non"
+        },
+        "A52O1A": {
+            "en": "A52O1A Orientation; History, Theory and Technology of Architecture 5 3.0 credits"
+        },
+        "FCB3061": {
+            "en": "FCB3061 Higher Seminar in Molecular Biotechnology I"
+        },
+        "SI2390": {
+            "en": "SI2390 Relativistic Quantum Physics"
+        },
+        "SI2400": {
+            "en": "SI2400 Theoretical Particle Physics"
+        },
+        "ED2200": {
+            "en": "ED2200 Energy and Fusion Research"
+        },
+        "DD2557": {
+            "en": "DD2557 Program Semantics and Analysis"
+        },
+        "EG230X": {
+            "en": "EG230X Degree Project in Electric Power Systems"
+        },
+        "HI1027": {
+            "en": "HI1027 Object Oriented Programming"
+        },
+        "FCK3323": {
+            "en": "FCK3323 General Organic Chemistry"
+        },
+        "HI1029": {
+            "en": "HI1029 Algorithms and Data Structures"
+        },
+        "A52A13": {
+            "en": "A52A13 Studio Project, Advanced Level 12.0 credits"
+        },
+        "AI108V": {
+            "en": "AI108V Project in Real Estate Agency"
+        },
+        "AI2145": {
+            "en": "AI2145 Entrepreneurship and Management"
+        },
+        "FCB3062": {
+            "en": "FCB3062 Higher Seminar in Molecular Biotechnology II"
+        },
+        "KF2320": {
+            "en": "KF2320 Internship module"
+        },
+        "KF2310": {
+            "en": "KF2310 Internship module"
+        },
+        "SF1923": {
+            "en": "SF1923 Probability Theory and Statistics"
+        },
+        "ME200X": {
+            "en": "ME200X Degree Project in Industrial Economics and Management"
+        },
+        "AF2513": {
+            "en": "AF2513 Smart buildings"
+        },
+        "FMF3027": {
+            "en": "FMF3027 Systems Thinking and its Application in Embedded Systems"
+        },
+        "HI1039": {
+            "en": "HI1039 Software Development"
+        },
+        "FCB3063": {
+            "en": "FCB3063 Higher Seminar in Molecular Biotechnology III"
+        },
+        "A52B13": {
+            "en": "A52B13 Studio Project, Advanced Level 12.0 credits"
+        },
+        "MG1002": {
+            "en": "MG1002 Automation Technology"
+        },
+        "ME271X": {
+            "en": "ME271X Degree Project in Economics of Innovation and Growth"
+        },
+        "ME204X": {
+            "en": "ME204X Degree Project in Entrepreneurship and Innovation Management"
+        },
+        "ME270X": {
+            "en": "ME270X Degree Project in the Economics of Innovation and Growth"
+        },
+        "AI1801": {
+            "en": "AI1801 Construction Project Management"
+        },
+        "FCB3064": {
+            "en": "FCB3064 Higher Seminar in Molecular Biotechnology IV"
+        },
+        "ED2246": {
+            "en": "ED2246 Project in Fusion Physics"
+        },
+        "ME2815": {
+            "en": "ME2815 Business Model Innovation"
+        },
+        "ED2210": {
+            "en": "ED2210 Electromagnetic Waves in Dispersive Media"
+        },
+        "SD221X": {
+            "en": "SD221X Degree Project in Vehicle Engineering"
+        },
+        "FLF3018": {
+            "en": "FLF3018 Digital transformation"
+        },
+        "SD261X": {
+            "en": "SD261X Degree Project in Aerodynamics"
+        },
+        "SF1935": {
+            "en": "SF1935 Probability Theory and Statistics with Application to Machine Learning"
+        },
+        "ME2816": {
+            "en": "ME2816 Execution"
+        },
+        "MG1011": {
+            "en": "MG1011 Introductory Welding Technology"
+        },
+        "MJ243X": {
+            "en": "MJ243X Degree Project in Sustainable Buildings"
+        },
+        "CK1260": {
+            "en": "CK1260 Chemistry of Materials"
+        },
+        "EQ2411": {
+            "en": "EQ2411 Advanced Digital Communications"
+        },
+        "EQ1120": {
+            "en": "EQ1120 Discrete Time Signals and Systems"
+        },
+        "MF1026": {
+            "en": "MF1026 Model Based Product Development I"
+        },
+        "MF2026": {
+            "en": "MF2026 Project Work in Product Development"
+        },
+        "MF2083": {
+            "en": "MF2083 Internal Combustion Engines"
+        },
+        "MF213X": {
+            "en": "MF213X Degree Project in Machine Design"
+        },
+        "MF214X": {
+            "en": "MF214X Degree Project in Mechatronics"
+        },
+        "DD2464": {
+            "en": "DD2464 Bigger Advanced"
+        },
+        "MF217X": {
+            "en": "MF217X Degree Project in Industrial Design Engineering"
+        },
+        "MF219X": {
+            "en": "MF219X Degree Project in Embedded Control Systems"
+        },
+        "MF220X": {
+            "en": "MF220X Degree Project in Innovation Management and Product Development"
+        },
+        "MF225X": {
+            "en": "MF225X Degree Project in Internal Combustion Engineering"
+        },
+        "MF229X": {
+            "en": "MF229X Degree Project in Machine Design"
+        },
+        "MF215X": {
+            "en": "MF215X Degree Project in Internal Combustion Engineering"
+        },
+        "SD2110": {
+            "en": "SD2110 Introduction to Noise Control"
+        },
+        "SD2905": {
+            "en": "SD2905 Human Spaceflight"
+        },
+        "ML0024": {
+            "en": "ML0024 Mathematics for Technical Preparatory Year II"
+        },
+        "ML0025": {
+            "en": "ML0025 Physics for Technical Preparatory Year II"
+        },
+        "MF2081": {
+            "en": "MF2081 Challenges for Emerging City"
+        },
+        "ED2247": {
+            "en": "ED2247 Project in Fusion Research"
+        },
+        "DD2458": {
+            "en": "DD2458 Problem Solving and Programming under Pressure"
+        },
+        "MF2080": {
+            "en": "MF2080 Challenges for the Emerging City"
+        },
+        "DD1349": {
+            "en": "DD1349 Project in Introduction to Computer Science"
+        },
+        "DD1386": {
+            "en": "DD1386 Internet Programming"
+        },
+        "DD1395": {
+            "en": "DD1395 In"
+        },
+        "ME2814": {
+            "en": "ME2814 Ideation"
+        },
+        "DD2463": {
+            "en": "DD2463 Advanced Individual Course in Computer Science"
+        },
+        "DD2466": {
+            "en": "DD2466 Second Advanced"
+        },
+        "DD2465": {
+            "en": "DD2465 Advanced"
+        },
+        "DA239X": {
+            "en": "DA239X Degree Project in Computer Science and Engineering"
+        },
+        "ME2016": {
+            "en": "ME2016 Project Management"
+        },
+        "ME1315": {
+            "en": "ME1315 Industrial Marketing for I"
+        },
+        "ME2066": {
+            "en": "ME2066 Strategy and Industrial Marketing"
+        },
+        "ME2067": {
+            "en": "ME2067 Industrial Transformation and Technical Changes"
+        },
+        "SF1525": {
+            "en": "SF1525 Basic Course in Numerical Methods"
+        },
+        "ME2719": {
+            "en": "ME2719 Entrepreneurship and Innovation"
+        },
+        "ME2075": {
+            "en": "ME2075 Leadership and Power in Industrial Organisations"
+        },
+        "ME2083": {
+            "en": "ME2083 Hydropower"
+        },
+        "AG117V": {
+            "en": "AG117V Bike more"
+        },
+        "IE120V": {
+            "en": "IE120V Electronics and Programming for Space Applications"
+        },
+        "DA1700": {
+            "en": "DA1700 Tutoring"
+        },
+        "MF2058": {
+            "en": "MF2058 Mechatronics"
+        },
+        "EF2225": {
+            "en": "EF2225 Project in Space Physics"
+        },
+        "DD152X": {
+            "en": "DD152X Degree Project in Computer Science"
+        },
+        "EF2229": {
+            "en": "EF2229 Project in Space Technology"
+        },
+        "EF1113": {
+            "en": "EF1113 Project in Space Technology"
+        },
+        "MF134X": {
+            "en": "MF134X Degree Project in Product Realization and Industrial Management"
+        },
+        "EF1110": {
+            "en": "EF1110 Project in Space Physics"
+        },
+        "EF1112": {
+            "en": "EF1112 Project in Space Technology"
+        },
+        "MF132X": {
+            "en": "MF132X Degree Project in Industrial Design Engineering"
+        },
+        "EF2228": {
+            "en": "EF2228 Project in Space Technology"
+        },
+        "EF2227": {
+            "en": "EF2227 Project in Space Technology"
+        },
+        "EF2226": {
+            "en": "EF2226 Project in Plasma Physics"
+        },
+        "MF2076": {
+            "en": "MF2076 Machine Design Advanced Course Part I"
+        },
+        "SF1632": {
+            "en": "SF1632 Complementary Course in Differential Equations and Transforms"
+        },
+        "MF2086": {
+            "en": "MF2086 Research Methodology in Management and Organization"
+        },
+        "MH2049": {
+            "en": "MH2049 Advanced Course in Process Science"
+        },
+        "AF179X": {
+            "en": "AF179X Degree Project in Constructional Engineering and Design"
+        },
+        "DT2213": {
+            "en": "DT2213 Musical Communication and Music Technology"
+        },
+        "DM1588": {
+            "en": "DM1588 Sensor Programming for Media Technology"
+        },
+        "DM1590": {
+            "en": "DM1590 Machine Learning for Media Technology"
+        },
+        "DH1624": {
+            "en": "DH1624 Human"
+        },
+        "ME2836": {
+            "en": "ME2836 Entrepreneurial family firms"
+        },
+        "SI2360": {
+            "en": "SI2360 Analytical Mechanics and Classical Field Theory"
+        },
+        "FEI3204": {
+            "en": "FEI3204 Antenna Theory"
+        },
+        "DM2624": {
+            "en": "DM2624 Human Centered Technology for Disabilities"
+        },
+        "DT1175": {
+            "en": "DT1175 Sound"
+        },
+        "DA256X": {
+            "en": "DA256X Degree Project in Computer Science and Engineering"
+        },
+        "DM2556": {
+            "en": "DM2556 Intercultural communication"
+        },
+        "LT1001": {
+            "en": "LT1001 Discrete Mathematics"
+        },
+        "ME2832": {
+            "en": "ME2832 Entrepreneurship"
+        },
+        "DM2906": {
+            "en": "DM2906 Individual Course in Media Technology"
+        },
+        "DH2629": {
+            "en": "DH2629 Interaction Design as a Reflective Practice"
+        },
+        "ML116U": {
+            "en": "ML116U Lean Production"
+        },
+        "DM1902": {
+            "en": "DM1902 Individual Course in Media Technology"
+        },
+        "AK124V": {
+            "en": "AK124V Transition"
+        },
+        "CB201V": {
+            "en": "CB201V Biocatalysis for Industrial Professionals"
+        },
+        "CB202V": {
+            "en": "CB202V Genome Medicine"
+        },
+        "AI106V": {
+            "en": "AI106V Real Estate Agency in Legislation"
+        },
+        "AI107V": {
+            "en": "AI107V Real Estate Agency in Practice"
+        },
+        "AK122V": {
+            "en": "AK122V Artificial Intelligence and Sustainable Development"
+        },
+        "CH206V": {
+            "en": "CH206V Design of Ergonomic Workplaces"
+        },
+        "CH207V": {
+            "en": "CH207V Chemical Risk Management"
+        },
+        "CH209V": {
+            "en": "CH209V RAMP Course"
+        },
+        "CH210V": {
+            "en": "CH210V RAMP Course"
+        },
+        "CH211V": {
+            "en": "CH211V RAMP Course"
+        },
+        "CH212V": {
+            "en": "CH212V Visual ergonomics"
+        },
+        "CK101V": {
+            "en": "CK101V Materials in a Circular Society"
+        },
+        "CK201V": {
+            "en": "CK201V Pulp Processes"
+        },
+        "DD100N": {
+            "en": "DD100N Programming Techniques"
+        },
+        "FSK3551": {
+            "en": "FSK3551 X"
+        },
+        "LD1001": {
+            "en": "LD1001 Classroom Psychology"
+        },
+        "LD1003": {
+            "en": "LD1003 Procrastination and Perfectionism"
+        },
+        "LD1004": {
+            "en": "LD1004 Psychology and Critical Thinking"
+        },
+        "LS140V": {
+            "en": "LS140V Professional written communication in English for engineers"
+        },
+        "LS141V": {
+            "en": "LS141V Professional Writing for Engineers"
+        },
+        "LS1564": {
+            "en": "LS1564 Written communication in Swedish at work for you who have Swedish as a second language"
+        },
+        "LT1008": {
+            "en": "LT1008 The Innovative Human Being"
+        },
+        "LT1019": {
+            "en": "LT1019 Gender Perspectives in Technology and Science"
+        },
+        "FID3011": {
+            "en": "FID3011 Research Course in Distributed Systems"
+        },
+        "KF2905": {
+            "en": "KF2905 Project Work in Fibre and Polymer Technology"
+        },
+        "FSK3533": {
+            "en": "FSK3533 New Super"
+        },
+        "LT1029": {
+            "en": "LT1029 Supervising School Placements Students"
+        },
+        "LT1047": {
+            "en": "LT1047 Space and sustainable development"
+        },
+        "LT1058": {
+            "en": "LT1058 Supervising school placements students"
+        },
+        "ME117V": {
+            "en": "ME117V Materials in a Circular Society"
+        },
+        "SI150V": {
+            "en": "SI150V Introductory Relativity Theory"
+        },
+        "LS143V": {
+            "en": "LS143V Practical Rhetoric for Digital Presentations"
+        },
+        "AK204V": {
+            "en": "AK204V Ethics and Sustainability"
+        },
+        "AG115V": {
+            "en": "AG115V Safety in the Making"
+        },
+        "AK123V": {
+            "en": "AK123V Stockholm"
+        },
+        "SK2005": {
+            "en": "SK2005 Project course in Optics and Photonics"
+        },
+        "CB203V": {
+            "en": "CB203V Animal Cell Culture Technology for the Production of Biologics"
+        },
+        "CH208V": {
+            "en": "CH208V Physical Risk Management"
+        },
+        "MJ232X": {
+            "en": "MJ232X Degree Project in Heat and Power Technology"
+        },
+        "HL1903": {
+            "en": "HL1903 Applied Physical Training Theory for Warfare"
+        },
+        "ME2090": {
+            "en": "ME2090 Finance"
+        },
+        "ME2091": {
+            "en": "ME2091 Behavioral Finance"
+        },
+        "MG2027": {
+            "en": "MG2027 Production Engineering"
+        },
+        "FAF3412": {
+            "en": "FAF3412 Building Physics"
+        },
+        "SG1301": {
+            "en": "SG1301 Mechanics"
+        },
+        "FEI3301": {
+            "en": "FEI3301 Waveguiding Methods"
+        },
+        "LV118U": {
+            "en": "LV118U Basic Online Coaching"
+        },
+        "DM128X": {
+            "en": "DM128X Degree Project in Media Technology"
+        },
+        "LH233V": {
+            "en": "LH233V Teaching and Learning for Challenge Driven Education in a Global Context"
+        },
+        "DA150X": {
+            "en": "DA150X Degree Project in Computer Science and Engineering"
+        },
+        "LS1563": {
+            "en": "LS1563 Professional Communication"
+        },
+        "EF2262": {
+            "en": "EF2262 Data Handling Systems for Satellites"
+        },
+        "EF2264": {
+            "en": "EF2264 Operation of Space Systems"
+        },
+        "MF2097": {
+            "en": "MF2097 Advanced Sketch Exercises"
+        },
+        "MF2094": {
+            "en": "MF2094 Develop Creativity"
+        },
+        "LT1045": {
+            "en": "LT1045 School placement"
+        },
+        "LT1046": {
+            "en": "LT1046 Social relations"
+        },
+        "FAL3300": {
+            "en": "FAL3300 GIS for Environmental Modelling"
+        },
+        "AI118U": {
+            "en": "AI118U Real Estate Management in the Private Sector"
+        },
+        "KD2905": {
+            "en": "KD2905 Project in Chemistry"
+        },
+        "FIS3202": {
+            "en": "FIS3202 Computer Systems Architecture"
+        },
+        "ME2154": {
+            "en": "ME2154 Supply Chain Risk Management"
+        },
+        "FIL3237": {
+            "en": "FIL3237 Electronic System Design"
+        },
+        "DM2582": {
+            "en": "DM2582 Media Lab"
+        },
+        "FEO3210": {
+            "en": "FEO3210 Information Theory"
+        },
+        "SD2930": {
+            "en": "SD2930 Project in Aerospace Engineering"
+        },
+        "HL2037": {
+            "en": "HL2037 Internship in Medical Engineering"
+        },
+        "FSG3135": {
+            "en": "FSG3135 Micro Fluid Flows"
+        },
+        "FDD3557": {
+            "en": "FDD3557 Program and Semantics and Analysis"
+        },
+        "FIK3615": {
+            "en": "FIK3615 Critical Perspectives on Engineering and Construction of ICT Systems"
+        },
+        "FSG3112": {
+            "en": "FSG3112 Turbulence"
+        },
+        "FAK3154": {
+            "en": "FAK3154 The Rise of Global Environmental Governance"
+        },
+        "LS1496": {
+            "en": "LS1496 Chinese B"
+        },
+        "FSH3301": {
+            "en": "FSH3301 Experimental Nuclear Physics"
+        },
+        "BB201X": {
+            "en": "BB201X Degree Project in Biotechnology"
+        },
+        "AI124U": {
+            "en": "AI124U Commissioned course"
+        },
+        "FSH3311": {
+            "en": "FSH3311 Theoretical Nuclear Physics"
+        },
+        "LD1007": {
+            "en": "LD1007 Study Strategies for Effective Learning"
+        },
+        "FAE3006": {
+            "en": "FAE3006 Research Communication"
+        },
+        "LS143U": {
+            "en": "LS143U French A"
+        },
+        "FSH3220": {
+            "en": "FSH3220 Medical Imaging"
+        },
+        "FSH3501": {
+            "en": "FSH3501 Radiation Damage in Materials"
+        },
+        "FSK3900": {
+            "en": "FSK3900 Nanomaterial Chemistry"
+        },
+        "FSD3313": {
+            "en": "FSD3313 Rail Vehicle Dynamics"
+        },
+        "SD2935": {
+            "en": "SD2935 Project in Aerospace Engineering"
+        },
+        "FSH3000": {
+            "en": "FSH3000 Width and Ethics in Physics"
+        },
+        "FDH3011": {
+            "en": "FDH3011 Interaction Design Research"
+        },
+        "LT201X": {
+            "en": "LT201X Degree Project in Subject"
+        },
+        "FSI3090": {
+            "en": "FSI3090 Complex Systems"
+        },
+        "LD1006": {
+            "en": "LD1006 Cognitive Psychology for Teachers"
+        },
+        "FIH3601": {
+            "en": "FIH3601 Statistical Methods in Microelectronics"
+        },
+        "SK180N": {
+            "en": "SK180N Introductory Modern Physics"
+        },
+        "MJ111V": {
+            "en": "MJ111V Circular Economy and Industrial Systems"
+        },
+        "AL2115": {
+            "en": "AL2115 Transdisciplinary Approaches for System Innovations"
+        },
+        "FAK3148": {
+            "en": "FAK3148 Introduction to Research Ethics for PhD students"
+        },
+        "FAK3127": {
+            "en": "FAK3127 The Sustainable Scientist"
+        },
+        "MJ241X": {
+            "en": "MJ241X Degree Project in Energy Technology"
+        },
+        "FDD3256": {
+            "en": "FDD3256 Methods in High"
+        },
+        "FAE3007": {
+            "en": "FAE3007 Research Communication"
+        },
+        "HT102X": {
+            "en": "HT102X Degree Project in Medical Technology and Economics"
+        },
+        "MJ240X": {
+            "en": "MJ240X Degree Project in Energy Technology"
+        },
+        "FAG3168": {
+            "en": "FAG3168 Seminars in Planning and Decision Analysis"
+        },
+        "HL2039": {
+            "en": "HL2039 Internship in Medical Engineering"
+        },
+        "FEN3250": {
+            "en": "FEN3250 Communication and Control in Electric Power Systems"
+        },
+        "FEN3251": {
+            "en": "FEN3251 Computer Applications in Power Systems"
+        },
+        "FHN3013": {
+            "en": "FHN3013 Research Methodology in Technology and Health"
+        },
+        "SG2212": {
+            "en": "SG2212 Computational Fluid Dynamics"
+        },
+        "EA249X": {
+            "en": "EA249X Degree Project in Electrical Engineering"
+        },
+        "FIL3008": {
+            "en": "FIL3008 Embedded Software"
+        },
+        "SD2706": {
+            "en": "SD2706 Sailing for Performance"
+        },
+        "FMH3623": {
+            "en": "FMH3623 Seminar Course in Atomic"
+        },
+        "FLF3008": {
+            "en": "FLF3008 Interview as Qualitative Research Method"
+        },
+        "FSK3523": {
+            "en": "FSK3523 Advanced Molecular Dynamics"
+        },
+        "FSK3450": {
+            "en": "FSK3450 Advanced Materials and Processing Technologies for Photonics"
+        },
+        "EG2240": {
+            "en": "EG2240 Power System Planning"
+        },
+        "FSK3910": {
+            "en": "FSK3910 Colloids and Collodial Principles for Industrial Applications"
+        },
+        "ML1611": {
+            "en": "ML1611 Automation Technology"
+        },
+        "FEP3250": {
+            "en": "FEP3250 Building Networked Systems Security"
+        },
+        "FDD3457": {
+            "en": "FDD3457 Program and Semantics and Analysis"
+        },
+        "FSK3404": {
+            "en": "FSK3404 Laser Physics"
+        },
+        "FSK3421": {
+            "en": "FSK3421 Nonlinear Optical Technology"
+        },
+        "AG228U": {
+            "en": "AG228U Advanced Course in Process Management"
+        },
+        "FLF3013": {
+            "en": "FLF3013 Continuation Course on Research Methods in Learning and IT"
+        },
+        "FAG3112": {
+            "en": "FAG3112 Spatial Analysis"
+        },
+        "LS1450": {
+            "en": "LS1450 ltalian A"
+        },
+        "FMF3035": {
+            "en": "FMF3035 System thinking and modelling of complex dynamic systems"
+        },
+        "HT101X": {
+            "en": "HT101X Degree Project in Electrical Engineering and Economics"
+        },
+        "AF242X": {
+            "en": "AF242X Degree Project in Building Technology"
+        },
+        "FDD3003": {
+            "en": "FDD3003 Parallel Computing"
+        },
+        "MJ244X": {
+            "en": "MJ244X Degree Project in Energy and Climate Studies"
+        },
+        "FEI3354": {
+            "en": "FEI3354 Power Transformers"
+        },
+        "FSF3812": {
+            "en": "FSF3812 Applied Linear Optimization"
+        },
+        "FAG5130": {
+            "en": "FAG5130 Satellite Based Positioning"
+        },
+        "FSF3634": {
+            "en": "FSF3634 Probalistic number theory"
+        },
+        "FDH3355": {
+            "en": "FDH3355 Design for Human Machine Interaction"
+        },
+        "BB2220": {
+            "en": "BB2220 Project Work in Biotechnology"
+        },
+        "FEJ3311": {
+            "en": "FEJ3311 Modulation of Power Electronic Converters"
+        },
+        "DT2217": {
+            "en": "DT2217 Advanced Induvidual Course in Music Acoustics"
+        },
+        "FEI3364": {
+            "en": "FEI3364 Reliability Centred Asset Management for Power Systems"
+        },
+        "LT1040": {
+            "en": "LT1040 Programme integrating course"
+        },
+        "SA1005": {
+            "en": "SA1005 Project in Engineering Physics"
+        },
+        "KD2920": {
+            "en": "KD2920 Project in Chemistry"
+        },
+        "FSF3847": {
+            "en": "FSF3847 Convex Optimization with Engineering Applications"
+        },
+        "FME3549": {
+            "en": "FME3549 Sustainable Industry"
         }
-    }
+    },
+    "failed": [
+        "FCK3502",
+        "FAG3169",
+        "FAF3008",
+        "EA280X",
+        "MF2091",
+        "FSF3940"
+    ]
 }
