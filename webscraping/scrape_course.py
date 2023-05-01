@@ -37,7 +37,7 @@ def scrape_course(course_code, language):
 
     folder = f'kth_qa/files/{language}'
     touch_folder(folder)
-    with open(f'{folder}/{course_code}?l={language}.txt', 'w') as f:
+    with open(f'{folder}/{course_code}?l={language}.txt', 'w', encoding="utf-8") as f:
         f.write(text)
 
 def read_course_codes():
