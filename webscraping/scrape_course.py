@@ -78,10 +78,12 @@ def main(languages=['en'], limit=None):
     courses = read_course_codes()
     i = 0
     for course_code in tqdm(courses):
+        i += 1
         if limit and i == limit:
             break
         for language in languages:
             scrape_course(course_code, language)
+        
 
 if __name__ == '__main__':
     main(languages=SCRAPE_LANGUAGES, limit=SCRAPE_LIMIT)
