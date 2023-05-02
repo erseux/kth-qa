@@ -86,11 +86,8 @@ class SelfQueryRetriever(BaseRetriever, BaseModel):
             new_query, new_kwargs = self.structured_query_translator.visit_structured_query(
                 structured_query
             )
-            if self.verbose:
-                print("New query: ", new_query)
             search_kwargs = {**self.search_kwargs, **new_kwargs}
         else:
-            new_query = query
             search_kwargs = self.search_kwargs
         docs = self.vectorstore.search(query, self.search_type, **search_kwargs)
         return docs
