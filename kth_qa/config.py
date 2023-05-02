@@ -10,13 +10,14 @@ from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 from langchain.chains import SequentialChain
 from langchain.llms import OpenAI
 from langchain.chains import LLMCheckerChain
-from langchain.retrievers.self_query.base import SelfQueryRetriever
 from langchain.chains.query_constructor.base import AttributeInfo
 from langchain.vectorstores import Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
 
 from magic.prompts import PROMPT, EXAMPLE_PROMPT
 from magic.vectordb import VectorIndex
+from magic.self_query_retriever import SelfQueryRetriever
+
 from kth_qa.utils import get_courses
 
 import pinecone

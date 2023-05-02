@@ -14,8 +14,8 @@ DEFAULT_LANGUAGE = "en"
 CHUNK_SIZE = 1000
 
 def ingest(state: State):
-    # make sure pwd is kth_qa
     with get_openai_callback() as cb:
+        # make sure pwd is kth_qa
         pwd = os.getcwd()
         if pwd.split('/')[-1] != 'kth_qa':
             logger.error(f"pwd is not kth_qa, but {pwd}. Please run from kth_qa directory.")
@@ -43,7 +43,6 @@ def ingest(state: State):
                 logger.debug(f"split documents into {len(langdocs)} chunks")
                 all_langdocs.extend(langdocs)
 
-        # add course title to page content in each document
         logger.info(f"split all documents into {len(all_langdocs)} chunks")
 
         logger.info(f"Adding documents to pinecone...")

@@ -50,7 +50,6 @@ app = FastAPI(
 app.mount("/static", StaticFiles(directory="static"), name="static")
 BASE_PATH = Path(__file__).resolve().parent
 templates = Jinja2Templates(directory=template_path)
-# templates.env.globals["DEBUG"] = config.debug
 templates.env.globals["DEBUG"] = True
 templates.env.globals["hotreload"] = hotreload
 
