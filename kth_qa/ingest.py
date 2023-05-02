@@ -20,13 +20,13 @@ def ingest():
     with get_openai_callback() as cb:
         pwd = os.getcwd()
         if pwd.split('/')[-1] != 'kth_qa':
-            logger.error(f"ingest.py: pwd is not kth_qa, but {pwd}. Please run from kth_qa directory.")
+            logger.error(f"pwd is not kth_qa, but {pwd}. Please run from kth_qa directory.")
             return
         
-        embedding = OpenAIEmbeddings(chunk_size=600)
+        embedding = OpenAIEmbeddings(chunk_size=1000)
 
         text_splitter = NLTKTextSplitter.from_tiktoken_encoder(
-            chunk_size=600,
+            chunk_size=1000,
             chunk_overlap=100,
         )
             
@@ -39,19 +39,21 @@ def ingest():
                 text = f.read()
                 filename = file.split('.')[0]
                 course_code, language = filename.split('?l=')
-                # url = KURS_URL.format(course_code=course_code, language=language)
                 doc = Document(page_content=text, metadata={"source": course_code})
                 raw_docs.append(doc)
-                logger.info(f"loaded file {file}")
+                logger.debug(f"loaded file {file}")
 
                 langdocs = text_splitter.split_documents(raw_docs)
-                logger.info(f"split documents into {len(langdocs)} chunks")
+                logger.debug(f"split documents into {len(langdocs)} chunks")
                 all_langdocs.extend(langdocs)
 
         # add course title to page content in each document
         logger.info(f"split all documents into {len(all_langdocs)} chunks")
 
-        vectordb = Chroma.from_documents(documents=all_langdocs, embedding=embedding, persist_directory=PERSIST_DIR)
+        logger.info(f"creating vector index in Chroma...")
+        vectordb = Chroma.from_documents(documents=all_langdocs, 
+                                         embedding=embedding, 
+                                         persist_directory=PERSIST_DIR)
         logger.info(f"created vector index")
         vectordb.persist()
         logger.info(f"persisted vector index")

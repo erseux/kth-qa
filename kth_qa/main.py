@@ -18,7 +18,7 @@ from starlette.routing import WebSocketRoute
 import uvicorn
 
 from schema import Question
-from config import Config
+from config import State
 import arel
 
 # --- Setup ---
@@ -28,15 +28,18 @@ DEBUG = False # set to True to disable index creation and querying
 async def reload_data():
     print("Reloading server data...")
 
+BASE_PATH = Path(__file__).resolve().parent
+static_path = str(BASE_PATH / "static")
+template_path = str(BASE_PATH / "templates")
+
 hotreload = arel.HotReload(
     paths=[
-        # arel.Path("./server/data", on_reload=[reload_data]),
-        arel.Path("./static"),
-        arel.Path("./templates"),
+        arel.Path(static_path),
+        arel.Path(template_path),
     ],
 )
 
-config = Config(debug=DEBUG)
+state = State(debug=DEBUG)
 
 app = FastAPI(
     routes=[WebSocketRoute("/hot-reload", hotreload, name="hot-reload")],
@@ -47,7 +50,6 @@ app = FastAPI(
 # templates
 app.mount("/static", StaticFiles(directory="static"), name="static")
 BASE_PATH = Path(__file__).resolve().parent
-template_path=str(BASE_PATH / "templates")
 templates = Jinja2Templates(directory=template_path)
 # templates.env.globals["DEBUG"] = config.debug
 templates.env.globals["DEBUG"] = True
@@ -86,7 +88,7 @@ async def ask(question: Question):
     if question_str in test_questions:
         return test_questions[question_str]
         
-    answer: Answer = await question_handler(question, config)
+    answer: Answer = await question_handler(question, state)
     if not answer:
         return JSONResponse(status_code=404, content={"answer": "No answer found"})
     return answer.dict(include={"answer", "urls"})

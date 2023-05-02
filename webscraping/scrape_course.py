@@ -1,10 +1,12 @@
-import json
+import logging
+logger = logging.getLogger()
+
 from bs4 import BeautifulSoup
 import requests
 from tqdm import tqdm
 
 from kth_qa.utils import get_courses, touch_folder
-from webscraping.scrape_settings import SCRAPE_LANGUAGES, SCRAPE_LIMIT
+from webscraping.scrape_settings import SCRAPE_LANGUAGES, SCRAPE_LIMIT, SELECTED_COURSES
 
 
 class URLHelper:
@@ -74,19 +76,31 @@ def clean_text(text):
     text = text.replace('\n\n', '\n')
     return text
 
-def main(languages=['en'], limit=None):
+def main(languages=['en'], select=None, limit=None):
     courses = read_course_codes()
 
-    # TODO only use courses in ['DD', 'SF', 'SD']
+    # only use selected courses
+    
+    logger.info(f"Selected courses: {select}")
 
-    i = 0
-    for course_code in tqdm(courses):
-        i += 1
+    if select:
+        selected = []
+        for course_code in courses:
+            if course_code[:2]  in select:
+                selected.append(course_code)
+    else:
+        selected = courses
+
+    logger.info(f"Scraping {len(selected)} courses")
+    
+    for i, course_code in enumerate(tqdm(selected)):
         if limit and i == limit:
+            logger.info(f"Reached limit at {i} courses, breaking")
             break
         for language in languages:
             scrape_course(course_code, language)
         
 
 if __name__ == '__main__':
-    main(languages=SCRAPE_LANGUAGES, limit=SCRAPE_LIMIT)
+    logging.basicConfig(level=logging.INFO)
+    main(languages=SCRAPE_LANGUAGES, select=SELECTED_COURSES, limit=SCRAPE_LIMIT)

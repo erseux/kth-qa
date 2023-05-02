@@ -6,19 +6,23 @@ from kth_qa.schema import Answer, Question
 logger = logging.getLogger()
 import re
 from ingest import KURS_URL, DEFAULT_LANGUAGE
+from langchain.callbacks import get_openai_callback
 
-from config import Config
+from config import State
 
 COURSE_PATTERN = r"\w{2,3}\d{3,4}\w?" # e.g. DD1315
 
 def blocking_chain(chain, request):
     return chain(request, return_only_outputs=False)
 
-async def question_handler(question: Question, config: Config) -> Answer:
+async def question_handler(question: Question, state: State) -> Answer:
     question = question.question
     logger.info(f"Q: {question}")
 
-    result = await asyncio.to_thread(blocking_chain, config.chain, {"question": question})
+    cost = 0
+    with get_openai_callback() as cb:
+        result = await asyncio.to_thread(blocking_chain, state.chain, {"question": question})
+        cost = cb.total_cost
     logger.debug(f"result: {result}")
 
     answer = result['answer']
@@ -37,8 +41,8 @@ async def question_handler(question: Question, config: Config) -> Answer:
     else:
         answer, sources = split_sources(answer)
 
-    courses = [source for source in sources if config.course_exists(source)] # filter out courses that don't exist
-    sources = set(courses)
+    courses = [source for source in sources if state.course_exists(source)] # filter out courses that don't exist
+    courses = set(courses)
     logger.info(f"unique courses: {courses}")
 
     urls = [KURS_URL.format(course_code=course, language=DEFAULT_LANGUAGE) for course in courses] # format into urls
@@ -48,6 +52,8 @@ async def question_handler(question: Question, config: Config) -> Answer:
 
     if (not answer or len(answer) < 3) and urls:
         answer = "Something went wrong, but I found a link."
+
+    logging.info(f"Cost of query: {cost}")
 
     return Answer(answer=answer, urls=urls if urls else [])
 

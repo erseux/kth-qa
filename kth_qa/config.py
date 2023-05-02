@@ -17,13 +17,13 @@ class Settings(BaseSettings):
     OPENAI_API_KEY: str = 'OPENAI_API_KEY'
     OPENAI_CHAT_MODEL: str = 'gpt-3.5-turbo'
     class Config:
-        env_file = 'C:\\Users\\46705\\Documents\\Search_engines\\project_work\\kth-qa\\kth_qa\\.env'
+        env_file = '.env'
 
 def set_openai_key(key):
     """Sets OpenAI key."""
     openai.api_key = key
 
-class Config:
+class State:
     settings: Settings
     store: VectorIndex
     chain: RetrievalQAWithSourcesChain
@@ -44,12 +44,12 @@ class Config:
          # CHAIN
         doc_chain = self._load_doc_chain()
         self.chain = RetrievalQAWithSourcesChain(combine_documents_chain=doc_chain, 
-                                            retriever=self.store.as_retriever(search_kwargs=dict(k=4)),
+                                            retriever=self.store.as_retriever(search_kwargs=dict(k=3)),
                                             return_source_documents=True)
         
     def _load_doc_chain(self):
         doc_chain = load_qa_with_sources_chain(
-            ChatOpenAI(temperature=0, max_tokens=240, model=self.settings.OPENAI_CHAT_MODEL, request_timeout=120),
+            ChatOpenAI(temperature=0, max_tokens=300, model=self.settings.OPENAI_CHAT_MODEL, request_timeout=120),
             chain_type="stuff",
             document_variable_name="context",
             prompt=PROMPT,

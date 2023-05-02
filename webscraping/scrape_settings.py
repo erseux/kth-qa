@@ -1,3 +1,4 @@
 SCRAPE_LIMIT = None
 SCRAPE_LANGUAGES = ['en']
 # SCRAPE_LANGUAGES = ['en', 'sv']
+SELECTED_COURSES = ['DD', 'SF', 'SD']
