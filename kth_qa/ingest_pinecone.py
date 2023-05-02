@@ -1,21 +1,19 @@
 import logging
-
-from utils import get_courses
 logger = logging.getLogger()
 
 import os
 from langchain.docstore.document import Document
 from langchain.text_splitter import NLTKTextSplitter
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
 from langchain.callbacks import get_openai_callback
 
-PERSIST_DIR = 'db'
+from kth_qa.config import State
+
 FILE_DIR = 'files'
 KURS_URL = "https://www.kth.se/student/kurser/kurs/{course_code}?l={language}"
 DEFAULT_LANGUAGE = "en"
+CHUNK_SIZE = 1000
 
-def ingest():
+def ingest(state: State):
     # make sure pwd is kth_qa
     with get_openai_callback() as cb:
         pwd = os.getcwd()
@@ -23,10 +21,6 @@ def ingest():
             logger.error(f"pwd is not kth_qa, but {pwd}. Please run from kth_qa directory.")
             return
         
-        CHUNK_SIZE = 1000
-        
-        embedding = OpenAIEmbeddings(chunk_size=CHUNK_SIZE)
-
         text_splitter = NLTKTextSplitter.from_tiktoken_encoder(
             chunk_size=CHUNK_SIZE,
             chunk_overlap=100,
@@ -41,7 +35,7 @@ def ingest():
                 text = f.read()
                 filename = file.split('.')[0]
                 course_code, language = filename.split('?l=')
-                doc = Document(page_content=text, metadata={"source": course_code})
+                doc = Document(page_content=text, metadata={"course": course_code})
                 raw_docs.append(doc)
                 logger.debug(f"loaded file {file}")
 
@@ -52,19 +46,15 @@ def ingest():
         # add course title to page content in each document
         logger.info(f"split all documents into {len(all_langdocs)} chunks")
 
-        logger.info(f"creating vector index in Chroma...")
-        vectordb = Chroma.from_documents(documents=all_langdocs, 
-                                         embedding=embedding, 
-                                         persist_directory=PERSIST_DIR)
-        logger.info(f"created vector index")
-        vectordb.persist()
-        logger.info(f"persisted vector index")
-        vectordb = None
-        logger.info(f"Done!")
+        logger.info(f"Adding documents to pinecone...")
+        state.store.add_documents(all_langdocs)
+        logger.info(f"...done!")
 
         logger.info(f"Total cost of openai api calls: {cb.total_cost}")
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     logger.setLevel(logging.INFO)
-    ingest()
+
+    state = State()
+    ingest(state)

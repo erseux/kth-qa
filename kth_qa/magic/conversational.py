@@ -13,7 +13,7 @@ from config import State
 COURSE_PATTERN = r"\w{2,3}\d{3,4}\w?" # e.g. DD1315
 
 def blocking_chain(chain, request):
-    return chain(request, return_only_outputs=False)
+    return chain(request, return_only_outputs=True)
 
 async def question_handler(question: Question, state: State) -> Answer:
     question = question.question
@@ -32,8 +32,6 @@ async def question_handler(question: Question, state: State) -> Answer:
         answer = "I'm sorry, " + answer
         return Answer(**{"answer": answer, "url": ""})
     
-    logger.info(result)
-    
     sources = result.get('sources')
     logger.info(f"Sources: {sources}")
     if sources:
@@ -48,12 +46,12 @@ async def question_handler(question: Question, state: State) -> Answer:
     urls = [KURS_URL.format(course_code=course, language=DEFAULT_LANGUAGE) for course in courses] # format into urls
     logger.info(f"urls: {urls}")
 
-    answer = answer.rsplit(".", 1)[0] + "." # remove everything after the last period
+    answer = answer.strip().removesuffix("(").strip() 
 
     if (not answer or len(answer) < 3) and urls:
         answer = "Something went wrong, but I found a link."
 
-    logging.info(f"Cost of query: {cost}")
+    logging.info(f"Cost of query: ${'{0:.2g}'.format(cost)}")
 
     return Answer(answer=answer, urls=urls if urls else [])
 
@@ -69,8 +67,19 @@ def split_sources(answer: str):
     ]
     for pattern in patterns:
         if pattern in answer:
-            ans, sources = answer.split(pattern, 1)
-            courses = re.findall(COURSE_PATTERN, sources)
+            all_answers = answer.split(pattern)
+            if len(all_answers) == 2:
+                ans, sources = all_answers
+                courses = re.findall(COURSE_PATTERN, sources)
+            elif len(all_answers) > 2:
+                ans = ""
+                courses = []
+                for i, a in enumerate(all_answers):
+                    if i % 2 == 0:
+                        ans += a
+                    else:
+                        courses = re.findall(COURSE_PATTERN, a)
+                        courses.extend(courses)
             return ans, courses
         
     return answer, []

@@ -4,6 +4,9 @@ start:
 ingest:
 	cd kth_qa && python3 ingest.py
 
+ingest_pinecone:
+	cd kth_qa && python3 ingest_pinecone.py
+
 courses:
 	python webscraping/scrape_course.py
 

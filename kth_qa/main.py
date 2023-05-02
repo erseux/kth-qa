@@ -22,7 +22,6 @@ from config import State
 import arel
 
 # --- Setup ---
-DEBUG = False # set to True to disable index creation and querying
 
 # hot reload
 async def reload_data():
@@ -39,7 +38,7 @@ hotreload = arel.HotReload(
     ],
 )
 
-state = State(debug=DEBUG)
+state = State()
 
 app = FastAPI(
     routes=[WebSocketRoute("/hot-reload", hotreload, name="hot-reload")],
@@ -88,9 +87,13 @@ async def ask(question: Question):
     if question_str in test_questions:
         return test_questions[question_str]
         
-    answer: Answer = await question_handler(question, state)
+    answer = None
+    try:
+        answer: Answer = await question_handler(question, state)
+    except Exception as e:
+        logger.exception(e)
     if not answer:
-        return JSONResponse(status_code=404, content={"answer": "No answer found"})
+        return JSONResponse(status_code=404, content={"answer": "Something went wrong."})
     return answer.dict(include={"answer", "urls"})
 
 
