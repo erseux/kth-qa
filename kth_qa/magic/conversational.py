@@ -41,7 +41,7 @@ async def question_handler(question: Question, state: State) -> Answer:
     else:
         answer, sources = split_sources(answer)
 
-    courses = [source for source in sources if state.course_exists(source)] # filter out courses that don't exist
+    courses = [source.upper() for source in sources if state.course_exists(source)] # filter out courses that don't exist
     courses = set(courses)
     logger.info(f"unique courses: {courses}")
 
