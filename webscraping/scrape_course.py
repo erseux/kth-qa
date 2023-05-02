@@ -76,6 +76,9 @@ def clean_text(text):
 
 def main(languages=['en'], limit=None):
     courses = read_course_codes()
+
+    # TODO only use courses in ['DD', 'SF', 'SD']
+
     i = 0
     for course_code in tqdm(courses):
         i += 1
