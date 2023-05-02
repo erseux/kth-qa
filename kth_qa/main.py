@@ -1,8 +1,8 @@
 import json
 import logging
 
-from kth_qa.magic.conversational import question_handler
-from kth_qa.schema import Answer
+from magic.conversational import question_handler
+from schema import Answer
 
 logger = logging.getLogger()
 logging.basicConfig(encoding='utf-8', level=logging.INFO)
@@ -10,7 +10,7 @@ logging.basicConfig(encoding='utf-8', level=logging.INFO)
 from pathlib import Path
 
 from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles

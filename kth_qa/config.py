@@ -44,7 +44,8 @@ class Config:
          # CHAIN
         doc_chain = self._load_doc_chain()
         self.chain = RetrievalQAWithSourcesChain(combine_documents_chain=doc_chain, 
-                                            retriever=self.store.as_retriever(search_kwargs=dict(k=4)))
+                                            retriever=self.store.as_retriever(search_kwargs=dict(k=4)),
+                                            return_source_documents=True)
         
     def _load_doc_chain(self):
         doc_chain = load_qa_with_sources_chain(
