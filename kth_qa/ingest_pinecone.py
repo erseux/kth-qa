@@ -26,22 +26,28 @@ def ingest(state: State):
             chunk_overlap=100,
         )
             
-        file_folder_name = f'files/{DEFAULT_LANGUAGE}'
+        # file_folder_name = f'files/{DEFAULT_LANGUAGE}'
+        file_folder_name = f'files/all'
         file_folder = os.listdir(file_folder_name)
         all_langdocs = []
         for file in file_folder:
             raw_docs = []
-            with open(f'{file_folder_name}/{file}', 'r') as f:
-                text = f.read()
-                filename = file.split('.')[0]
-                course_code, language = filename.split('?l=')
-                doc = Document(page_content=text, metadata={"course": course_code})
-                raw_docs.append(doc)
-                logger.debug(f"loaded file {file}")
+            try: 
+                with open(f'{file_folder_name}/{file}', 'r') as f:
+                    if file == '.DS_Store':
+                        continue
+                    text = f.read()
+                    filename = file.split('.')[0]
+                    course_code, language = filename.split('?l=')
+                    doc = Document(page_content=text, metadata={"course": course_code})
+                    raw_docs.append(doc)
+                    logger.debug(f"loaded file {file}")
 
-                langdocs = text_splitter.split_documents(raw_docs)
-                logger.debug(f"split documents into {len(langdocs)} chunks")
-                all_langdocs.extend(langdocs)
+                    langdocs = text_splitter.split_documents(raw_docs)
+                    logger.debug(f"split documents into {len(langdocs)} chunks")
+                    all_langdocs.extend(langdocs)
+            except:
+                logger.error(f"failed to load file {file}")
 
         logger.info(f"split all documents into {len(all_langdocs)} chunks")
 
