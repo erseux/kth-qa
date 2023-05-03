@@ -17,3 +17,13 @@ def get_courses():
             raise FileNotFoundError('courses.json not found')
     courses = data.get('courses')
     return courses
+
+if __name__ == '__main__':
+    courses = get_courses()
+    print(len(courses))
+    new_courses = {}
+    for c in courses.keys():
+        if c[:2] in ['ME', 'DA', 'DM', 'DT', 'DH', 'MF', "EI"]:
+            new_courses[c] = courses[c]
+
+    print(len(new_courses))

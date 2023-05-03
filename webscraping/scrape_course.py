@@ -76,18 +76,21 @@ def clean_text(text):
     text = text.replace('\n\n', '\n')
     return text
 
-def main(languages=['en'], select=None, limit=None):
+def main(languages=['en'], select=None, unselect=None, limit=None):
     courses = read_course_codes()
 
     # only use selected courses
     
     logger.info(f"Selected courses: {select}")
 
-    if select:
+    if select or unselect:
         selected = []
         for course_code in courses:
-            if course_code[:2]  in select:
-                selected.append(course_code)
+            if unselect and course_code[:2] in unselect:
+                continue
+            if select and course_code[:2] not in select:
+                continue
+            selected.append(course_code)
     else:
         selected = courses
 
@@ -98,9 +101,13 @@ def main(languages=['en'], select=None, limit=None):
             logger.info(f"Reached limit at {i} courses, breaking")
             break
         for language in languages:
-            scrape_course(course_code, language)
+            try:
+                scrape_course(course_code, language)
+            except Exception as e:
+                logger.error(f"Failed to scrape {course_code} in {language}: {e}")
+                continue
         
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    main(languages=SCRAPE_LANGUAGES, select=SELECTED_COURSES, limit=SCRAPE_LIMIT)
+    main(languages=SCRAPE_LANGUAGES, unselect=SELECTED_COURSES, limit=SCRAPE_LIMIT)
