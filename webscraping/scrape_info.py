@@ -19,11 +19,13 @@ def handle_xml(xml, content_file):
             content_file.write(elem.tag+":"+elem.text+"\n")
 
 def iterate_courses():
-    index_url = "https://api.kth.se/api/kopps/v1/courseRounds/2023:1"
-    response = requests.get(index_url)
-    root = ET.fromstring(response.text)
-    for course in root.iter("courseRound"): 
-        yield(course)
+    for i in range(2): # for spring and autumn
+    #for i in range(1):
+        index_url = "https://api.kth.se/api/kopps/v1/courseRounds/2023:"+str(i+1)
+        response = requests.get(index_url)
+        root = ET.fromstring(response.text)
+        for course in root.iter("courseRound"): 
+            yield(course)
 
 
 def scrape_heading(course_code, language, soup=None):
@@ -116,8 +118,8 @@ def wabscrape():
 
 
 if __name__ == "__main__":
-    # save_courses(limit=SCRAPE_LIMIT, languages=SCRAPE_LANGUAGES)
-    wabscrape()
+    save_courses(limit=SCRAPE_LIMIT, languages=SCRAPE_LANGUAGES)
+    #wabscrape()
 
 
 
