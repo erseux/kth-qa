@@ -19,7 +19,7 @@ from langchain.retrievers.self_query.pinecone import PineconeTranslator
 from langchain.schema import BaseRetriever, Document
 from langchain.vectorstores import Pinecone, VectorStore
 
-COURSE_PATTERN = r"\w{2,3}\d{3,4}\w?" # e.g. DD1315
+COURSE_PATTERN = r"\w{2,3}\d{3,4}\w?"  # e.g. DD1315
 
 
 def _get_builtin_translator(vectorstore_cls: Type[VectorStore]) -> Visitor:
@@ -78,7 +78,8 @@ class SelfQueryRetriever(BaseRetriever, BaseModel):
         if re.findall(COURSE_PATTERN, query):
             inputs = self.llm_chain.prep_inputs(query)
             structured_query = cast(
-                StructuredQuery, self.llm_chain.predict_and_parse(callbacks=None, **inputs)
+                StructuredQuery, self.llm_chain.predict_and_parse(
+                    callbacks=None, **inputs)
             )
             if self.verbose:
                 print("Found course pattern in query, using structured query:")
@@ -89,7 +90,8 @@ class SelfQueryRetriever(BaseRetriever, BaseModel):
             search_kwargs = {**self.search_kwargs, **new_kwargs}
         else:
             search_kwargs = self.search_kwargs
-        docs = self.vectorstore.search(query, self.search_type, **search_kwargs)
+        docs = self.vectorstore.search(
+            query, self.search_type, **search_kwargs)
         return docs
 
     async def aget_relevant_documents(self, query: str) -> List[Document]:
@@ -107,7 +109,8 @@ class SelfQueryRetriever(BaseRetriever, BaseModel):
         **kwargs: Any,
     ) -> "SelfQueryRetriever":
         if structured_query_translator is None:
-            structured_query_translator = _get_builtin_translator(vectorstore.__class__)
+            structured_query_translator = _get_builtin_translator(
+                vectorstore.__class__)
         chain_kwargs = chain_kwargs or {}
         if "allowed_comparators" not in chain_kwargs:
             chain_kwargs[

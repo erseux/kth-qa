@@ -25,9 +25,18 @@ body {
 }
 
 h1 {
+    margin-top: 0;
     font-size: 3em;
     text-align: center;
     color: blue;
+    margin-bottom: auto;
+}
+
+h2 {
+    font-size: 1em;
+    text-align: center;
+    color: grey;
+    margin-bottom: 2em;
 }
 
 form {
