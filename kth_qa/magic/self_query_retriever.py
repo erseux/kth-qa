@@ -101,6 +101,9 @@ class SelfQueryRetriever(BaseRetriever, BaseModel):
             query, self.search_type, **search_kwargs)
         return docs
 
+    async def aget_relevant_documents(self, query: str) -> List[Document]:
+        raise NotImplementedError
+
     @classmethod
     def from_llm(
         cls,
