@@ -14,6 +14,7 @@ OPENAI_CHAT_MODEL=gpt-3.5-turbo
 2. cd into ``kth-qa``
 3. run ``poetry install``
 4. make sure poetry venv is activated (.venv). If not, run ``poetry shell``
+5. Make sure ``make`` is installed, by running ``make``in the terminal
 
 ### Scrape files
 1. Run ``make courses``
@@ -34,5 +35,5 @@ Run either
 - ``make start``
 
 ## How to search
-- If you just want to test the search functionality, you can search for "test"
+- If you just want to test the UI functionality, you can search for "test"
 - You can also define your own test searchs in test_queries.json
