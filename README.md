@@ -25,11 +25,16 @@ OPENAI_CHAT_MODEL=gpt-3.5-turbo
 You can limit the number of courses scraped in both files by changing the variable ``limit``
 You can also select what languages to scrape in
 
-### Ingest files
+### Ingest files locally
 1. Have .txt files in kth_qa/files/en or kth_qa/files/sv
 2. Stand in root and run ```make ingest```
 
+### Ingest files to pinecone
+1. Have .txt files in kth_qa/files/en or kth_qa/files/sv
+2. Stand in root and run ```make ingest_pinecone```
+
 ### Run site
+- Make sure settings in kth_qa/main.py is initialized with your chosen index (local or pinecone)
 Run either
 - ``python kth_qa/main.py`` or
 - ``make start``
