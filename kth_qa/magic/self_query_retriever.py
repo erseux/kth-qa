@@ -1,25 +1,30 @@
 """Retriever that generates and executes structured queries over its own data source.
 
-This code is adapted from the original implementation in the LangChain repo,
+NOTE: This code is adapted from the original implementation in the LangChain repo,
 but has been modified to work with the KTH QA system.
 
 """
 
+from langchain.vectorstores import Pinecone, VectorStore
+from langchain.schema import BaseRetriever, Document
+from langchain.retrievers.self_query.pinecone import PineconeTranslator
+from langchain.chains.query_constructor.schema import AttributeInfo
+from langchain.chains.query_constructor.ir import StructuredQuery, Visitor
+from langchain.chains.query_constructor.base import load_query_constructor_chain
+from langchain.base_language import BaseLanguageModel
+from langchain import LLMChain
+from pydantic import BaseModel, Field, root_validator
 import re
 from typing import Any, Dict, List, Optional, Type, cast
+import logging
+logger = logging.getLogger()
 
-from pydantic import BaseModel, Field, root_validator
 
-from langchain import LLMChain
-from langchain.base_language import BaseLanguageModel
-from langchain.chains.query_constructor.base import load_query_constructor_chain
-from langchain.chains.query_constructor.ir import StructuredQuery, Visitor
-from langchain.chains.query_constructor.schema import AttributeInfo
-from langchain.retrievers.self_query.pinecone import PineconeTranslator
-from langchain.schema import BaseRetriever, Document
-from langchain.vectorstores import Pinecone, VectorStore
+COURSE_PATTERN = r"[a-zA-Z]{2,3}\d{3,4}\w?"  # e.g. DD1315
 
-COURSE_PATTERN = r"\w{2,3}\d{3,4}\w?"  # e.g. DD1315
+
+def make_uppercase(matchobj):
+    return matchobj.group(0).upper()
 
 
 def _get_builtin_translator(vectorstore_cls: Type[VectorStore]) -> Visitor:
@@ -76,14 +81,16 @@ class SelfQueryRetriever(BaseRetriever, BaseModel):
             List of relevant documents
         """
         if re.findall(COURSE_PATTERN, query):
+            query = re.sub(COURSE_PATTERN, make_uppercase, query)
             inputs = self.llm_chain.prep_inputs(query)
             structured_query = cast(
                 StructuredQuery, self.llm_chain.predict_and_parse(
                     callbacks=None, **inputs)
             )
             if self.verbose:
-                print("Found course pattern in query, using structured query:")
-                print(structured_query)
+                logger.info(
+                    "Found course pattern in query, using structured query:")
+                logger.info(structured_query)
             new_query, new_kwargs = self.structured_query_translator.visit_structured_query(
                 structured_query
             )
@@ -93,9 +100,6 @@ class SelfQueryRetriever(BaseRetriever, BaseModel):
         docs = self.vectorstore.search(
             query, self.search_type, **search_kwargs)
         return docs
-
-    async def aget_relevant_documents(self, query: str) -> List[Document]:
-        raise NotImplementedError
 
     @classmethod
     def from_llm(
@@ -129,3 +133,13 @@ class SelfQueryRetriever(BaseRetriever, BaseModel):
             structured_query_translator=structured_query_translator,
             **kwargs,
         )
+
+
+if __name__ == "__main__":
+    query = "What is included in DD2424 vs dd2323?"
+    print("Query:", query)
+    if re.findall(COURSE_PATTERN, query):
+        print("Found course pattern in query")
+        # convert to uppercase
+        query = re.sub(COURSE_PATTERN, make_uppercase, query)
+        print(query)
